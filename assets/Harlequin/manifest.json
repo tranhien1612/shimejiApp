@@ -1,0 +1,270 @@
+{
+  "schemaVersion": 1,
+  "remoteId": 0,
+  "name": "Harlequin",
+  "nameSlug": "harlequin",
+  "category": "The Freak Circus",
+  "categorySlug": "the-freak-circus",
+  "description": "A flirty, venom-green monster with a sharp smile and forked tongue. He’s the Freak Circus’s snarky, seductive poison.",
+  "tags": [
+    "yandere"
+  ],
+  "bundleVersion": 1,
+  "bundleChangelog": "Initial version",
+  "minAppVersion": 94,
+  "levels": 8,
+  "origin": "LOCAL",
+  "animationSchema": {
+    "path": "animation.json",
+    "schemaId": "legacy_default_v1",
+    "version": 1
+  },
+  "sprites": {
+    "type": "SEQUENCE",
+    "basePath": "sprites/",
+    "filePattern": "%04d.webp",
+    "spriteCount": 276,
+    "size": [
+      512,
+      512
+    ],
+    "description": ""
+  },
+  "preview": {
+    "thumbnail": "thumbnail.webp"
+  },
+  "author": {
+    "name": "The Jester",
+    "url": "https://google.com"
+  },
+  "license": {
+    "type": "CUSTOM",
+    "text": "Enjoy!",
+    "attribution": "The Jester"
+  },
+  "economy": {
+    "costMushrooms": 0,
+    "rarity": "COMMON",
+    "isPremiumOnly": false,
+    "minPlayerLevel": 0
+  },
+  "createdAt": "2026-02-16T11:19:57.756Z",
+  "updatedAt": "2026-02-16T20:44:09.751Z",
+  "localized": {
+    "en": {
+      "name": "Harlequin",
+      "category": "The Freak Circus",
+      "description": "A flirty, venom-green monster with a sharp smile and forked tongue. He’s the Freak Circus’s snarky, seductive poison."
+    },
+    "ar": {
+      "name": "هارليكوين",
+      "category": "سيرك المسوخ",
+      "description": "وحش أخضر سام بلمسة مغازلة، يبتسم بابتسامة حادة ولسان مشقوق. إنه سمّ السيرك الساخر والمغري."
+    },
+    "bg": {
+      "name": "Арлекин",
+      "category": "Циркът на изродите",
+      "description": "Флиртуващо, отровнозелено чудовище с остра усмивка и раздвоен език. Той е саркастичната, съблазнителна отрова на Цирка."
+    },
+    "bn": {
+      "name": "হার্লেকুইন",
+      "category": "ফ্রিক সার্কাস",
+      "description": "ফ্লার্টি বিষ-সবুজ দানব, তীক্ষ্ণ হাসি ও দ্বিখণ্ডিত জিহ্বা সহ। সে ফ্রিক সার্কাসের বিদ্রূপাত্মক, মোহময় বিষ।"
+    },
+    "ca": {
+      "name": "Arlequí",
+      "category": "El Circ dels Freaks",
+      "description": "Un monstre verd verinós i coquet amb un somriure afilat i llengua bifurcada. És el verí sarcàstic i seductor del Circ."
+    },
+    "cs": {
+      "name": "Harlekýn",
+      "category": "Cirkus Zrůd",
+      "description": "Flirtující jedovatě zelené monstrum s ostrým úsměvem a rozeklaným jazykem. Je to sarkastický, svůdný jed Cirkusu."
+    },
+    "da": {
+      "name": "Harlekin",
+      "category": "Freak Cirkusset",
+      "description": "Et flirtende, giftgrønt monster med skarpt smil og kløvet tunge. Han er cirkussets snerrende, forførende gift."
+    },
+    "de": {
+      "name": "Harlekin",
+      "category": "Der Freak-Zirkus",
+      "description": "Ein flirtendes, giftgrünes Monster mit scharfem Lächeln und gespaltener Zunge. Er ist das schnippische, verführerische Gift des Zirkus."
+    },
+    "el": {
+      "name": "Αρλεκίνος",
+      "category": "Το Τσίρκο των Φρικιών",
+      "description": "Ένα φλερταριστό, δηλητηριώδες πράσινο τέρας με κοφτερό χαμόγελο και διχαλωτή γλώσσα. Είναι το σαρκαστικό, σαγηνευτικό δηλητήριο του τσίρκου."
+    },
+    "es": {
+      "name": "Arlequín",
+      "category": "El Circo de los Freaks",
+      "description": "Un monstruo verde veneno y coqueto, con sonrisa afilada y lengua bífida. Es el veneno sarcástico y seductor del Circo."
+    },
+    "fa": {
+      "name": "هارلکین",
+      "category": "سیرک عجایب",
+      "description": "هیولایی سبزِ سمی و دلفریب با لبخندی تیز و زبانی دوشاخه. او زهر طعنه‌آمیز و اغواگر سیرک است."
+    },
+    "fi": {
+      "name": "Harlekiini",
+      "category": "Friikkisirkus",
+      "description": "Flirttaileva, myrkynvihreä hirviö terävällä hymyllä ja haarautuneella kielellä. Hän on sirkuksen ivallinen ja viettelevä myrkky."
+    },
+    "fil": {
+      "name": "Harlequin",
+      "category": "Ang Freak Circus",
+      "description": "Isang malandi at lason-berdeng halimaw na may matalim na ngiti at hati ang dila. Siya ang mapanukso at mapang-akit na lason ng Circus."
+    },
+    "fr": {
+      "name": "Arlequin",
+      "category": "Le Cirque des Freaks",
+      "description": "Un monstre vert venin et charmeur, au sourire tranchant et à la langue fourchue. Il est le poison sarcastique et séduisant du Cirque."
+    },
+    "he": {
+      "name": "הרלקין",
+      "category": "קרקס הפריקים",
+      "description": "מפלצת ירוקה וארסית עם חיוך חד ולשון מפוצלת. הוא הרעל הציני והמפתה של הקרקס."
+    },
+    "hi": {
+      "name": "हार्लेक्विन",
+      "category": "द फ्रीक सर्कस",
+      "description": "ज़हरीले हरे रंग का चुलबुला राक्षस, तेज मुस्कान और दोमुंही जीभ के साथ। वह सर्कस का व्यंग्यात्मक और मोहक ज़हर है।"
+    },
+    "hr": {
+      "name": "Harlekin",
+      "category": "Cirkus Nakaza",
+      "description": "Koketno, otrovno zeleno čudovište s oštrim osmijehom i račvastim jezikom. On je sarkastični, zavodljivi otrov Cirkusa."
+    },
+    "hu": {
+      "name": "Harlekin",
+      "category": "A Furák Cirkusza",
+      "description": "Flörtölő, méregzöld szörny éles mosollyal és villás nyelvvel. Ő a cirkusz csípős, csábító mérge."
+    },
+    "id": {
+      "name": "Harlequin",
+      "category": "Sirkus Freak",
+      "description": "Monster hijau beracun yang genit dengan senyum tajam dan lidah bercabang. Dia adalah racun sinis dan menggoda dari Sirkus."
+    },
+    "it": {
+      "name": "Arlecchino",
+      "category": "Il Circo dei Freak",
+      "description": "Un mostro verde veleno e civettuolo, con sorriso affilato e lingua biforcuta. È il veleno sarcastico e seducente del Circo."
+    },
+    "ja": {
+      "name": "ハーレクイン",
+      "category": "フリーク・サーカス",
+      "description": "毒々しいグリーンの体に鋭い笑みと二股の舌を持つ、挑発的なモンスター。サーカスの皮肉屋で魅惑的な毒。"
+    },
+    "ko": {
+      "name": "할리퀸",
+      "category": "프릭 서커스",
+      "description": "날카로운 미소와 갈라진 혀를 지닌 독초록빛 괴물. 그는 서커스의 냉소적이고 매혹적인 독이다."
+    },
+    "ml": {
+      "name": "ഹാർലിക്വിൻ",
+      "category": "ഫ്രീക്ക് സർകസ്",
+      "description": "വിഷപച്ച നിറമുള്ള, മൂർച്ചയുള്ള പുഞ്ചിരിയുടെയും ഇരട്ട നാവിന്റെയും ഉടമ. സർകസിന്റെ പരിഹാസപരവും ആകർഷകവുമായ വിഷം."
+    },
+    "mn": {
+      "name": "Арлекин",
+      "category": "Фрик Цирк",
+      "description": "Хорт ногоон мангас хурц инээмсэглэл, салаа хэлтэй. Тэр бол циркийн ёжтой, дур булаам хор."
+    },
+    "ms": {
+      "name": "Harlequin",
+      "category": "Sarkas Freak",
+      "description": "Raksasa hijau beracun yang menggoda dengan senyuman tajam dan lidah bercabang. Dialah racun sinis dan memikat sarkas."
+    },
+    "my": {
+      "name": "ဟာလီကွင်",
+      "category": "ဖရိခ် ဆာကပ်",
+      "description": "အဆိပ်အစိမ်းရောင်နှင့် ချွန်ထက်သောအပြုံး၊ နှစ်ခွလျှာရှိသော မိစ္ဆာကောင်။ ဆာကပ်၏ ရယ်မောဖွယ် ဆွဲဆောင်မှုရှိသော အဆိပ်။"
+    },
+    "nb": {
+      "name": "Harlekin",
+      "category": "Freaksirkuset",
+      "description": "Et flørtende, giftgrønt monster med skarpt smil og kløvd tunge. Han er sirkusets spydige og forførende gift."
+    },
+    "ne": {
+      "name": "हार्लेक्विन",
+      "category": "फ्रिक सर्कस",
+      "description": "विषालु हरियो राक्षस, तीखा मुस्कान र दोहोरो जिब्रो सहित। ऊ सर्कसको व्यंग्यात्मक र मोहक विष हो।"
+    },
+    "nl": {
+      "name": "Harlekijn",
+      "category": "Het Freakcircus",
+      "description": "Een flirterig, gifgroen monster met scherpe glimlach en gespleten tong. Hij is het snedige, verleidelijke gif van het circus."
+    },
+    "pl": {
+      "name": "Arlekin",
+      "category": "Cyrk Dziwolągów",
+      "description": "Flirtujący, jadowicie zielony potwór z ostrym uśmiechem i rozwidlonym językiem. To sarkastyczna, uwodzicielska trucizna Cyrku."
+    },
+    "pt": {
+      "name": "Arlequim",
+      "category": "O Circo dos Freaks",
+      "description": "Um monstro verde-veneno e sedutor, com sorriso afiado e língua bifurcada. Ele é o veneno sarcástico e irresistível do Circo."
+    },
+    "ro": {
+      "name": "Arlechin",
+      "category": "Circul Ciudaților",
+      "description": "Un monstru verde-venin, cochet, cu zâmbet ascuțit și limbă bifurcată. Este otrava sarcastică și seducătoare a Circului."
+    },
+    "ru": {
+      "name": "Арлекин",
+      "category": "Цирк Фриков",
+      "description": "Кокетливый ядовито-зелёный монстр с острой улыбкой и раздвоенным языком. Он — саркастичный и соблазнительный яд Цирка."
+    },
+    "sr": {
+      "name": "Арлекин",
+      "category": "Циркус Наказа",
+      "description": "Кокетно, отровно зелено чудовиште са оштрим осмехом и раздвојеним језиком. Он је саркастични, заводљиви отров циркуса."
+    },
+    "sv": {
+      "name": "Harlekin",
+      "category": "Freakcirkusen",
+      "description": "Ett flirtigt, giftgrönt monster med vasst leende och kluven tunga. Han är cirkusens spydiga och förföriska gift."
+    },
+    "ta": {
+      "name": "ஹார்லிக்வின்",
+      "category": "ப்ரீக் சர்க்கஸ்",
+      "description": "நஞ்சுப் பச்சை நிறத்தில் கூர்மையான புன்னகையுடனும் இரட்டை நாவுடனும் இருக்கும் கவர்ச்சியான அரக்கன். சர்க்கஸின் நையாண்டி மற்றும் மயக்கும் நஞ்சு."
+    },
+    "th": {
+      "name": "ฮาร์เลควิน",
+      "category": "ฟรีคเซอร์คัส",
+      "description": "สัตว์ประหลาดสีเขียวพิษเจ้าเสน่ห์ พร้อมรอยยิ้มคมกริบและลิ้นสองแฉก เขาคือพิษยั่วเย้าแห่งเซอร์คัส"
+    },
+    "tr": {
+      "name": "Harlekin",
+      "category": "Ucubeler Sirki",
+      "description": "Keskin gülümsemeli ve çatallı dilli, zehir yeşili flörtöz bir canavar. O, Sirkin alaycı ve baştan çıkarıcı zehridir."
+    },
+    "uk": {
+      "name": "Арлекін",
+      "category": "Цирк Фріків",
+      "description": "Кокетливий отруйно-зелений монстр із гострою посмішкою та роздвоєним язиком. Він — саркастична й спокуслива отрута цирку."
+    },
+    "ur": {
+      "name": "ہارلکوئن",
+      "category": "فریک سرکس",
+      "description": "زہریلا سبز، دلکش عفریت جس کی مسکراہٹ تیز اور زبان دو شاخہ ہے۔ وہ سرکس کا طنزیہ اور مسحور کن زہر ہے۔"
+    },
+    "vi": {
+      "name": "Harlequin",
+      "category": "Gánh Xiếc Quái Dị",
+      "description": "Một quái vật xanh độc đầy quyến rũ với nụ cười sắc lạnh và chiếc lưỡi chẻ đôi. Hắn là chất độc mỉa mai và mê hoặc của gánh xiếc."
+    },
+    "zh": {
+      "name": "丑角",
+      "category": "怪奇马戏团",
+      "description": "一个带着锋利笑容和分叉舌头的毒绿色怪物。他是马戏团里讥讽又迷人的毒药。"
+    },
+    "zh-rTW": {
+      "name": "丑角",
+      "category": "怪奇馬戲團",
+      "description": "一個帶著銳利笑容與分叉舌頭的毒綠怪物。他是馬戲團裡諷刺又迷人的毒藥。"
+    }
+  }
+}

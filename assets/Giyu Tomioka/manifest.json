@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "name": "Giyu Tomioka",
+  "nameSlug": "giyu-tomioka",
+  "category": "Anime",
+  "categorySlug": "anime",
+  "description": "Giyu Tomioka, the Water Hashira from Demon Slayer",
+  "bundleVersion": 1,
+  "minAppVersion": 94,
+  "levels": 8,
+  "origin": "LOCAL",
+  "animationSchema": {
+    "path": "animation.json",
+    "schemaId": "default",
+    "version": 1
+  },
+  "sprites": {
+    "type": "SEQUENCE",
+    "basePath": "sprites/",
+    "filePattern": "%04d.webp",
+    "spriteCount": 240,
+    "size": [
+      512,
+      512
+    ]
+  },
+  "preview": {
+    "thumbnail": "thumbnail.webp"
+  },
+  "author": {
+    "name": "Local Creator"
+  },
+  "license": {
+    "type": "CUSTOM",
+    "text": "Exported from Shimeji",
+    "attribution": "Local Creator"
+  }
+}

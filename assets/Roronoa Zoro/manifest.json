@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "name": "Create a character of Roronoa Zoro from One Piec",
+  "nameSlug": "create-a-character-of-roronoa-zoro-from-one-piec",
+  "category": "جادویی",
+  "categorySlug": "custom",
+  "description": "Create a character of Roronoa Zoro from One Piec - Create a character of Roronoa Zoro from One Piece. - He must have three swords, a strong and fit body, and one eye must be injured and he must be on ",
+  "bundleVersion": 1,
+  "minAppVersion": 94,
+  "levels": 3,
+  "origin": "LOCAL",
+  "animationSchema": {
+    "path": "animation.json",
+    "schemaId": "default",
+    "version": 1
+  },
+  "sprites": {
+    "type": "SEQUENCE",
+    "basePath": "sprites/",
+    "filePattern": "%04d.webp",
+    "spriteCount": 192,
+    "size": [
+      512,
+      512
+    ]
+  },
+  "preview": {
+    "thumbnail": "thumbnail.webp"
+  },
+  "author": {
+    "name": "Local Creator"
+  },
+  "license": {
+    "type": "CUSTOM",
+    "text": "Exported from Shimeji",
+    "attribution": "Local Creator"
+  }
+}

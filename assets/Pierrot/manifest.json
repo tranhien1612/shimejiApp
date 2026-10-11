@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "remoteId": 0,
+  "name": "Pierrot",
+  "nameSlug": "pierrot",
+  "category": "The Freak Circus",
+  "categorySlug": "the-freak-circus",
+  "description": "The silent yandere clown of Freak Circus horrors: tall, pale, obsessively smitten, stalking with sweet menace and a razor smile. Love hurts... deliciously! 🎪💔",
+  "tags": [],
+  "bundleVersion": 1,
+  "bundleChangelog": "Initial version",
+  "minAppVersion": 94,
+  "levels": 7,
+  "origin": "LOCAL",
+  "animationSchema": {
+    "path": "animation.json",
+    "schemaId": "legacy_default_v1",
+    "version": 1
+  },
+  "sprites": {
+    "type": "SEQUENCE",
+    "basePath": "sprites/",
+    "filePattern": "%04d.webp",
+    "spriteCount": 230,
+    "size": [
+      512,
+      512
+    ],
+    "description": ""
+  },
+  "preview": {
+    "thumbnail": "thumbnail.webp"
+  },
+  "author": {
+    "name": "The Jester",
+    "url": "https://google.com"
+  },
+  "license": {
+    "type": "CUSTOM",
+    "text": "Enjoy!",
+    "attribution": "The Jester"
+  },
+  "economy": {
+    "costMushrooms": 0,
+    "rarity": "COMMON",
+    "isPremiumOnly": false,
+    "minPlayerLevel": 0
+  },
+  "createdAt": "2026-02-18T08:31:26.093Z",
+  "updatedAt": "2026-02-18T17:00:48.728Z",
+  "localized": {
+    "en": {
+      "name": "Pierrot",
+      "category": "The Freak Circus",
+      "description": "The silent yandere clown of Freak Circus horrors: tall, pale, obsessively smitten, stalking with sweet menace and a razor smile. Love hurts... deliciously! 🎪💔"
+    },
+    "ar": {
+      "name": "بييرو",
+      "category": "سيرك المسوخ",
+      "description": "المهرج اليانديري الصامت من رعب سيرك المسوخ: طويل، شاحب، واقع في هوس الحب، يطارد بتهديدٍ لطيف وابتسامة حادة كالموس. الحب يؤلم... بلذة! 🎪💔"
+    },
+    "bg": {
+      "name": "Пиеро",
+      "category": "Циркът на изродите",
+      "description": "Мълчаливият яндере клоун от ужасите на Цирка на изродите: висок, блед, обсебено влюбен, дебне със сладка заплаха и усмивка като бръснач. Любовта боли... вкусно! 🎪💔"
+    },
+    "bn": {
+      "name": "পিয়েরো",
+      "category": "দ্য ফ্রিক সার্কাস",
+      "description": "ফ্রিক সার্কাসের নীরব ইয়ানদেরে ভাঁড়: লম্বা, ফ্যাকাশে, উন্মত্ত প্রেমে মগ্ন, মিষ্টি হুমকি আর ক্ষুরধার হাসি নিয়ে অনুসরণ করে। ভালোবাসা কষ্ট দেয়... মধুরভাবে! 🎪💔"
+    },
+    "ca": {
+      "name": "Pierrot",
+      "category": "El Circ Freak",
+      "description": "El pallasso yandere silenciós dels horrors del Circ Freak: alt, pàl·lid, obsessionadament enamorat, assetjant amb dolça amenaça i un somriure esmolat. L’amor fa mal... deliciosament! 🎪💔"
+    },
+    "cs": {
+      "name": "Pierrot",
+      "category": "Cirkus zrůd",
+      "description": "Tichý yandere klaun z hrůz Cirkusu zrůd: vysoký, bledý, chorobně zamilovaný, sleduje se sladkou hrozbou a úsměvem ostrým jako břitva. Láska bolí... lahodně! 🎪💔"
+    },
+    "da": {
+      "name": "Pierrot",
+      "category": "Freak Cirkus",
+      "description": "Den tavse yandere-klovn fra Freak Cirkus’ rædsler: høj, bleg, besat forelsket, forfølger med sød trussel og et barberbladssmil. Kærlighed gør ondt... lækkert! 🎪💔"
+    },
+    "de": {
+      "name": "Pierrot",
+      "category": "Der Freak-Zirkus",
+      "description": "Der stille Yandere-Clown aus den Schrecken des Freak-Zirkus: groß, blass, obsessiv verliebt, schleicht mit süßer Bedrohung und rasiermesserscharfem Lächeln. Liebe tut weh... köstlich! 🎪💔"
+    },
+    "el": {
+      "name": "Πιερό",
+      "category": "Το Τσίρκο των Φρικιών",
+      "description": "Ο σιωπηλός yandere κλόουν του Τσίρκου των Φρικιών: ψηλός, χλωμός, παθολογικά ερωτευμένος, καταδιώκει με γλυκιά απειλή και χαμόγελο σαν ξυράφι. Η αγάπη πονάει... απολαυστικά! 🎪💔"
+    },
+    "es": {
+      "name": "Pierrot",
+      "category": "El Circo Freak",
+      "description": "El payaso yandere silencioso de los horrores del Circo Freak: alto, pálido, obsesivamente enamorado, acechando con dulce amenaza y sonrisa afilada como navaja. El amor duele... ¡deliciosamente! 🎪💔"
+    },
+    "fa": {
+      "name": "پیرو",
+      "category": "سیرک عجایب",
+      "description": "دلقک یاندِره خاموش سیرک عجایب: قدبلند، رنگ‌پریده، وسواس‌گونه دل‌باخته، با تهدیدی شیرین و لبخندی چون تیغ تعقیب می‌کند. عشق درد دارد... خوشمزه! 🎪💔"
+    },
+    "fi": {
+      "name": "Pierrot",
+      "category": "Friikkisirkus",
+      "description": "Friikkisirkuksen hiljainen yandere-klovni: pitkä, kalpea, pakkomielteisesti rakastunut, vaanii makealla uhalla ja partaterän terävällä hymyllä. Rakkaus sattuu... herkullisesti! 🎪💔"
+    },
+    "fil": {
+      "name": "Pierrot",
+      "category": "Ang Freak Circus",
+      "description": "Ang tahimik na yandere clown ng Freak Circus: matangkad, maputla, obsesibong umiibig, naniniktik na may matamis na banta at ngiting parang labaha. Masakit ang pag-ibig... masarap! 🎪💔"
+    },
+    "fr": {
+      "name": "Pierrot",
+      "category": "Le Freak Circus",
+      "description": "Le clown yandere silencieux des horreurs du Freak Circus : grand, pâle, obsessionnellement épris, traquant avec une douce menace et un sourire tranchant comme un rasoir. L’amour fait mal... délicieusement ! 🎪💔"
+    },
+    "he": {
+      "name": "פיירו",
+      "category": "קרקס הפריקים",
+      "description": "הליצן הינדֶרֶה השקט מקרקס הפריקים: גבוה, חיוור, מאוהב באובססיביות, עוקב באיום מתוק וחיוך חד כתער. אהבה כואבת... בטירוף מתוק! 🎪💔"
+    },
+    "hi": {
+      "name": "पिएरो",
+      "category": "फ्रीक सर्कस",
+      "description": "फ्रीक सर्कस का मौन यांडरे जोकर: लंबा, पीला, जुनूनी प्रेम में डूबा, मीठी धमकी और रेज़र जैसी मुस्कान के साथ पीछा करता हुआ। प्यार दर्द देता है... स्वादिष्ट ढंग से! 🎪💔"
+    },
+    "hr": {
+      "name": "Pierrot",
+      "category": "Cirkus nakaza",
+      "description": "Tihi yandere klaun iz horora Cirkusa nakaza: visok, blijed, opsesivno zaljubljen, vreba sa slatkom prijetnjom i osmijehom oštrim poput britve. Ljubav boli... slasno! 🎪💔"
+    },
+    "hu": {
+      "name": "Pierrot",
+      "category": "A Szörnycirkusz",
+      "description": "A Szörnycirkusz néma yandere bohóca: magas, sápadt, megszállottan szerelmes, édes fenyegetéssel és borotvaéles mosollyal leselkedik. A szerelem fáj... mennyeien! 🎪💔"
+    },
+    "id": {
+      "name": "Pierrot",
+      "category": "Sirkus Aneh",
+      "description": "Badut yandere yang pendiam dari horor Sirkus Aneh: tinggi, pucat, tergila-gila cinta, menguntit dengan ancaman manis dan senyum setajam silet. Cinta itu menyakitkan... nikmat! 🎪💔"
+    },
+    "it": {
+      "name": "Pierrot",
+      "category": "Il Circo dei Freak",
+      "description": "Il clown yandere silenzioso degli orrori del Circo dei Freak: alto, pallido, ossessivamente innamorato, ti bracca con dolce minaccia e un sorriso affilato come un rasoio. L’amore fa male... deliziosamente! 🎪💔"
+    },
+    "ja": {
+      "name": "ピエロ",
+      "category": "フリークサーカス",
+      "description": "フリークサーカスの沈黙のヤンデレ道化師。背が高く青白い、執着的に恋した彼は、甘い脅しと剃刀のような笑みで忍び寄る。愛は痛い…でも甘美！🎪💔"
+    },
+    "ko": {
+      "name": "피에로",
+      "category": "프릭 서커스",
+      "description": "프릭 서커스의 침묵하는 얀데레 광대: 키가 크고 창백하며 집착적으로 사랑에 빠져, 달콤한 위협과 면도날 같은 미소로 따라온다. 사랑은 아프다… 달콤하게! 🎪💔"
+    },
+    "ml": {
+      "name": "പിയറോ",
+      "category": "ഫ്രീക്ക് സർക്കസ്",
+      "description": "ഫ്രീക്ക് സർക്കസിലെ നിശ്ശബ്ദ യാൻഡറെ ക്ലൗൺ: ഉയരം കൂടിയ, വെളുത്ത, ഭ്രാന്തമായ പ്രണയത്തിൽ മുങ്ങിയ, മധുരഭീഷണിയോടും കത്തിപോലെ പുഞ്ചിരിയോടും പിന്തുടരുന്നു. പ്രണയം വേദനിക്കുന്നു... രുചികരമായി! 🎪💔"
+    },
+    "mn": {
+      "name": "Пьеро",
+      "category": "Фрик цирк",
+      "description": "Фрик циркийн чимээгүй яндере алиалагч: өндөр, цонхигор, хэт дурласан, чихэрлэг заналхийлэл ба сахлын хутга шиг инээмсэглэлээр мөрдөнө. Хайр өвтгөнө... амттай! 🎪💔"
+    },
+    "ms": {
+      "name": "Pierrot",
+      "category": "Sarkas Pelik",
+      "description": "Badut yandere yang pendiam dari Sarkas Pelik: tinggi, pucat, obsesif bercinta, mengekori dengan ancaman manis dan senyuman setajam pisau cukur. Cinta itu menyakitkan... lazat! 🎪💔"
+    },
+    "my": {
+      "name": "ပီယဲရို",
+      "category": "ဖရီක් ဆပ်ကပ်",
+      "description": "ဖရီක් ဆပ်ကပ်၏ တိတ်ဆိတ်သော ယန်ဒဲရဲ ကလောင်: အမြင့်၊ ဖြူဖျော့၊ အလွန်ချစ်မြတ်နိုးကာ ချိုမြိန်သည့် ခြိမ်းခြောက်မှုနှင့် ဓားကဲ့သို့သော အပြုံးဖြင့် လိုက်လံသည်။ အချစ်သည် နာကျင်စေသည်... ချိုမြိန်စွာ! 🎪💔"
+    },
+    "nb": {
+      "name": "Pierrot",
+      "category": "Freaksirkuset",
+      "description": "Den tause yandere-klovnen fra Freaksirkuset: høy, blek, besatt forelsket, forfølger med søt trussel og et barberbladsmil. Kjærlighet gjør vondt... deilig! 🎪💔"
+    },
+    "ne": {
+      "name": "पिएरो",
+      "category": "फ्रिक सर्कस",
+      "description": "फ्रिक सर्कसको मौन यान्देरे जोकर: अग्लो, फिका, अति प्रेममा डुबेको, मीठो धम्की र रेजरजस्तो मुस्कानसहित पछ्याउँछ। माया दुख्छ... मिठासका साथ! 🎪💔"
+    },
+    "nl": {
+      "name": "Pierrot",
+      "category": "Het Freakcircus",
+      "description": "De stille yandere-clown van het Freakcircus: lang, bleek, obsessief verliefd, stalkt met zoete dreiging en een messcherpe glimlach. Liefde doet pijn... heerlijk! 🎪💔"
+    },
+    "pl": {
+      "name": "Pierrot",
+      "category": "Cyrk Dziwadeł",
+      "description": "Cichy klaun yandere z Cyrku Dziwadeł: wysoki, blady, obsesyjnie zakochany, skrada się ze słodką groźbą i uśmiechem ostrym jak brzytwa. Miłość boli... pysznie! 🎪💔"
+    },
+    "pt": {
+      "name": "Pierrot",
+      "category": "O Circo Freak",
+      "description": "O palhaço yandere silencioso dos horrores do Circo Freak: alto, pálido, obsessivamente apaixonado, perseguindo com doce ameaça e um sorriso afiado como navalha. O amor dói... deliciosamente! 🎪💔"
+    },
+    "ro": {
+      "name": "Pierrot",
+      "category": "Circul Freak",
+      "description": "Clovnul yandere tăcut din ororile Circului Freak: înalt, palid, obsedat de iubire, pândește cu o amenințare dulce și un zâmbet ascuțit ca un brici. Dragostea doare... delicios! 🎪💔"
+    },
+    "ru": {
+      "name": "Пьеро",
+      "category": "Цирк уродов",
+      "description": "Молчаливый яндере-клоун из ужасов Цирка уродов: высокий, бледный, одержимо влюблённый, преследует со сладкой угрозой и улыбкой острой как бритва. Любовь причиняет боль... восхитительно! 🎪💔"
+    },
+    "sr": {
+      "name": "Пјеро",
+      "category": "Циркус наказа",
+      "description": "Тихи јандере кловн из Циркуса наказа: висок, блед, опсесивно заљубљен, уходи са слатком претњом и осмехом оштрим као жилет. Љубав боли... слатко! 🎪💔"
+    },
+    "sv": {
+      "name": "Pierrot",
+      "category": "Freakcirkusen",
+      "description": "Den tysta yandere-clownen från Freakcirkusens fasor: lång, blek, besatt förälskad, förföljer med söt hotfullhet och ett rakbladsskarpt leende. Kärlek gör ont... ljuvligt! 🎪💔"
+    },
+    "ta": {
+      "name": "பியெரோ",
+      "category": "ஃப்ரீக் சர்க்கஸ்",
+      "description": "ஃப்ரீக் சர்க்கஸின் அமைதியான யாண்டெரே கிளவுன்: உயரமான, வெண்மையான, வெறித்தனமாக காதலிக்கும், இனிய அச்சுறுத்தலும் கத்தி போன்ற புன்னகையுடனும் பின்தொடர்கிறான். காதல் வலிக்கிறது... இனிமையாக! 🎪💔"
+    },
+    "th": {
+      "name": "ปีแยโร",
+      "category": "ฟรีกเซอร์คัส",
+      "description": "ตัวตลกยานเดเระผู้เงียบงันแห่งฟรีกเซอร์คัส: สูง ซีด หลงรักอย่างหมกมุ่น ไล่ตามด้วยภัยคุกคามหวาน ๆ และรอยยิ้มคมกริบ ความรักเจ็บปวด... แต่อร่อย! 🎪💔"
+    },
+    "tr": {
+      "name": "Pierrot",
+      "category": "Freak Sirki",
+      "description": "Freak Sirki’nin sessiz yandere palyaçosu: uzun boylu, solgun, takıntılı şekilde âşık, tatlı bir tehdit ve ustura keskinliğinde bir gülümsemeyle takip eder. Aşk acıtır... lezzetli bir şekilde! 🎪💔"
+    },
+    "uk": {
+      "name": "П’єро",
+      "category": "Цирк потвор",
+      "description": "Мовчазний яндере-клоун із жахів Цирку потвор: високий, блідий, нав’язливо закоханий, переслідує з солодкою загрозою та усмішкою гострою як бритва. Кохання болить... солодко! 🎪💔"
+    },
+    "ur": {
+      "name": "پیرو",
+      "category": "فریک سرکس",
+      "description": "فریک سرکس کا خاموش یاندرے مسخرہ: لمبا، پیلا، جنونی محبت میں گرفتار، میٹھی دھمکی اور استرے جیسی مسکراہٹ کے ساتھ پیچھا کرتا ہے۔ محبت درد دیتی ہے... مزے دار انداز میں! 🎪💔"
+    },
+    "vi": {
+      "name": "Pierrot",
+      "category": "Gánh Xiếc Quái Dị",
+      "description": "Tên hề yandere im lặng của Gánh Xiếc Quái Dị: cao, tái nhợt, si mê ám ảnh, rình rập với đe dọa ngọt ngào và nụ cười sắc như dao cạo. Tình yêu đau đớn... nhưng thật ngon! 🎪💔"
+    },
+    "zh": {
+      "name": "皮埃罗",
+      "category": "怪诞马戏团",
+      "description": "怪诞马戏团中沉默的病娇小丑：高挑苍白、痴迷地坠入爱河，带着甜蜜的威胁与剃刀般锋利的微笑悄然跟随。爱会让人疼…却甜美无比！🎪💔"
+    },
+    "zh-rTW": {
+      "name": "皮耶羅",
+      "category": "怪奇馬戲團",
+      "description": "怪奇馬戲團中沉默的病嬌小丑：高挑蒼白、痴迷地戀愛，帶著甜蜜威脅與如剃刀般銳利的微笑悄然尾隨。愛會痛…卻甜得令人上癮！🎪💔"
+    }
+  }
+}

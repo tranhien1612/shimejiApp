@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "name": "シャワーズ",
+  "nameSlug": "mascot",
+  "category": "まほう",
+  "categorySlug": "custom",
+  "description": "シャワーズは水タイプのポケモンでイーブイの進化系だよ。第1世代の頃からいて、泳ぐのが得意！",
+  "bundleVersion": 1,
+  "minAppVersion": 94,
+  "levels": 3,
+  "origin": "LOCAL",
+  "animationSchema": {
+    "path": "animation.json",
+    "schemaId": "default",
+    "version": 1
+  },
+  "sprites": {
+    "type": "SEQUENCE",
+    "basePath": "sprites/",
+    "filePattern": "%04d.webp",
+    "spriteCount": 63,
+    "size": [
+      512,
+      512
+    ]
+  },
+  "preview": {
+    "thumbnail": "thumbnail.webp"
+  },
+  "author": {
+    "name": "Local Creator"
+  },
+  "license": {
+    "type": "CUSTOM",
+    "text": "Exported from Shimeji",
+    "attribution": "Local Creator"
+  }
+}

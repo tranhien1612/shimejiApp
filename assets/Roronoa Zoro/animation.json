@@ -1,0 +1,2294 @@
+{
+  "schema_id": "default",
+  "version": 1,
+  "default_animation": "fall",
+  "initial_candidates": [
+    "fall"
+  ],
+  "animations": [
+    {
+      "key": "walk_left",
+      "type": "GROUND",
+      "subtype": "WALK",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "LEFT",
+      "frames": [
+        {
+          "sprite": 0,
+          "dx": -2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 1,
+          "dx": -2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 2,
+          "dx": -2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 3,
+          "dx": -2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 4,
+          "dx": -2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 5,
+          "dx": -2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 6,
+          "dx": -2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 7,
+          "dx": -2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 8,
+          "dx": -2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 9,
+          "dx": -2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 10,
+          "dx": -2,
+          "durationTicks": 6
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "walk_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "motion_1",
+            "weight": 1
+          },
+          {
+            "to": "walk_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "LEFT",
+          "choices": [
+            {
+              "to": "walk_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "climb_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "walk_right",
+      "type": "GROUND",
+      "subtype": "WALK",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "RIGHT",
+      "frames": [
+        {
+          "sprite": 0,
+          "dx": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 1,
+          "dx": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 2,
+          "dx": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 3,
+          "dx": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 4,
+          "dx": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 5,
+          "dx": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 6,
+          "dx": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 7,
+          "dx": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 8,
+          "dx": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 9,
+          "dx": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 10,
+          "dx": 2,
+          "durationTicks": 6
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "walk_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "motion_1",
+            "weight": 1
+          },
+          {
+            "to": "walk_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "RIGHT",
+          "choices": [
+            {
+              "to": "walk_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "climb_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "bounce",
+      "type": "GROUND",
+      "subtype": "BOUNCE",
+      "level": 1,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 52,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 53,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 54,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 55,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 56,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 57,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 58,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 59,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 60,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 61,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 62,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 63,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 64,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 65,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 66,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 67,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 68,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 69,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 70,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 71,
+          "durationTicks": 6
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "walk_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "motion_1",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "key": "idle",
+      "type": "USER",
+      "subtype": "IDLE",
+      "level": 1,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 112,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 113,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 114,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 115,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 116,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 117,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 118,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 119,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 120,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 121,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 122,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 123,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 124,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 125,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 126,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 127,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 128,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 129,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 130,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 131,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 130,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 129,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 128,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 127,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 126,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 125,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 124,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 123,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 122,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 121,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 120,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 119,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 118,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 117,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 116,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 115,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 114,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 113,
+          "durationTicks": 6
+        }
+      ]
+    },
+    {
+      "key": "climb_ceiling_left",
+      "type": "CEILING",
+      "subtype": "HANG",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "LEFT",
+      "frames": [
+        {
+          "sprite": 11,
+          "dx": -2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 12,
+          "dx": -2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 13,
+          "dx": -2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 14,
+          "dx": -2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 15,
+          "dx": -2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 16,
+          "dx": -2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 17,
+          "dx": -2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 18,
+          "dx": -2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 19,
+          "dx": -2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 20,
+          "dx": -2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 21,
+          "dx": -2,
+          "durationTicks": 6
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "climb_ceiling_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "climb_ceiling_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "LEFT",
+          "choices": [
+            {
+              "to": "climb_ceiling_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "descend_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            }
+          ]
+        }
+      ],
+      "editorMirrorSibling": true
+    },
+    {
+      "key": "climb_ceiling_right",
+      "type": "CEILING",
+      "subtype": "HANG",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "RIGHT",
+      "frames": [
+        {
+          "sprite": 11,
+          "dx": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 12,
+          "dx": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 13,
+          "dx": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 14,
+          "dx": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 15,
+          "dx": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 16,
+          "dx": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 17,
+          "dx": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 18,
+          "dx": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 19,
+          "dx": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 20,
+          "dx": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 21,
+          "dx": 2,
+          "durationTicks": 6
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "climb_ceiling_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "climb_ceiling_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "RIGHT",
+          "choices": [
+            {
+              "to": "climb_ceiling_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "descend_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            }
+          ]
+        }
+      ],
+      "editorMirrorSibling": true
+    },
+    {
+      "key": "climb_left",
+      "type": "WALL",
+      "subtype": "CLIMB",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "LEFT",
+      "frames": [
+        {
+          "sprite": 22,
+          "dy": -3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 23,
+          "dy": -3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 24,
+          "dy": -3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 25,
+          "dy": -3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 26,
+          "dy": -3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 27,
+          "dy": -3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 28,
+          "dy": -3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 29,
+          "dy": -3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 30,
+          "dy": -3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 31,
+          "dy": -3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 32,
+          "dy": -3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 33,
+          "dy": -3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 34,
+          "dy": -3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 35,
+          "dy": -3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 36,
+          "dy": -3,
+          "durationTicks": 6
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "descend_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "climb_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "TOP",
+          "choices": [
+            {
+              "to": "descend_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "climb_ceiling_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            }
+          ]
+        }
+      ],
+      "editorMirrorSibling": true
+    },
+    {
+      "key": "climb_right",
+      "type": "WALL",
+      "subtype": "CLIMB",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "RIGHT",
+      "frames": [
+        {
+          "sprite": 22,
+          "dy": -3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 23,
+          "dy": -3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 24,
+          "dy": -3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 25,
+          "dy": -3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 26,
+          "dy": -3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 27,
+          "dy": -3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 28,
+          "dy": -3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 29,
+          "dy": -3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 30,
+          "dy": -3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 31,
+          "dy": -3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 32,
+          "dy": -3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 33,
+          "dy": -3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 34,
+          "dy": -3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 35,
+          "dy": -3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 36,
+          "dy": -3,
+          "durationTicks": 6
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "descend_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "climb_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "TOP",
+          "choices": [
+            {
+              "to": "descend_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "climb_ceiling_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            }
+          ]
+        }
+      ],
+      "editorMirrorSibling": true
+    },
+    {
+      "key": "descend_left",
+      "type": "WALL",
+      "subtype": "DESCEND",
+      "level": 3,
+      "loop": "LOOP",
+      "direction": "LEFT",
+      "frames": [
+        {
+          "sprite": 37,
+          "dy": 3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 38,
+          "dy": 3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 39,
+          "dy": 3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 40,
+          "dy": 3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 41,
+          "dy": 3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 42,
+          "dy": 3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 43,
+          "dy": 3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 44,
+          "dy": 3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 45,
+          "dy": 3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 46,
+          "dy": 3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 47,
+          "dy": 3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 48,
+          "dy": 3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 49,
+          "dy": 3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 50,
+          "dy": 3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 51,
+          "dy": 3,
+          "durationTicks": 6
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "descend_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "climb_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "BOTTOM",
+          "choices": [
+            {
+              "to": "walk_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "climb_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            }
+          ]
+        }
+      ],
+      "editorMirrorSibling": true
+    },
+    {
+      "key": "descend_right",
+      "type": "WALL",
+      "subtype": "DESCEND",
+      "level": 3,
+      "loop": "LOOP",
+      "direction": "RIGHT",
+      "frames": [
+        {
+          "sprite": 37,
+          "dy": 3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 38,
+          "dy": 3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 39,
+          "dy": 3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 40,
+          "dy": 3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 41,
+          "dy": 3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 42,
+          "dy": 3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 43,
+          "dy": 3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 44,
+          "dy": 3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 45,
+          "dy": 3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 46,
+          "dy": 3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 47,
+          "dy": 3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 48,
+          "dy": 3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 49,
+          "dy": 3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 50,
+          "dy": 3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 51,
+          "dy": 3,
+          "durationTicks": 6
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "descend_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "climb_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "BOTTOM",
+          "choices": [
+            {
+              "to": "walk_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "climb_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            }
+          ]
+        }
+      ],
+      "editorMirrorSibling": true
+    },
+    {
+      "key": "fall",
+      "type": "GROUND",
+      "subtype": "BOUNCE",
+      "level": 1,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 152,
+          "dy": 10,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 153,
+          "dy": 10,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 154,
+          "dy": 10,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 155,
+          "dy": 10,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 156,
+          "dy": 10,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 157,
+          "dy": 10,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 158,
+          "dy": 10,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 159,
+          "dy": 10,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 160,
+          "dy": 10,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 161,
+          "dy": 10,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 162,
+          "dy": 10,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 163,
+          "dy": 10,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 164,
+          "dy": 10,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 165,
+          "dy": 10,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 166,
+          "dy": 10,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 167,
+          "dy": 10,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 168,
+          "dy": 10,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 169,
+          "dy": 10,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 170,
+          "dy": 10,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 171,
+          "dy": 10,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 170,
+          "dy": 10,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 169,
+          "dy": 10,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 168,
+          "dy": 10,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 167,
+          "dy": 10,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 166,
+          "dy": 10,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 165,
+          "dy": 10,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 164,
+          "dy": 10,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 163,
+          "dy": 10,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 162,
+          "dy": 10,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 161,
+          "dy": 10,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 160,
+          "dy": 10,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 159,
+          "dy": 10,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 158,
+          "dy": 10,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 157,
+          "dy": 10,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 156,
+          "dy": 10,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 155,
+          "dy": 10,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 154,
+          "dy": 10,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 153,
+          "dy": 10,
+          "durationTicks": 6
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "walk_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "motion_1",
+            "weight": 1
+          },
+          {
+            "to": "fall",
+            "weight": 1
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "BOTTOM",
+          "choices": [
+            {
+              "to": "bounce",
+              "weight": 1
+            },
+            {
+              "to": "fall",
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "drag",
+      "type": "USER",
+      "subtype": "DRAG",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 72,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 73,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 74,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 75,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 76,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 77,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 78,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 79,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 80,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 81,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 82,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 83,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 84,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 85,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 86,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 87,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 88,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 89,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 90,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 91,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 90,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 89,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 88,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 87,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 86,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 85,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 84,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 83,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 82,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 81,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 80,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 79,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 78,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 77,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 76,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 75,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 74,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 73,
+          "durationTicks": 6
+        }
+      ],
+      "eventTransitions": [
+        {
+          "event": "DRAG_END",
+          "from": "drag",
+          "when": "LEFT",
+          "choices": [
+            {
+              "to": "climb_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "descend_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            }
+          ]
+        },
+        {
+          "event": "DRAG_END",
+          "from": "drag",
+          "when": "RIGHT",
+          "choices": [
+            {
+              "to": "climb_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "descend_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            }
+          ]
+        },
+        {
+          "event": "DRAG_END",
+          "from": "drag",
+          "when": "TOP",
+          "facing": "LEFT",
+          "choices": [
+            {
+              "to": "climb_ceiling_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            }
+          ]
+        },
+        {
+          "event": "DRAG_END",
+          "from": "drag",
+          "when": "TOP",
+          "facing": "RIGHT",
+          "choices": [
+            {
+              "to": "climb_ceiling_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            }
+          ]
+        },
+        {
+          "event": "DRAG_END",
+          "from": "drag",
+          "choices": [
+            {
+              "to": "fall",
+              "weight": 1,
+              "setFacing": "RANDOM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fling",
+      "type": "USER",
+      "subtype": "DRAG",
+      "level": 2,
+      "loop": "LOOP",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 92,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 93,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 94,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 95,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 96,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 97,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 98,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 99,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 100,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 101,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 102,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 103,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 104,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 105,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 106,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 107,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 108,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 109,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 110,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 111,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 110,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 109,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 108,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 107,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 106,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 105,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 104,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 103,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 102,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 101,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 100,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 99,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 98,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 97,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 96,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 95,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 94,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 93,
+          "durationTicks": 6
+        }
+      ],
+      "eventTransitions": [
+        {
+          "event": "FLING_END",
+          "from": "fling",
+          "when": "LEFT",
+          "choices": [
+            {
+              "to": "climb_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "descend_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            }
+          ]
+        },
+        {
+          "event": "FLING_END",
+          "from": "fling",
+          "when": "RIGHT",
+          "choices": [
+            {
+              "to": "climb_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "descend_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            }
+          ]
+        },
+        {
+          "event": "FLING_END",
+          "from": "fling",
+          "when": "TOP",
+          "facing": "LEFT",
+          "choices": [
+            {
+              "to": "climb_ceiling_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            }
+          ]
+        },
+        {
+          "event": "FLING_END",
+          "from": "fling",
+          "when": "TOP",
+          "facing": "RIGHT",
+          "choices": [
+            {
+              "to": "climb_ceiling_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            }
+          ]
+        },
+        {
+          "event": "FLING_END",
+          "from": "fling",
+          "when": "BOTTOM",
+          "facing": "LEFT",
+          "choices": [
+            {
+              "to": "bounce",
+              "weight": 1,
+              "setFacing": "LEFT"
+            }
+          ]
+        },
+        {
+          "event": "FLING_END",
+          "from": "fling",
+          "when": "BOTTOM",
+          "facing": "RIGHT",
+          "choices": [
+            {
+              "to": "bounce",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            }
+          ]
+        },
+        {
+          "event": "FLING_END",
+          "from": "fling",
+          "choices": [
+            {
+              "to": "fall",
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "motion_1",
+      "type": "GROUND",
+      "subtype": "STAND",
+      "level": 2,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 132,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 133,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 134,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 135,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 136,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 137,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 138,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 139,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 140,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 141,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 142,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 143,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 144,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 145,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 146,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 147,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 148,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 149,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 150,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 151,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 150,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 149,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 148,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 147,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 146,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 145,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 144,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 143,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 142,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 141,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 140,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 139,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 138,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 137,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 136,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 135,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 134,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 133,
+          "durationTicks": 6
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "walk_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          }
+        ]
+      }
+    },
+    {
+      "key": "motion_2",
+      "type": "CUSTOM",
+      "subtype": "TAP",
+      "level": 2,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 172,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 173,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 174,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 175,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 176,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 177,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 178,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 179,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 180,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 181,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 182,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 183,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 184,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 185,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 186,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 187,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 188,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 189,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 190,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 191,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 190,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 189,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 188,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 187,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 186,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 185,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 184,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 183,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 182,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 181,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 180,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 179,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 178,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 177,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 176,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 175,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 174,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 173,
+          "durationTicks": 6
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "event": "DRAG_START",
+      "from": "*",
+      "choices": [
+        {
+          "to": "drag",
+          "weight": 1,
+          "setFacing": "RANDOM"
+        }
+      ]
+    },
+    {
+      "event": "FLING_START",
+      "from": "*",
+      "choices": [
+        {
+          "to": "fling",
+          "weight": 1,
+          "setFacing": "EVENT_VELOCITY"
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "minLevel": 1,
+      "allowedTypes": [
+        "WALL"
+      ],
+      "choices": [
+        {
+          "to": "fall",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "minLevel": 1,
+      "allowedTypes": [
+        "CEILING"
+      ],
+      "choices": [
+        {
+          "to": "fall",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

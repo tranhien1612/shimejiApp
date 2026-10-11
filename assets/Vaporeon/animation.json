@@ -1,0 +1,1260 @@
+{
+  "schema_id": "default",
+  "version": 1,
+  "default_animation": "fall",
+  "initial_candidates": [
+    "fall"
+  ],
+  "animations": [
+    {
+      "key": "stand",
+      "type": "GROUND",
+      "subtype": "STAND",
+      "level": 1,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 0,
+          "durationTicks": 120,
+          "aiSourceAssetId": "aW1nXzRmN2VlYmVkLTA0ODEtNGUyNy05NmE5LTdhZGM4OGZmNDMwNjphcnRpZmFjdHMvd29ya2VyL3NvdXJjZV9pbWFnZXMvaW1hZ2VfMDAwMS5wbmc"
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "walk_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "stand",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "key": "walk_left",
+      "type": "GROUND",
+      "subtype": "WALK",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "LEFT",
+      "frames": [
+        {
+          "sprite": 1,
+          "dx": -2,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV9mYjQxN2NjYi02ZjhkLTRlY2ItODY5Yi01YjJmMGM3Y2U0NTU6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwMC53ZWJw"
+        },
+        {
+          "sprite": 2,
+          "dx": -2,
+          "durationTicks": 8,
+          "aiSourceAssetId": "YW5pbV9mYjQxN2NjYi02ZjhkLTRlY2ItODY5Yi01YjJmMGM3Y2U0NTU6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwMS53ZWJw"
+        },
+        {
+          "sprite": 3,
+          "dx": -2,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV9mYjQxN2NjYi02ZjhkLTRlY2ItODY5Yi01YjJmMGM3Y2U0NTU6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwMi53ZWJw"
+        },
+        {
+          "sprite": 4,
+          "dx": -2,
+          "durationTicks": 8,
+          "aiSourceAssetId": "YW5pbV9mYjQxN2NjYi02ZjhkLTRlY2ItODY5Yi01YjJmMGM3Y2U0NTU6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwMy53ZWJw"
+        },
+        {
+          "sprite": 5,
+          "dx": -2,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV9mYjQxN2NjYi02ZjhkLTRlY2ItODY5Yi01YjJmMGM3Y2U0NTU6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwNC53ZWJw"
+        },
+        {
+          "sprite": 6,
+          "dx": -2,
+          "durationTicks": 8,
+          "aiSourceAssetId": "YW5pbV9mYjQxN2NjYi02ZjhkLTRlY2ItODY5Yi01YjJmMGM3Y2U0NTU6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwNS53ZWJw"
+        },
+        {
+          "sprite": 7,
+          "dx": -2,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV9mYjQxN2NjYi02ZjhkLTRlY2ItODY5Yi01YjJmMGM3Y2U0NTU6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwNi53ZWJw"
+        },
+        {
+          "sprite": 8,
+          "dx": -2,
+          "durationTicks": 8,
+          "aiSourceAssetId": "YW5pbV9mYjQxN2NjYi02ZjhkLTRlY2ItODY5Yi01YjJmMGM3Y2U0NTU6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwNy53ZWJw"
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 1
+          },
+          {
+            "to": "walk_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "LEFT",
+          "choices": [
+            {
+              "to": "walk_right",
+              "weight": 3,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "climb_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "walk_right",
+      "type": "GROUND",
+      "subtype": "WALK",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "RIGHT",
+      "frames": [
+        {
+          "sprite": 1,
+          "dx": 2,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV9mYjQxN2NjYi02ZjhkLTRlY2ItODY5Yi01YjJmMGM3Y2U0NTU6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwMC53ZWJw"
+        },
+        {
+          "sprite": 2,
+          "dx": 2,
+          "durationTicks": 8,
+          "aiSourceAssetId": "YW5pbV9mYjQxN2NjYi02ZjhkLTRlY2ItODY5Yi01YjJmMGM3Y2U0NTU6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwMS53ZWJw"
+        },
+        {
+          "sprite": 3,
+          "dx": 2,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV9mYjQxN2NjYi02ZjhkLTRlY2ItODY5Yi01YjJmMGM3Y2U0NTU6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwMi53ZWJw"
+        },
+        {
+          "sprite": 4,
+          "dx": 2,
+          "durationTicks": 8,
+          "aiSourceAssetId": "YW5pbV9mYjQxN2NjYi02ZjhkLTRlY2ItODY5Yi01YjJmMGM3Y2U0NTU6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwMy53ZWJw"
+        },
+        {
+          "sprite": 5,
+          "dx": 2,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV9mYjQxN2NjYi02ZjhkLTRlY2ItODY5Yi01YjJmMGM3Y2U0NTU6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwNC53ZWJw"
+        },
+        {
+          "sprite": 6,
+          "dx": 2,
+          "durationTicks": 8,
+          "aiSourceAssetId": "YW5pbV9mYjQxN2NjYi02ZjhkLTRlY2ItODY5Yi01YjJmMGM3Y2U0NTU6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwNS53ZWJw"
+        },
+        {
+          "sprite": 7,
+          "dx": 2,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV9mYjQxN2NjYi02ZjhkLTRlY2ItODY5Yi01YjJmMGM3Y2U0NTU6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwNi53ZWJw"
+        },
+        {
+          "sprite": 8,
+          "dx": 2,
+          "durationTicks": 8,
+          "aiSourceAssetId": "YW5pbV9mYjQxN2NjYi02ZjhkLTRlY2ItODY5Yi01YjJmMGM3Y2U0NTU6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwNy53ZWJw"
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 1
+          },
+          {
+            "to": "walk_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "RIGHT",
+          "choices": [
+            {
+              "to": "walk_left",
+              "weight": 3,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "climb_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "bounce",
+      "type": "GROUND",
+      "subtype": "BOUNCE",
+      "level": 1,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 27,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV8wMDU0NTE0ZC0zODQ4LTRmYWItOTc5Yi02YWRiMTlhNjU5MGI6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwMC53ZWJw"
+        },
+        {
+          "sprite": 28,
+          "durationTicks": 7,
+          "aiSourceAssetId": "YW5pbV8wMDU0NTE0ZC0zODQ4LTRmYWItOTc5Yi02YWRiMTlhNjU5MGI6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwMS53ZWJw"
+        },
+        {
+          "sprite": 29,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV8wMDU0NTE0ZC0zODQ4LTRmYWItOTc5Yi02YWRiMTlhNjU5MGI6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwMi53ZWJw"
+        },
+        {
+          "sprite": 30,
+          "durationTicks": 7,
+          "aiSourceAssetId": "YW5pbV8wMDU0NTE0ZC0zODQ4LTRmYWItOTc5Yi02YWRiMTlhNjU5MGI6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwMy53ZWJw"
+        },
+        {
+          "sprite": 31,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV8wMDU0NTE0ZC0zODQ4LTRmYWItOTc5Yi02YWRiMTlhNjU5MGI6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwNC53ZWJw"
+        },
+        {
+          "sprite": 32,
+          "durationTicks": 7,
+          "aiSourceAssetId": "YW5pbV8wMDU0NTE0ZC0zODQ4LTRmYWItOTc5Yi02YWRiMTlhNjU5MGI6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwNS53ZWJw"
+        },
+        {
+          "sprite": 33,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV8wMDU0NTE0ZC0zODQ4LTRmYWItOTc5Yi02YWRiMTlhNjU5MGI6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwNi53ZWJw"
+        },
+        {
+          "sprite": 34,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV8wMDU0NTE0ZC0zODQ4LTRmYWItOTc5Yi02YWRiMTlhNjU5MGI6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwNy53ZWJw"
+        },
+        {
+          "sprite": 35,
+          "durationTicks": 7,
+          "aiSourceAssetId": "YW5pbV8wMDU0NTE0ZC0zODQ4LTRmYWItOTc5Yi02YWRiMTlhNjU5MGI6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwOC53ZWJw"
+        },
+        {
+          "sprite": 36,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV8wMDU0NTE0ZC0zODQ4LTRmYWItOTc5Yi02YWRiMTlhNjU5MGI6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwOS53ZWJw"
+        },
+        {
+          "sprite": 37,
+          "durationTicks": 7,
+          "aiSourceAssetId": "YW5pbV8wMDU0NTE0ZC0zODQ4LTRmYWItOTc5Yi02YWRiMTlhNjU5MGI6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxMC53ZWJw"
+        },
+        {
+          "sprite": 38,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV8wMDU0NTE0ZC0zODQ4LTRmYWItOTc5Yi02YWRiMTlhNjU5MGI6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxMS53ZWJw"
+        },
+        {
+          "sprite": 39,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV8wMDU0NTE0ZC0zODQ4LTRmYWItOTc5Yi02YWRiMTlhNjU5MGI6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxMi53ZWJw"
+        },
+        {
+          "sprite": 40,
+          "durationTicks": 7,
+          "aiSourceAssetId": "YW5pbV8wMDU0NTE0ZC0zODQ4LTRmYWItOTc5Yi02YWRiMTlhNjU5MGI6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxMy53ZWJw"
+        },
+        {
+          "sprite": 41,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV8wMDU0NTE0ZC0zODQ4LTRmYWItOTc5Yi02YWRiMTlhNjU5MGI6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxNC53ZWJw"
+        },
+        {
+          "sprite": 42,
+          "durationTicks": 10,
+          "aiSourceAssetId": "YW5pbV8wMDU0NTE0ZC0zODQ4LTRmYWItOTc5Yi02YWRiMTlhNjU5MGI6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxNS53ZWJw"
+        },
+        {
+          "sprite": 43,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV8wMDU0NTE0ZC0zODQ4LTRmYWItOTc5Yi02YWRiMTlhNjU5MGI6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxNi53ZWJw"
+        },
+        {
+          "sprite": 44,
+          "durationTicks": 7,
+          "aiSourceAssetId": "YW5pbV8wMDU0NTE0ZC0zODQ4LTRmYWItOTc5Yi02YWRiMTlhNjU5MGI6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxNy53ZWJw"
+        },
+        {
+          "sprite": 45,
+          "durationTicks": 7,
+          "aiSourceAssetId": "YW5pbV8wMDU0NTE0ZC0zODQ4LTRmYWItOTc5Yi02YWRiMTlhNjU5MGI6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxOC53ZWJw"
+        },
+        {
+          "sprite": 46,
+          "durationTicks": 2,
+          "aiSourceAssetId": "YW5pbV8wMDU0NTE0ZC0zODQ4LTRmYWItOTc5Yi02YWRiMTlhNjU5MGI6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxOS53ZWJw"
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 1
+          },
+          {
+            "to": "walk_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          }
+        ]
+      }
+    },
+    {
+      "key": "idle",
+      "type": "GROUND",
+      "subtype": "IDLE",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 58,
+          "durationTicks": 7,
+          "aiSourceAssetId": "YW5pbV81YzY5MzE0Ny1mMmY5LTRlZjQtYjM0Zi1jYzQ1ZDU5ZTIzMTg6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxNC53ZWJw"
+        },
+        {
+          "sprite": 59,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV81YzY5MzE0Ny1mMmY5LTRlZjQtYjM0Zi1jYzQ1ZDU5ZTIzMTg6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxNS53ZWJw"
+        },
+        {
+          "sprite": 60,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV81YzY5MzE0Ny1mMmY5LTRlZjQtYjM0Zi1jYzQ1ZDU5ZTIzMTg6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxNi53ZWJw"
+        },
+        {
+          "sprite": 61,
+          "durationTicks": 7,
+          "aiSourceAssetId": "YW5pbV81YzY5MzE0Ny1mMmY5LTRlZjQtYjM0Zi1jYzQ1ZDU5ZTIzMTg6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxNy53ZWJw"
+        },
+        {
+          "sprite": 62,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV81YzY5MzE0Ny1mMmY5LTRlZjQtYjM0Zi1jYzQ1ZDU5ZTIzMTg6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxOC53ZWJw"
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "idle",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "key": "climb_ceiling_left",
+      "type": "CEILING",
+      "subtype": "HANG",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "LEFT",
+      "frames": [
+        {
+          "sprite": 9,
+          "dx": -2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 10,
+          "dx": -2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 11,
+          "dx": -2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 12,
+          "dx": -2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 13,
+          "dx": -2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 14,
+          "dx": -2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 15,
+          "dx": -2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 16,
+          "dx": -2,
+          "durationTicks": 6
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "climb_ceiling_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "fall",
+            "weight": 0.2
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "LEFT",
+          "choices": [
+            {
+              "to": "climb_ceiling_right",
+              "weight": 0.8,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "fall",
+              "weight": 0.2
+            },
+            {
+              "to": "descend_left",
+              "weight": 1
+            }
+          ]
+        }
+      ],
+      "editorMirrorSibling": true
+    },
+    {
+      "key": "climb_ceiling_right",
+      "type": "CEILING",
+      "subtype": "HANG",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "RIGHT",
+      "frames": [
+        {
+          "sprite": 9,
+          "dx": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 10,
+          "dx": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 11,
+          "dx": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 12,
+          "dx": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 13,
+          "dx": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 14,
+          "dx": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 15,
+          "dx": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 16,
+          "dx": 2,
+          "durationTicks": 6
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "climb_ceiling_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "fall",
+            "weight": 0.2
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "RIGHT",
+          "choices": [
+            {
+              "to": "climb_ceiling_left",
+              "weight": 0.8,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "fall",
+              "weight": 0.2
+            },
+            {
+              "to": "descend_right",
+              "weight": 1
+            }
+          ]
+        }
+      ],
+      "editorMirrorSibling": true
+    },
+    {
+      "key": "climb_left",
+      "type": "WALL",
+      "subtype": "CLIMB",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "LEFT",
+      "frames": [
+        {
+          "sprite": 17,
+          "dy": -2,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV9iYjIyZWM5OC0zOTI0LTRiMWQtOGJmYy02NGIwZDJjNjNiMGY6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwOC53ZWJw"
+        },
+        {
+          "sprite": 18,
+          "dy": -2,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV9iYjIyZWM5OC0zOTI0LTRiMWQtOGJmYy02NGIwZDJjNjNiMGY6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwOS53ZWJw"
+        },
+        {
+          "sprite": 19,
+          "dy": -2,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV9iYjIyZWM5OC0zOTI0LTRiMWQtOGJmYy02NGIwZDJjNjNiMGY6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxMC53ZWJw"
+        },
+        {
+          "sprite": 20,
+          "dy": -2,
+          "durationTicks": 7,
+          "aiSourceAssetId": "YW5pbV9iYjIyZWM5OC0zOTI0LTRiMWQtOGJmYy02NGIwZDJjNjNiMGY6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxMS53ZWJw"
+        },
+        {
+          "sprite": 21,
+          "dy": -2,
+          "durationTicks": 7,
+          "aiSourceAssetId": "YW5pbV9iYjIyZWM5OC0zOTI0LTRiMWQtOGJmYy02NGIwZDJjNjNiMGY6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxMi53ZWJw"
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "descend_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "climb_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "TOP",
+          "choices": [
+            {
+              "to": "descend_left",
+              "weight": 1
+            },
+            {
+              "to": "climb_ceiling_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "climb_right",
+      "type": "WALL",
+      "subtype": "CLIMB",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "RIGHT",
+      "frames": [
+        {
+          "sprite": 17,
+          "dy": -2,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV9iYjIyZWM5OC0zOTI0LTRiMWQtOGJmYy02NGIwZDJjNjNiMGY6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwOC53ZWJw"
+        },
+        {
+          "sprite": 18,
+          "dy": -2,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV9iYjIyZWM5OC0zOTI0LTRiMWQtOGJmYy02NGIwZDJjNjNiMGY6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwOS53ZWJw"
+        },
+        {
+          "sprite": 19,
+          "dy": -2,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV9iYjIyZWM5OC0zOTI0LTRiMWQtOGJmYy02NGIwZDJjNjNiMGY6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxMC53ZWJw"
+        },
+        {
+          "sprite": 20,
+          "dy": -2,
+          "durationTicks": 7,
+          "aiSourceAssetId": "YW5pbV9iYjIyZWM5OC0zOTI0LTRiMWQtOGJmYy02NGIwZDJjNjNiMGY6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxMS53ZWJw"
+        },
+        {
+          "sprite": 21,
+          "dy": -2,
+          "durationTicks": 7,
+          "aiSourceAssetId": "YW5pbV9iYjIyZWM5OC0zOTI0LTRiMWQtOGJmYy02NGIwZDJjNjNiMGY6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxMi53ZWJw"
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "descend_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "climb_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "TOP",
+          "choices": [
+            {
+              "to": "descend_right",
+              "weight": 1
+            },
+            {
+              "to": "climb_ceiling_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "descend_left",
+      "type": "WALL",
+      "subtype": "DESCEND",
+      "level": 3,
+      "loop": "LOOP",
+      "direction": "LEFT",
+      "frames": [
+        {
+          "sprite": 22,
+          "dy": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 23,
+          "dy": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 24,
+          "dy": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 25,
+          "dy": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 26,
+          "dy": 2,
+          "durationTicks": 6
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "climb_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "descend_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "BOTTOM",
+          "choices": [
+            {
+              "to": "walk_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "stand",
+              "weight": 1
+            }
+          ]
+        }
+      ],
+      "editorMirrorSibling": true
+    },
+    {
+      "key": "descend_right",
+      "type": "WALL",
+      "subtype": "DESCEND",
+      "level": 3,
+      "loop": "LOOP",
+      "direction": "RIGHT",
+      "frames": [
+        {
+          "sprite": 22,
+          "dy": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 23,
+          "dy": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 24,
+          "dy": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 25,
+          "dy": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 26,
+          "dy": 2,
+          "durationTicks": 6
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "climb_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "descend_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "BOTTOM",
+          "choices": [
+            {
+              "to": "walk_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "stand",
+              "weight": 1
+            }
+          ]
+        }
+      ],
+      "editorMirrorSibling": true
+    },
+    {
+      "key": "fall",
+      "type": "AIR",
+      "subtype": "FALL",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 47,
+          "dy": 10,
+          "durationTicks": 6
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "fall",
+            "weight": 1
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "BOTTOM",
+          "facing": "ANY",
+          "setFacing": "KEEP",
+          "choices": [
+            {
+              "to": "bounce",
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "drag",
+      "type": "USER",
+      "subtype": "DRAG",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 48,
+          "durationTicks": 7,
+          "aiSourceAssetId": "YW5pbV9hNTM0ZjcwOS1jYTU1LTRlN2QtYTg3Yy1mNDYxOGQ2ZmE4Njc6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwNi53ZWJw"
+        },
+        {
+          "sprite": 49,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV9hNTM0ZjcwOS1jYTU1LTRlN2QtYTg3Yy1mNDYxOGQ2ZmE4Njc6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwNy53ZWJw"
+        },
+        {
+          "sprite": 50,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV9hNTM0ZjcwOS1jYTU1LTRlN2QtYTg3Yy1mNDYxOGQ2ZmE4Njc6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwOC53ZWJw"
+        },
+        {
+          "sprite": 51,
+          "durationTicks": 7,
+          "aiSourceAssetId": "YW5pbV9hNTM0ZjcwOS1jYTU1LTRlN2QtYTg3Yy1mNDYxOGQ2ZmE4Njc6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwOS53ZWJw"
+        },
+        {
+          "sprite": 52,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV9hNTM0ZjcwOS1jYTU1LTRlN2QtYTg3Yy1mNDYxOGQ2ZmE4Njc6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxMC53ZWJw"
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "drag",
+            "weight": 1
+          }
+        ]
+      },
+      "eventTransitions": [
+        {
+          "event": "DRAG_END",
+          "from": "drag",
+          "when": "LEFT",
+          "choices": [
+            {
+              "to": "climb_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "descend_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            }
+          ]
+        },
+        {
+          "event": "DRAG_END",
+          "from": "drag",
+          "when": "RIGHT",
+          "choices": [
+            {
+              "to": "climb_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "descend_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            }
+          ]
+        },
+        {
+          "event": "DRAG_END",
+          "from": "drag",
+          "when": "TOP",
+          "facing": "LEFT",
+          "choices": [
+            {
+              "to": "climb_ceiling_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            }
+          ]
+        },
+        {
+          "event": "DRAG_END",
+          "from": "drag",
+          "when": "TOP",
+          "facing": "RIGHT",
+          "choices": [
+            {
+              "to": "climb_ceiling_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            }
+          ]
+        },
+        {
+          "event": "DRAG_END",
+          "from": "drag",
+          "setFacing": "RANDOM",
+          "choices": [
+            {
+              "to": "fall",
+              "weight": 1,
+              "setFacing": "RANDOM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fling",
+      "type": "USER",
+      "subtype": "FLING",
+      "level": 2,
+      "loop": "LOOP",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 53,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 54,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 55,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 56,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 57,
+          "durationTicks": 6
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "fling",
+            "weight": 1
+          }
+        ]
+      },
+      "eventTransitions": [
+        {
+          "event": "FLING_END",
+          "from": "fling",
+          "when": "LEFT",
+          "choices": [
+            {
+              "to": "climb_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "descend_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            }
+          ]
+        },
+        {
+          "event": "FLING_END",
+          "from": "fling",
+          "when": "RIGHT",
+          "choices": [
+            {
+              "to": "climb_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "descend_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            }
+          ]
+        },
+        {
+          "event": "FLING_END",
+          "from": "fling",
+          "when": "TOP",
+          "facing": "LEFT",
+          "choices": [
+            {
+              "to": "climb_ceiling_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            }
+          ]
+        },
+        {
+          "event": "FLING_END",
+          "from": "fling",
+          "when": "TOP",
+          "facing": "RIGHT",
+          "choices": [
+            {
+              "to": "climb_ceiling_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            }
+          ]
+        },
+        {
+          "event": "FLING_END",
+          "from": "fling",
+          "when": "BOTTOM",
+          "facing": "LEFT",
+          "setFacing": "LEFT",
+          "choices": [
+            {
+              "to": "bounce",
+              "weight": 1,
+              "setFacing": "LEFT"
+            }
+          ]
+        },
+        {
+          "event": "FLING_END",
+          "from": "fling",
+          "when": "BOTTOM",
+          "facing": "RIGHT",
+          "setFacing": "RIGHT",
+          "choices": [
+            {
+              "to": "bounce",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            }
+          ]
+        },
+        {
+          "event": "FLING_END",
+          "from": "fling",
+          "choices": [
+            {
+              "to": "fall",
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "event": "DRAG_START",
+      "from": "*",
+      "setFacing": "RANDOM",
+      "choices": [
+        {
+          "to": "drag",
+          "weight": 1,
+          "setFacing": "RANDOM"
+        }
+      ]
+    },
+    {
+      "event": "FLING_START",
+      "from": "*",
+      "choices": [
+        {
+          "to": "fling",
+          "weight": 1,
+          "setFacing": "EVENT_VELOCITY"
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "stand",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "walk_left",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "walk_right",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "idle",
+      "choices": [
+        {
+          "to": "walk_left",
+          "weight": 1,
+          "setFacing": "LEFT"
+        },
+        {
+          "to": "walk_right",
+          "weight": 1,
+          "setFacing": "RIGHT"
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "minLevel": 1,
+      "maxLevel": 20,
+      "allowedTypes": [
+        "WALL"
+      ],
+      "choices": [
+        {
+          "to": "fall",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "minLevel": 1,
+      "maxLevel": 20,
+      "allowedTypes": [
+        "CEILING"
+      ],
+      "choices": [
+        {
+          "to": "fall",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "name": "네네",
+  "nameSlug": "mascot",
+  "category": "학생",
+  "categorySlug": "custom",
+  "description": "A chibi schoolgirl with extremely long, thick sage-gray hair reaching below the waist, two low side-tied locks with red bands, and purple eyes. She wears a navy school uniform with a large red bow, a blue plaid pleated skirt, dark socks, and brown shoes. Keep her character design, colors, hairstyle, face, outfit, and proportions consistent.",
+  "bundleVersion": 1,
+  "minAppVersion": 94,
+  "levels": 3,
+  "origin": "LOCAL",
+  "animationSchema": {
+    "path": "animation.json",
+    "schemaId": "default",
+    "version": 1
+  },
+  "sprites": {
+    "type": "SEQUENCE",
+    "basePath": "sprites/",
+    "filePattern": "%04d.webp",
+    "spriteCount": 168,
+    "size": [
+      512,
+      512
+    ]
+  },
+  "preview": {
+    "thumbnail": "thumbnail.webp"
+  },
+  "author": {
+    "name": "Local Creator"
+  },
+  "license": {
+    "type": "CUSTOM",
+    "text": "Exported from Shimeji",
+    "attribution": "Local Creator"
+  }
+}

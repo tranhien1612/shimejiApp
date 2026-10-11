@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "name": "Rick Sanchez",
+  "nameSlug": "rick-sanchez",
+  "category": "Humano",
+  "categorySlug": "humano",
+  "description": "O humano mais inteligente do multiverso, ele não se importa com nada nem ninguém além de si propio.\n(mas será?)",
+  "bundleVersion": 1,
+  "minAppVersion": 94,
+  "levels": 4,
+  "origin": "LOCAL",
+  "animationSchema": {
+    "path": "animation.json",
+    "schemaId": "legacy_default_v1",
+    "version": 1
+  },
+  "sprites": {
+    "type": "SEQUENCE",
+    "basePath": "sprites/",
+    "filePattern": "%04d.webp",
+    "spriteCount": 64,
+    "size": [
+      512,
+      512
+    ]
+  },
+  "preview": {
+    "thumbnail": "thumbnail.webp"
+  },
+  "author": {
+    "name": "Local Creator"
+  },
+  "license": {
+    "type": "CUSTOM",
+    "text": "Exported from Shimeji",
+    "attribution": "Local Creator"
+  }
+}

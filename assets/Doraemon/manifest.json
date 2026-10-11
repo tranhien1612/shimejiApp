@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "name": "Doraemon",
+  "nameSlug": "doraemon",
+  "category": "Anime",
+  "categorySlug": "anime",
+  "description": "Doraemon, the round blue robot cat from the 22nd century with his magic 4D pocket",
+  "bundleVersion": 1,
+  "minAppVersion": 94,
+  "levels": 8,
+  "origin": "LOCAL",
+  "animationSchema": {
+    "path": "animation.json",
+    "schemaId": "default",
+    "version": 1
+  },
+  "sprites": {
+    "type": "SEQUENCE",
+    "basePath": "sprites/",
+    "filePattern": "%04d.webp",
+    "spriteCount": 214,
+    "size": [
+      512,
+      512
+    ]
+  },
+  "preview": {
+    "thumbnail": "thumbnail.webp"
+  },
+  "author": {
+    "name": "Local Creator"
+  },
+  "license": {
+    "type": "CUSTOM",
+    "text": "Exported from Shimeji",
+    "attribution": "Local Creator"
+  }
+}

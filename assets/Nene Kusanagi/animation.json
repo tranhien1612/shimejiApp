@@ -1,0 +1,2286 @@
+{
+  "schema_id": "default",
+  "version": 1,
+  "default_animation": "fall",
+  "initial_candidates": [
+    "fall"
+  ],
+  "animations": [
+    {
+      "key": "stand",
+      "type": "GROUND",
+      "subtype": "STAND",
+      "level": 1,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 54,
+          "durationTicks": 10,
+          "aiSourceAssetId": "YW5pbV8xYjgzNTMxOC0zZWNhLTQ4ZTUtYjNjOC05NmZmZDIxMGYwOTA6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwMC53ZWJw"
+        },
+        {
+          "sprite": 55,
+          "durationTicks": 10,
+          "aiSourceAssetId": "YW5pbV8xYjgzNTMxOC0zZWNhLTQ4ZTUtYjNjOC05NmZmZDIxMGYwOTA6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwMS53ZWJw"
+        },
+        {
+          "sprite": 56,
+          "durationTicks": 2,
+          "aiSourceAssetId": "YW5pbV8xYjgzNTMxOC0zZWNhLTQ4ZTUtYjNjOC05NmZmZDIxMGYwOTA6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwMi53ZWJw"
+        },
+        {
+          "sprite": 57,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV8xYjgzNTMxOC0zZWNhLTQ4ZTUtYjNjOC05NmZmZDIxMGYwOTA6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwMy53ZWJw"
+        },
+        {
+          "sprite": 58,
+          "durationTicks": 2,
+          "aiSourceAssetId": "YW5pbV8xYjgzNTMxOC0zZWNhLTQ4ZTUtYjNjOC05NmZmZDIxMGYwOTA6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwNC53ZWJw"
+        },
+        {
+          "sprite": 59,
+          "durationTicks": 7,
+          "aiSourceAssetId": "YW5pbV8xYjgzNTMxOC0zZWNhLTQ4ZTUtYjNjOC05NmZmZDIxMGYwOTA6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwNS53ZWJw"
+        },
+        {
+          "sprite": 60,
+          "durationTicks": 2,
+          "aiSourceAssetId": "YW5pbV8xYjgzNTMxOC0zZWNhLTQ4ZTUtYjNjOC05NmZmZDIxMGYwOTA6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwNi53ZWJw"
+        },
+        {
+          "sprite": 61,
+          "durationTicks": 19,
+          "aiSourceAssetId": "YW5pbV8xYjgzNTMxOC0zZWNhLTQ4ZTUtYjNjOC05NmZmZDIxMGYwOTA6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwNy53ZWJw"
+        },
+        {
+          "sprite": 62,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV8xYjgzNTMxOC0zZWNhLTQ4ZTUtYjNjOC05NmZmZDIxMGYwOTA6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwOC53ZWJw"
+        },
+        {
+          "sprite": 63,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV8xYjgzNTMxOC0zZWNhLTQ4ZTUtYjNjOC05NmZmZDIxMGYwOTA6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwOS53ZWJw"
+        },
+        {
+          "sprite": 64,
+          "durationTicks": 2,
+          "aiSourceAssetId": "YW5pbV8xYjgzNTMxOC0zZWNhLTQ4ZTUtYjNjOC05NmZmZDIxMGYwOTA6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxMC53ZWJw"
+        },
+        {
+          "sprite": 65,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV8xYjgzNTMxOC0zZWNhLTQ4ZTUtYjNjOC05NmZmZDIxMGYwOTA6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxMS53ZWJw"
+        },
+        {
+          "sprite": 66,
+          "durationTicks": 2,
+          "aiSourceAssetId": "YW5pbV8xYjgzNTMxOC0zZWNhLTQ4ZTUtYjNjOC05NmZmZDIxMGYwOTA6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxMi53ZWJw"
+        },
+        {
+          "sprite": 67,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV8xYjgzNTMxOC0zZWNhLTQ4ZTUtYjNjOC05NmZmZDIxMGYwOTA6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxMy53ZWJw"
+        },
+        {
+          "sprite": 68,
+          "durationTicks": 2,
+          "aiSourceAssetId": "YW5pbV8xYjgzNTMxOC0zZWNhLTQ4ZTUtYjNjOC05NmZmZDIxMGYwOTA6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxNC53ZWJw"
+        },
+        {
+          "sprite": 69,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV8xYjgzNTMxOC0zZWNhLTQ4ZTUtYjNjOC05NmZmZDIxMGYwOTA6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxNS53ZWJw"
+        },
+        {
+          "sprite": 70,
+          "durationTicks": 2,
+          "aiSourceAssetId": "YW5pbV8xYjgzNTMxOC0zZWNhLTQ4ZTUtYjNjOC05NmZmZDIxMGYwOTA6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxNi53ZWJw"
+        },
+        {
+          "sprite": 71,
+          "durationTicks": 12,
+          "aiSourceAssetId": "YW5pbV8xYjgzNTMxOC0zZWNhLTQ4ZTUtYjNjOC05NmZmZDIxMGYwOTA6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxNy53ZWJw"
+        },
+        {
+          "sprite": 72,
+          "durationTicks": 10,
+          "aiSourceAssetId": "YW5pbV8xYjgzNTMxOC0zZWNhLTQ4ZTUtYjNjOC05NmZmZDIxMGYwOTA6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxOC53ZWJw"
+        },
+        {
+          "sprite": 73,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV8xYjgzNTMxOC0zZWNhLTQ4ZTUtYjNjOC05NmZmZDIxMGYwOTA6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxOS53ZWJw"
+        },
+        {
+          "sprite": 72,
+          "durationTicks": 10,
+          "aiSourceAssetId": "YW5pbV8xYjgzNTMxOC0zZWNhLTQ4ZTUtYjNjOC05NmZmZDIxMGYwOTA6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxOC53ZWJw"
+        },
+        {
+          "sprite": 71,
+          "durationTicks": 12,
+          "aiSourceAssetId": "YW5pbV8xYjgzNTMxOC0zZWNhLTQ4ZTUtYjNjOC05NmZmZDIxMGYwOTA6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxNy53ZWJw"
+        },
+        {
+          "sprite": 70,
+          "durationTicks": 2,
+          "aiSourceAssetId": "YW5pbV8xYjgzNTMxOC0zZWNhLTQ4ZTUtYjNjOC05NmZmZDIxMGYwOTA6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxNi53ZWJw"
+        },
+        {
+          "sprite": 69,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV8xYjgzNTMxOC0zZWNhLTQ4ZTUtYjNjOC05NmZmZDIxMGYwOTA6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxNS53ZWJw"
+        },
+        {
+          "sprite": 68,
+          "durationTicks": 2,
+          "aiSourceAssetId": "YW5pbV8xYjgzNTMxOC0zZWNhLTQ4ZTUtYjNjOC05NmZmZDIxMGYwOTA6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxNC53ZWJw"
+        },
+        {
+          "sprite": 67,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV8xYjgzNTMxOC0zZWNhLTQ4ZTUtYjNjOC05NmZmZDIxMGYwOTA6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxMy53ZWJw"
+        },
+        {
+          "sprite": 66,
+          "durationTicks": 2,
+          "aiSourceAssetId": "YW5pbV8xYjgzNTMxOC0zZWNhLTQ4ZTUtYjNjOC05NmZmZDIxMGYwOTA6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxMi53ZWJw"
+        },
+        {
+          "sprite": 65,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV8xYjgzNTMxOC0zZWNhLTQ4ZTUtYjNjOC05NmZmZDIxMGYwOTA6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxMS53ZWJw"
+        },
+        {
+          "sprite": 64,
+          "durationTicks": 2,
+          "aiSourceAssetId": "YW5pbV8xYjgzNTMxOC0zZWNhLTQ4ZTUtYjNjOC05NmZmZDIxMGYwOTA6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxMC53ZWJw"
+        },
+        {
+          "sprite": 63,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV8xYjgzNTMxOC0zZWNhLTQ4ZTUtYjNjOC05NmZmZDIxMGYwOTA6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwOS53ZWJw"
+        },
+        {
+          "sprite": 62,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV8xYjgzNTMxOC0zZWNhLTQ4ZTUtYjNjOC05NmZmZDIxMGYwOTA6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwOC53ZWJw"
+        },
+        {
+          "sprite": 61,
+          "durationTicks": 19,
+          "aiSourceAssetId": "YW5pbV8xYjgzNTMxOC0zZWNhLTQ4ZTUtYjNjOC05NmZmZDIxMGYwOTA6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwNy53ZWJw"
+        },
+        {
+          "sprite": 60,
+          "durationTicks": 2,
+          "aiSourceAssetId": "YW5pbV8xYjgzNTMxOC0zZWNhLTQ4ZTUtYjNjOC05NmZmZDIxMGYwOTA6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwNi53ZWJw"
+        },
+        {
+          "sprite": 59,
+          "durationTicks": 7,
+          "aiSourceAssetId": "YW5pbV8xYjgzNTMxOC0zZWNhLTQ4ZTUtYjNjOC05NmZmZDIxMGYwOTA6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwNS53ZWJw"
+        },
+        {
+          "sprite": 58,
+          "durationTicks": 2,
+          "aiSourceAssetId": "YW5pbV8xYjgzNTMxOC0zZWNhLTQ4ZTUtYjNjOC05NmZmZDIxMGYwOTA6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwNC53ZWJw"
+        },
+        {
+          "sprite": 57,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV8xYjgzNTMxOC0zZWNhLTQ4ZTUtYjNjOC05NmZmZDIxMGYwOTA6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwMy53ZWJw"
+        },
+        {
+          "sprite": 56,
+          "durationTicks": 2,
+          "aiSourceAssetId": "YW5pbV8xYjgzNTMxOC0zZWNhLTQ4ZTUtYjNjOC05NmZmZDIxMGYwOTA6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwMi53ZWJw"
+        },
+        {
+          "sprite": 55,
+          "durationTicks": 10,
+          "aiSourceAssetId": "YW5pbV8xYjgzNTMxOC0zZWNhLTQ4ZTUtYjNjOC05NmZmZDIxMGYwOTA6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwMS53ZWJw"
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "walk_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "stand",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "key": "walk_left",
+      "type": "GROUND",
+      "subtype": "WALK",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "LEFT",
+      "frames": [
+        {
+          "sprite": 0,
+          "dx": -2,
+          "durationTicks": 9,
+          "aiSourceAssetId": "YW5pbV8zYjEwZjIxYy1hOTJhLTQzM2UtODZjOC01NGEyOGFjNmIyZGY6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwNi53ZWJw"
+        },
+        {
+          "sprite": 1,
+          "dx": -2,
+          "durationTicks": 6,
+          "aiSourceAssetId": "YW5pbV8zYjEwZjIxYy1hOTJhLTQzM2UtODZjOC01NGEyOGFjNmIyZGY6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwNy53ZWJw"
+        },
+        {
+          "sprite": 2,
+          "dx": -2,
+          "durationTicks": 9,
+          "aiSourceAssetId": "YW5pbV8zYjEwZjIxYy1hOTJhLTQzM2UtODZjOC01NGEyOGFjNmIyZGY6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwOC53ZWJw"
+        },
+        {
+          "sprite": 3,
+          "dx": -2,
+          "durationTicks": 6,
+          "aiSourceAssetId": "YW5pbV8zYjEwZjIxYy1hOTJhLTQzM2UtODZjOC01NGEyOGFjNmIyZGY6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwOS53ZWJw"
+        },
+        {
+          "sprite": 4,
+          "dx": -2,
+          "durationTicks": 9,
+          "aiSourceAssetId": "YW5pbV8zYjEwZjIxYy1hOTJhLTQzM2UtODZjOC01NGEyOGFjNmIyZGY6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxMC53ZWJw"
+        },
+        {
+          "sprite": 5,
+          "dx": -2,
+          "durationTicks": 9,
+          "aiSourceAssetId": "YW5pbV8zYjEwZjIxYy1hOTJhLTQzM2UtODZjOC01NGEyOGFjNmIyZGY6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxMS53ZWJw"
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 1
+          },
+          {
+            "to": "walk_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "LEFT",
+          "choices": [
+            {
+              "to": "walk_right",
+              "weight": 3,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "climb_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "walk_right",
+      "type": "GROUND",
+      "subtype": "WALK",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "RIGHT",
+      "frames": [
+        {
+          "sprite": 0,
+          "dx": 2,
+          "durationTicks": 9,
+          "aiSourceAssetId": "YW5pbV8zYjEwZjIxYy1hOTJhLTQzM2UtODZjOC01NGEyOGFjNmIyZGY6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwNi53ZWJw"
+        },
+        {
+          "sprite": 1,
+          "dx": 2,
+          "durationTicks": 6,
+          "aiSourceAssetId": "YW5pbV8zYjEwZjIxYy1hOTJhLTQzM2UtODZjOC01NGEyOGFjNmIyZGY6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwNy53ZWJw"
+        },
+        {
+          "sprite": 2,
+          "dx": 2,
+          "durationTicks": 9,
+          "aiSourceAssetId": "YW5pbV8zYjEwZjIxYy1hOTJhLTQzM2UtODZjOC01NGEyOGFjNmIyZGY6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwOC53ZWJw"
+        },
+        {
+          "sprite": 3,
+          "dx": 2,
+          "durationTicks": 6,
+          "aiSourceAssetId": "YW5pbV8zYjEwZjIxYy1hOTJhLTQzM2UtODZjOC01NGEyOGFjNmIyZGY6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwOS53ZWJw"
+        },
+        {
+          "sprite": 4,
+          "dx": 2,
+          "durationTicks": 9,
+          "aiSourceAssetId": "YW5pbV8zYjEwZjIxYy1hOTJhLTQzM2UtODZjOC01NGEyOGFjNmIyZGY6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxMC53ZWJw"
+        },
+        {
+          "sprite": 5,
+          "dx": 2,
+          "durationTicks": 9,
+          "aiSourceAssetId": "YW5pbV8zYjEwZjIxYy1hOTJhLTQzM2UtODZjOC01NGEyOGFjNmIyZGY6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxMS53ZWJw"
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 1
+          },
+          {
+            "to": "walk_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "RIGHT",
+          "choices": [
+            {
+              "to": "walk_left",
+              "weight": 3,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "climb_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "bounce",
+      "type": "GROUND",
+      "subtype": "BOUNCE",
+      "level": 1,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 34,
+          "durationTicks": 7,
+          "aiSourceAssetId": "YW5pbV9jZDcyNzJmOS05ZWRjLTRmZDktYWJhYS1mYTJiMjUxYTRmOWY6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwMC53ZWJw"
+        },
+        {
+          "sprite": 35,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV9jZDcyNzJmOS05ZWRjLTRmZDktYWJhYS1mYTJiMjUxYTRmOWY6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwMS53ZWJw"
+        },
+        {
+          "sprite": 36,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV9jZDcyNzJmOS05ZWRjLTRmZDktYWJhYS1mYTJiMjUxYTRmOWY6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwMi53ZWJw"
+        },
+        {
+          "sprite": 37,
+          "durationTicks": 7,
+          "aiSourceAssetId": "YW5pbV9jZDcyNzJmOS05ZWRjLTRmZDktYWJhYS1mYTJiMjUxYTRmOWY6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwMy53ZWJw"
+        },
+        {
+          "sprite": 38,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV9jZDcyNzJmOS05ZWRjLTRmZDktYWJhYS1mYTJiMjUxYTRmOWY6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwNC53ZWJw"
+        },
+        {
+          "sprite": 39,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV9jZDcyNzJmOS05ZWRjLTRmZDktYWJhYS1mYTJiMjUxYTRmOWY6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwNS53ZWJw"
+        },
+        {
+          "sprite": 40,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV9jZDcyNzJmOS05ZWRjLTRmZDktYWJhYS1mYTJiMjUxYTRmOWY6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwNi53ZWJw"
+        },
+        {
+          "sprite": 41,
+          "durationTicks": 7,
+          "aiSourceAssetId": "YW5pbV9jZDcyNzJmOS05ZWRjLTRmZDktYWJhYS1mYTJiMjUxYTRmOWY6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwNy53ZWJw"
+        },
+        {
+          "sprite": 42,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV9jZDcyNzJmOS05ZWRjLTRmZDktYWJhYS1mYTJiMjUxYTRmOWY6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwOC53ZWJw"
+        },
+        {
+          "sprite": 43,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV9jZDcyNzJmOS05ZWRjLTRmZDktYWJhYS1mYTJiMjUxYTRmOWY6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwOS53ZWJw"
+        },
+        {
+          "sprite": 44,
+          "durationTicks": 7,
+          "aiSourceAssetId": "YW5pbV9jZDcyNzJmOS05ZWRjLTRmZDktYWJhYS1mYTJiMjUxYTRmOWY6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxMC53ZWJw"
+        },
+        {
+          "sprite": 45,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV9jZDcyNzJmOS05ZWRjLTRmZDktYWJhYS1mYTJiMjUxYTRmOWY6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxMS53ZWJw"
+        },
+        {
+          "sprite": 46,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV9jZDcyNzJmOS05ZWRjLTRmZDktYWJhYS1mYTJiMjUxYTRmOWY6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxMi53ZWJw"
+        },
+        {
+          "sprite": 47,
+          "durationTicks": 7,
+          "aiSourceAssetId": "YW5pbV9jZDcyNzJmOS05ZWRjLTRmZDktYWJhYS1mYTJiMjUxYTRmOWY6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxMy53ZWJw"
+        },
+        {
+          "sprite": 48,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV9jZDcyNzJmOS05ZWRjLTRmZDktYWJhYS1mYTJiMjUxYTRmOWY6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxNC53ZWJw"
+        },
+        {
+          "sprite": 49,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV9jZDcyNzJmOS05ZWRjLTRmZDktYWJhYS1mYTJiMjUxYTRmOWY6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxNS53ZWJw"
+        },
+        {
+          "sprite": 50,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV9jZDcyNzJmOS05ZWRjLTRmZDktYWJhYS1mYTJiMjUxYTRmOWY6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxNi53ZWJw"
+        },
+        {
+          "sprite": 51,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV9jZDcyNzJmOS05ZWRjLTRmZDktYWJhYS1mYTJiMjUxYTRmOWY6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxNy53ZWJw"
+        },
+        {
+          "sprite": 52,
+          "durationTicks": 14,
+          "aiSourceAssetId": "YW5pbV9jZDcyNzJmOS05ZWRjLTRmZDktYWJhYS1mYTJiMjUxYTRmOWY6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxOC53ZWJw"
+        },
+        {
+          "sprite": 53,
+          "durationTicks": 5,
+          "aiSourceAssetId": "YW5pbV9jZDcyNzJmOS05ZWRjLTRmZDktYWJhYS1mYTJiMjUxYTRmOWY6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxOS53ZWJw"
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 1
+          },
+          {
+            "to": "walk_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          }
+        ]
+      }
+    },
+    {
+      "key": "idle",
+      "type": "GROUND",
+      "subtype": "IDLE",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 134,
+          "durationTicks": 6,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwMC53ZWJw"
+        },
+        {
+          "sprite": 135,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwMS53ZWJw"
+        },
+        {
+          "sprite": 136,
+          "durationTicks": 6,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwMi53ZWJw"
+        },
+        {
+          "sprite": 137,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwMy53ZWJw"
+        },
+        {
+          "sprite": 138,
+          "durationTicks": 9,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwNC53ZWJw"
+        },
+        {
+          "sprite": 139,
+          "durationTicks": 6,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwNS53ZWJw"
+        },
+        {
+          "sprite": 140,
+          "durationTicks": 6,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwNi53ZWJw"
+        },
+        {
+          "sprite": 141,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwNy53ZWJw"
+        },
+        {
+          "sprite": 142,
+          "durationTicks": 9,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwOC53ZWJw"
+        },
+        {
+          "sprite": 143,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwOS53ZWJw"
+        },
+        {
+          "sprite": 144,
+          "durationTicks": 6,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxMC53ZWJw"
+        },
+        {
+          "sprite": 145,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxMS53ZWJw"
+        },
+        {
+          "sprite": 146,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxMi53ZWJw"
+        },
+        {
+          "sprite": 147,
+          "durationTicks": 6,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxMy53ZWJw"
+        },
+        {
+          "sprite": 148,
+          "durationTicks": 6,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxNC53ZWJw"
+        },
+        {
+          "sprite": 149,
+          "durationTicks": 9,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxNS53ZWJw"
+        },
+        {
+          "sprite": 150,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxNi53ZWJw"
+        },
+        {
+          "sprite": 151,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxNy53ZWJw"
+        },
+        {
+          "sprite": 152,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxOC53ZWJw"
+        },
+        {
+          "sprite": 153,
+          "durationTicks": 9,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxOS53ZWJw"
+        },
+        {
+          "sprite": 154,
+          "durationTicks": 9,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAyMC53ZWJw"
+        },
+        {
+          "sprite": 155,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAyMS53ZWJw"
+        },
+        {
+          "sprite": 156,
+          "durationTicks": 6,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAyMi53ZWJw"
+        },
+        {
+          "sprite": 157,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAyMy53ZWJw"
+        },
+        {
+          "sprite": 158,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAyNC53ZWJw"
+        },
+        {
+          "sprite": 159,
+          "durationTicks": 6,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAyNS53ZWJw"
+        },
+        {
+          "sprite": 160,
+          "durationTicks": 12,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAyNi53ZWJw"
+        },
+        {
+          "sprite": 161,
+          "durationTicks": 6,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAyNy53ZWJw"
+        },
+        {
+          "sprite": 162,
+          "durationTicks": 2,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAyOC53ZWJw"
+        },
+        {
+          "sprite": 161,
+          "durationTicks": 6,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAyNy53ZWJw"
+        },
+        {
+          "sprite": 160,
+          "durationTicks": 12,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAyNi53ZWJw"
+        },
+        {
+          "sprite": 159,
+          "durationTicks": 6,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAyNS53ZWJw"
+        },
+        {
+          "sprite": 158,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAyNC53ZWJw"
+        },
+        {
+          "sprite": 157,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAyMy53ZWJw"
+        },
+        {
+          "sprite": 156,
+          "durationTicks": 6,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAyMi53ZWJw"
+        },
+        {
+          "sprite": 155,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAyMS53ZWJw"
+        },
+        {
+          "sprite": 154,
+          "durationTicks": 9,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAyMC53ZWJw"
+        },
+        {
+          "sprite": 153,
+          "durationTicks": 9,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxOS53ZWJw"
+        },
+        {
+          "sprite": 152,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxOC53ZWJw"
+        },
+        {
+          "sprite": 151,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxNy53ZWJw"
+        },
+        {
+          "sprite": 150,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxNi53ZWJw"
+        },
+        {
+          "sprite": 149,
+          "durationTicks": 9,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxNS53ZWJw"
+        },
+        {
+          "sprite": 148,
+          "durationTicks": 6,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxNC53ZWJw"
+        },
+        {
+          "sprite": 147,
+          "durationTicks": 6,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxMy53ZWJw"
+        },
+        {
+          "sprite": 146,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxMi53ZWJw"
+        },
+        {
+          "sprite": 145,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxMS53ZWJw"
+        },
+        {
+          "sprite": 144,
+          "durationTicks": 6,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxMC53ZWJw"
+        },
+        {
+          "sprite": 143,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwOS53ZWJw"
+        },
+        {
+          "sprite": 142,
+          "durationTicks": 9,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwOC53ZWJw"
+        },
+        {
+          "sprite": 141,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwNy53ZWJw"
+        },
+        {
+          "sprite": 140,
+          "durationTicks": 6,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwNi53ZWJw"
+        },
+        {
+          "sprite": 139,
+          "durationTicks": 6,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwNS53ZWJw"
+        },
+        {
+          "sprite": 138,
+          "durationTicks": 9,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwNC53ZWJw"
+        },
+        {
+          "sprite": 137,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwMy53ZWJw"
+        },
+        {
+          "sprite": 136,
+          "durationTicks": 6,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwMi53ZWJw"
+        },
+        {
+          "sprite": 135,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV9lNDY4ZWU4Yy1hM2M5LTQ4NTYtYWIzZC0zMjA1NmM2ZDJlZjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwMS53ZWJw"
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "idle",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "key": "climb_ceiling_left",
+      "type": "CEILING",
+      "subtype": "HANG",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "LEFT",
+      "frames": [
+        {
+          "sprite": 6,
+          "dx": -2,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 7,
+          "dx": -2,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 8,
+          "dx": -2,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 9,
+          "dx": -2,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 10,
+          "dx": -2,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 11,
+          "dx": -2,
+          "durationTicks": 8
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "climb_ceiling_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "fall",
+            "weight": 0.2
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "LEFT",
+          "choices": [
+            {
+              "to": "climb_ceiling_right",
+              "weight": 0.8,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "fall",
+              "weight": 0.2
+            },
+            {
+              "to": "descend_left",
+              "weight": 1
+            }
+          ]
+        }
+      ],
+      "editorMirrorSibling": true
+    },
+    {
+      "key": "climb_ceiling_right",
+      "type": "CEILING",
+      "subtype": "HANG",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "RIGHT",
+      "frames": [
+        {
+          "sprite": 6,
+          "dx": 2,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 7,
+          "dx": 2,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 8,
+          "dx": 2,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 9,
+          "dx": 2,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 10,
+          "dx": 2,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 11,
+          "dx": 2,
+          "durationTicks": 8
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "climb_ceiling_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "fall",
+            "weight": 0.2
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "RIGHT",
+          "choices": [
+            {
+              "to": "climb_ceiling_left",
+              "weight": 0.8,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "fall",
+              "weight": 0.2
+            },
+            {
+              "to": "descend_right",
+              "weight": 1
+            }
+          ]
+        }
+      ],
+      "editorMirrorSibling": true
+    },
+    {
+      "key": "climb_left",
+      "type": "WALL",
+      "subtype": "CLIMB",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "LEFT",
+      "frames": [
+        {
+          "sprite": 12,
+          "dy": -2,
+          "durationTicks": 9
+        },
+        {
+          "sprite": 13,
+          "dy": -2,
+          "durationTicks": 4
+        },
+        {
+          "sprite": 14,
+          "dy": -2,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 15,
+          "dy": -2,
+          "durationTicks": 4
+        },
+        {
+          "sprite": 16,
+          "dy": -2,
+          "durationTicks": 4
+        },
+        {
+          "sprite": 17,
+          "dy": -2,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 18,
+          "dy": -2,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 19,
+          "dy": -2,
+          "durationTicks": 4
+        },
+        {
+          "sprite": 20,
+          "dy": -2,
+          "durationTicks": 9
+        },
+        {
+          "sprite": 21,
+          "dy": -2,
+          "durationTicks": 4
+        },
+        {
+          "sprite": 22,
+          "dy": -2,
+          "durationTicks": 7
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "descend_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "climb_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "TOP",
+          "choices": [
+            {
+              "to": "descend_left",
+              "weight": 1
+            },
+            {
+              "to": "climb_ceiling_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "climb_right",
+      "type": "WALL",
+      "subtype": "CLIMB",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "RIGHT",
+      "frames": [
+        {
+          "sprite": 12,
+          "dy": -2,
+          "durationTicks": 9
+        },
+        {
+          "sprite": 13,
+          "dy": -2,
+          "durationTicks": 4
+        },
+        {
+          "sprite": 14,
+          "dy": -2,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 15,
+          "dy": -2,
+          "durationTicks": 4
+        },
+        {
+          "sprite": 16,
+          "dy": -2,
+          "durationTicks": 4
+        },
+        {
+          "sprite": 17,
+          "dy": -2,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 18,
+          "dy": -2,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 19,
+          "dy": -2,
+          "durationTicks": 4
+        },
+        {
+          "sprite": 20,
+          "dy": -2,
+          "durationTicks": 9
+        },
+        {
+          "sprite": 21,
+          "dy": -2,
+          "durationTicks": 4
+        },
+        {
+          "sprite": 22,
+          "dy": -2,
+          "durationTicks": 7
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "descend_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "climb_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "TOP",
+          "choices": [
+            {
+              "to": "descend_right",
+              "weight": 1
+            },
+            {
+              "to": "climb_ceiling_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "descend_left",
+      "type": "WALL",
+      "subtype": "DESCEND",
+      "level": 3,
+      "loop": "LOOP",
+      "direction": "LEFT",
+      "frames": [
+        {
+          "sprite": 23,
+          "dy": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 24,
+          "dy": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 25,
+          "dy": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 26,
+          "dy": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 27,
+          "dy": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 28,
+          "dy": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 29,
+          "dy": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 30,
+          "dy": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 31,
+          "dy": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 32,
+          "dy": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 33,
+          "dy": 2,
+          "durationTicks": 6
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "climb_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "descend_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "BOTTOM",
+          "choices": [
+            {
+              "to": "walk_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "stand",
+              "weight": 1
+            }
+          ]
+        }
+      ],
+      "editorMirrorSibling": true
+    },
+    {
+      "key": "descend_right",
+      "type": "WALL",
+      "subtype": "DESCEND",
+      "level": 3,
+      "loop": "LOOP",
+      "direction": "RIGHT",
+      "frames": [
+        {
+          "sprite": 23,
+          "dy": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 24,
+          "dy": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 25,
+          "dy": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 26,
+          "dy": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 27,
+          "dy": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 28,
+          "dy": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 29,
+          "dy": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 30,
+          "dy": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 31,
+          "dy": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 32,
+          "dy": 2,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 33,
+          "dy": 2,
+          "durationTicks": 6
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "climb_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "descend_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "BOTTOM",
+          "choices": [
+            {
+              "to": "walk_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "stand",
+              "weight": 1
+            }
+          ]
+        }
+      ],
+      "editorMirrorSibling": true
+    },
+    {
+      "key": "fall",
+      "type": "AIR",
+      "subtype": "FALL",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 163,
+          "dy": 10,
+          "durationTicks": 2,
+          "aiSourceAssetId": "YW5pbV9kYWVkMWZiOC0xODA5LTRmMjEtYWViMS0xMzMyODc5ZDdiMjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAyMy53ZWJw"
+        },
+        {
+          "sprite": 164,
+          "dy": 10,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV9kYWVkMWZiOC0xODA5LTRmMjEtYWViMS0xMzMyODc5ZDdiMjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAyNC53ZWJw"
+        },
+        {
+          "sprite": 165,
+          "dy": 10,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV9kYWVkMWZiOC0xODA5LTRmMjEtYWViMS0xMzMyODc5ZDdiMjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAyNS53ZWJw"
+        },
+        {
+          "sprite": 166,
+          "dy": 10,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV9kYWVkMWZiOC0xODA5LTRmMjEtYWViMS0xMzMyODc5ZDdiMjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAyNi53ZWJw"
+        },
+        {
+          "sprite": 167,
+          "dy": 10,
+          "durationTicks": 9,
+          "aiSourceAssetId": "YW5pbV9kYWVkMWZiOC0xODA5LTRmMjEtYWViMS0xMzMyODc5ZDdiMjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAyNy53ZWJw"
+        },
+        {
+          "sprite": 166,
+          "dy": 10,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV9kYWVkMWZiOC0xODA5LTRmMjEtYWViMS0xMzMyODc5ZDdiMjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAyNi53ZWJw"
+        },
+        {
+          "sprite": 165,
+          "dy": 10,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV9kYWVkMWZiOC0xODA5LTRmMjEtYWViMS0xMzMyODc5ZDdiMjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAyNS53ZWJw"
+        },
+        {
+          "sprite": 164,
+          "dy": 10,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV9kYWVkMWZiOC0xODA5LTRmMjEtYWViMS0xMzMyODc5ZDdiMjM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAyNC53ZWJw"
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "fall",
+            "weight": 1
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "BOTTOM",
+          "facing": "ANY",
+          "setFacing": "KEEP",
+          "choices": [
+            {
+              "to": "bounce",
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "drag",
+      "type": "USER",
+      "subtype": "DRAG",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 104,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 105,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 106,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 107,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 108,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 109,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 110,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 111,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 112,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 113,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 114,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 115,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 116,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 117,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 118,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 119,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 120,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 121,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 122,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 123,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 124,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 125,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 126,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 127,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 128,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 129,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 130,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 131,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 132,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 133,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 132,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 131,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 130,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 129,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 128,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 127,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 126,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 125,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 124,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 123,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 122,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 121,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 120,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 119,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 118,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 117,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 116,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 115,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 114,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 113,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 112,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 111,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 110,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 109,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 108,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 107,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 106,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 105,
+          "durationTicks": 6
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "drag",
+            "weight": 1
+          }
+        ]
+      },
+      "eventTransitions": [
+        {
+          "event": "DRAG_END",
+          "from": "drag",
+          "when": "LEFT",
+          "choices": [
+            {
+              "to": "climb_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "descend_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            }
+          ]
+        },
+        {
+          "event": "DRAG_END",
+          "from": "drag",
+          "when": "RIGHT",
+          "choices": [
+            {
+              "to": "climb_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "descend_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            }
+          ]
+        },
+        {
+          "event": "DRAG_END",
+          "from": "drag",
+          "when": "TOP",
+          "facing": "LEFT",
+          "choices": [
+            {
+              "to": "climb_ceiling_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            }
+          ]
+        },
+        {
+          "event": "DRAG_END",
+          "from": "drag",
+          "when": "TOP",
+          "facing": "RIGHT",
+          "choices": [
+            {
+              "to": "climb_ceiling_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            }
+          ]
+        },
+        {
+          "event": "DRAG_END",
+          "from": "drag",
+          "setFacing": "RANDOM",
+          "choices": [
+            {
+              "to": "fall",
+              "weight": 1,
+              "setFacing": "RANDOM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fling",
+      "type": "USER",
+      "subtype": "FLING",
+      "level": 2,
+      "loop": "LOOP",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 74,
+          "durationTicks": 15,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwMC53ZWJw"
+        },
+        {
+          "sprite": 75,
+          "durationTicks": 9,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwMS53ZWJw"
+        },
+        {
+          "sprite": 76,
+          "durationTicks": 7,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwMi53ZWJw"
+        },
+        {
+          "sprite": 77,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwMy53ZWJw"
+        },
+        {
+          "sprite": 78,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwNC53ZWJw"
+        },
+        {
+          "sprite": 79,
+          "durationTicks": 7,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwNS53ZWJw"
+        },
+        {
+          "sprite": 80,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwNi53ZWJw"
+        },
+        {
+          "sprite": 81,
+          "durationTicks": 2,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwNy53ZWJw"
+        },
+        {
+          "sprite": 82,
+          "durationTicks": 9,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwOC53ZWJw"
+        },
+        {
+          "sprite": 83,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwOS53ZWJw"
+        },
+        {
+          "sprite": 84,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxMC53ZWJw"
+        },
+        {
+          "sprite": 85,
+          "durationTicks": 7,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxMS53ZWJw"
+        },
+        {
+          "sprite": 86,
+          "durationTicks": 9,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxMi53ZWJw"
+        },
+        {
+          "sprite": 87,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxMy53ZWJw"
+        },
+        {
+          "sprite": 88,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxNC53ZWJw"
+        },
+        {
+          "sprite": 89,
+          "durationTicks": 7,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxNS53ZWJw"
+        },
+        {
+          "sprite": 90,
+          "durationTicks": 7,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxNi53ZWJw"
+        },
+        {
+          "sprite": 91,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxNy53ZWJw"
+        },
+        {
+          "sprite": 92,
+          "durationTicks": 7,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxOC53ZWJw"
+        },
+        {
+          "sprite": 93,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxOS53ZWJw"
+        },
+        {
+          "sprite": 94,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAyMC53ZWJw"
+        },
+        {
+          "sprite": 95,
+          "durationTicks": 2,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAyMS53ZWJw"
+        },
+        {
+          "sprite": 96,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAyMi53ZWJw"
+        },
+        {
+          "sprite": 97,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAyMy53ZWJw"
+        },
+        {
+          "sprite": 98,
+          "durationTicks": 9,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAyNC53ZWJw"
+        },
+        {
+          "sprite": 99,
+          "durationTicks": 7,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAyNS53ZWJw"
+        },
+        {
+          "sprite": 100,
+          "durationTicks": 7,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAyNi53ZWJw"
+        },
+        {
+          "sprite": 101,
+          "durationTicks": 9,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAyNy53ZWJw"
+        },
+        {
+          "sprite": 102,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAyOC53ZWJw"
+        },
+        {
+          "sprite": 103,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAyOS53ZWJw"
+        },
+        {
+          "sprite": 102,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAyOC53ZWJw"
+        },
+        {
+          "sprite": 101,
+          "durationTicks": 9,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAyNy53ZWJw"
+        },
+        {
+          "sprite": 100,
+          "durationTicks": 7,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAyNi53ZWJw"
+        },
+        {
+          "sprite": 99,
+          "durationTicks": 7,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAyNS53ZWJw"
+        },
+        {
+          "sprite": 98,
+          "durationTicks": 9,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAyNC53ZWJw"
+        },
+        {
+          "sprite": 97,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAyMy53ZWJw"
+        },
+        {
+          "sprite": 96,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAyMi53ZWJw"
+        },
+        {
+          "sprite": 95,
+          "durationTicks": 2,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAyMS53ZWJw"
+        },
+        {
+          "sprite": 94,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAyMC53ZWJw"
+        },
+        {
+          "sprite": 93,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxOS53ZWJw"
+        },
+        {
+          "sprite": 92,
+          "durationTicks": 7,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxOC53ZWJw"
+        },
+        {
+          "sprite": 91,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxNy53ZWJw"
+        },
+        {
+          "sprite": 90,
+          "durationTicks": 7,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxNi53ZWJw"
+        },
+        {
+          "sprite": 89,
+          "durationTicks": 7,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxNS53ZWJw"
+        },
+        {
+          "sprite": 88,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxNC53ZWJw"
+        },
+        {
+          "sprite": 87,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxMy53ZWJw"
+        },
+        {
+          "sprite": 86,
+          "durationTicks": 9,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxMi53ZWJw"
+        },
+        {
+          "sprite": 85,
+          "durationTicks": 7,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxMS53ZWJw"
+        },
+        {
+          "sprite": 84,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAxMC53ZWJw"
+        },
+        {
+          "sprite": 83,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwOS53ZWJw"
+        },
+        {
+          "sprite": 82,
+          "durationTicks": 9,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwOC53ZWJw"
+        },
+        {
+          "sprite": 81,
+          "durationTicks": 2,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwNy53ZWJw"
+        },
+        {
+          "sprite": 80,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwNi53ZWJw"
+        },
+        {
+          "sprite": 79,
+          "durationTicks": 7,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwNS53ZWJw"
+        },
+        {
+          "sprite": 78,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwNC53ZWJw"
+        },
+        {
+          "sprite": 77,
+          "durationTicks": 4,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwMy53ZWJw"
+        },
+        {
+          "sprite": 76,
+          "durationTicks": 7,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwMi53ZWJw"
+        },
+        {
+          "sprite": 75,
+          "durationTicks": 9,
+          "aiSourceAssetId": "YW5pbV80NTFjZjU3Zi1jNDA5LTRmNTQtYTQ1MC04YWZjYjI0OTU3YWM6YXJ0aWZhY3RzL3dvcmtlci9mcmFtZXMvZnJhbWVfMDAwMS53ZWJw"
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "fling",
+            "weight": 1
+          }
+        ]
+      },
+      "eventTransitions": [
+        {
+          "event": "FLING_END",
+          "from": "fling",
+          "when": "LEFT",
+          "choices": [
+            {
+              "to": "climb_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "descend_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            }
+          ]
+        },
+        {
+          "event": "FLING_END",
+          "from": "fling",
+          "when": "RIGHT",
+          "choices": [
+            {
+              "to": "climb_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "descend_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            }
+          ]
+        },
+        {
+          "event": "FLING_END",
+          "from": "fling",
+          "when": "TOP",
+          "facing": "LEFT",
+          "choices": [
+            {
+              "to": "climb_ceiling_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            }
+          ]
+        },
+        {
+          "event": "FLING_END",
+          "from": "fling",
+          "when": "TOP",
+          "facing": "RIGHT",
+          "choices": [
+            {
+              "to": "climb_ceiling_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            }
+          ]
+        },
+        {
+          "event": "FLING_END",
+          "from": "fling",
+          "when": "BOTTOM",
+          "facing": "LEFT",
+          "setFacing": "LEFT",
+          "choices": [
+            {
+              "to": "bounce",
+              "weight": 1,
+              "setFacing": "LEFT"
+            }
+          ]
+        },
+        {
+          "event": "FLING_END",
+          "from": "fling",
+          "when": "BOTTOM",
+          "facing": "RIGHT",
+          "setFacing": "RIGHT",
+          "choices": [
+            {
+              "to": "bounce",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            }
+          ]
+        },
+        {
+          "event": "FLING_END",
+          "from": "fling",
+          "choices": [
+            {
+              "to": "fall",
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "event": "DRAG_START",
+      "from": "*",
+      "setFacing": "RANDOM",
+      "choices": [
+        {
+          "to": "drag",
+          "weight": 1,
+          "setFacing": "RANDOM"
+        }
+      ]
+    },
+    {
+      "event": "FLING_START",
+      "from": "*",
+      "choices": [
+        {
+          "to": "fling",
+          "weight": 1,
+          "setFacing": "EVENT_VELOCITY"
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "stand",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "walk_left",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "walk_right",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "idle",
+      "choices": [
+        {
+          "to": "walk_left",
+          "weight": 1,
+          "setFacing": "LEFT"
+        },
+        {
+          "to": "walk_right",
+          "weight": 1,
+          "setFacing": "RIGHT"
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "minLevel": 1,
+      "maxLevel": 20,
+      "allowedTypes": [
+        "WALL"
+      ],
+      "choices": [
+        {
+          "to": "fall",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "minLevel": 1,
+      "maxLevel": 20,
+      "allowedTypes": [
+        "CEILING"
+      ],
+      "choices": [
+        {
+          "to": "fall",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

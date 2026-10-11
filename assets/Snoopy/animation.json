@@ -1,0 +1,4544 @@
+{
+  "schema_id": "default",
+  "version": 1,
+  "default_animation": "fall",
+  "initial_candidates": [
+    "fall"
+  ],
+  "animations": [
+    {
+      "key": "stand",
+      "type": "GROUND",
+      "subtype": "STAND",
+      "level": 1,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 57,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 58,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 59,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 60,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 61,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 62,
+          "durationTicks": 9
+        },
+        {
+          "sprite": 61,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 60,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 59,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 58,
+          "durationTicks": 6
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "walk_left",
+            "weight": 11.5,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 11.5,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "sit_down",
+            "weight": 2
+          },
+          {
+            "to": "flying_ace_land",
+            "weight": 2
+          },
+          {
+            "to": "proud_strut_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "proud_strut_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "flying_ace_takeoff",
+            "weight": 2
+          },
+          {
+            "to": "ears_flop_wag",
+            "weight": 33
+          },
+          {
+            "to": "sniff_curious",
+            "weight": 33
+          },
+          {
+            "to": "scratch_ear_paw",
+            "weight": 33
+          },
+          {
+            "to": "big_yawn_stretch",
+            "weight": 33
+          },
+          {
+            "to": "typewriter_novelist",
+            "weight": 33
+          },
+          {
+            "to": "tail_wag_wiggle",
+            "weight": 33
+          },
+          {
+            "to": "bark_alert",
+            "weight": 33
+          },
+          {
+            "to": "beg_paws_up",
+            "weight": 33
+          },
+          {
+            "to": "shiver_cold",
+            "weight": 33
+          },
+          {
+            "to": "look_up_whistle",
+            "weight": 33
+          },
+          {
+            "to": "flying_ace_victory",
+            "weight": 0.5
+          },
+          {
+            "to": "snoopy_happy_dance",
+            "weight": 0.5
+          },
+          {
+            "to": "joe_cool_pose",
+            "weight": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "key": "walk_left",
+      "type": "GROUND",
+      "subtype": "WALK",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "LEFT",
+      "frames": [
+        {
+          "sprite": 0,
+          "dx": -2,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 1,
+          "dx": -2,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 2,
+          "dx": -2,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 3,
+          "dx": -2,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 4,
+          "dx": -2,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 5,
+          "dx": -2,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 6,
+          "dx": -2,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 7,
+          "dx": -2,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 8,
+          "dx": -2,
+          "durationTicks": 7
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 5
+          },
+          {
+            "to": "walk_right",
+            "weight": 11.5,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "sit_down",
+            "weight": 2
+          },
+          {
+            "to": "flying_ace_land",
+            "weight": 2
+          },
+          {
+            "to": "proud_strut_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "proud_strut_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "flying_ace_takeoff",
+            "weight": 2
+          },
+          {
+            "to": "ears_flop_wag",
+            "weight": 33
+          },
+          {
+            "to": "sniff_curious",
+            "weight": 33
+          },
+          {
+            "to": "scratch_ear_paw",
+            "weight": 33
+          },
+          {
+            "to": "big_yawn_stretch",
+            "weight": 33
+          },
+          {
+            "to": "typewriter_novelist",
+            "weight": 33
+          },
+          {
+            "to": "tail_wag_wiggle",
+            "weight": 33
+          },
+          {
+            "to": "bark_alert",
+            "weight": 33
+          },
+          {
+            "to": "beg_paws_up",
+            "weight": 33
+          },
+          {
+            "to": "shiver_cold",
+            "weight": 33
+          },
+          {
+            "to": "look_up_whistle",
+            "weight": 33
+          },
+          {
+            "to": "flying_ace_victory",
+            "weight": 0.5
+          },
+          {
+            "to": "snoopy_happy_dance",
+            "weight": 0.5
+          },
+          {
+            "to": "joe_cool_pose",
+            "weight": 0.5
+          },
+          {
+            "to": "walk_left",
+            "weight": 11.5,
+            "setFacing": "LEFT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "LEFT",
+          "choices": [
+            {
+              "to": "walk_right",
+              "weight": 11.5,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "proud_strut_right",
+              "weight": 0.8,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "flying_ace_takeoff",
+              "weight": 2
+            },
+            {
+              "to": "climb_left",
+              "weight": 0.6,
+              "setFacing": "LEFT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "walk_right",
+      "type": "GROUND",
+      "subtype": "WALK",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "RIGHT",
+      "frames": [
+        {
+          "sprite": 0,
+          "dx": 2,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 1,
+          "dx": 2,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 2,
+          "dx": 2,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 3,
+          "dx": 2,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 4,
+          "dx": 2,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 5,
+          "dx": 2,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 6,
+          "dx": 2,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 7,
+          "dx": 2,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 8,
+          "dx": 2,
+          "durationTicks": 7
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 5
+          },
+          {
+            "to": "walk_left",
+            "weight": 11.5,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "sit_down",
+            "weight": 2
+          },
+          {
+            "to": "flying_ace_land",
+            "weight": 2
+          },
+          {
+            "to": "proud_strut_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "proud_strut_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "flying_ace_takeoff",
+            "weight": 2
+          },
+          {
+            "to": "ears_flop_wag",
+            "weight": 33
+          },
+          {
+            "to": "sniff_curious",
+            "weight": 33
+          },
+          {
+            "to": "scratch_ear_paw",
+            "weight": 33
+          },
+          {
+            "to": "big_yawn_stretch",
+            "weight": 33
+          },
+          {
+            "to": "typewriter_novelist",
+            "weight": 33
+          },
+          {
+            "to": "tail_wag_wiggle",
+            "weight": 33
+          },
+          {
+            "to": "bark_alert",
+            "weight": 33
+          },
+          {
+            "to": "beg_paws_up",
+            "weight": 33
+          },
+          {
+            "to": "shiver_cold",
+            "weight": 33
+          },
+          {
+            "to": "look_up_whistle",
+            "weight": 33
+          },
+          {
+            "to": "flying_ace_victory",
+            "weight": 0.5
+          },
+          {
+            "to": "snoopy_happy_dance",
+            "weight": 0.5
+          },
+          {
+            "to": "joe_cool_pose",
+            "weight": 0.5
+          },
+          {
+            "to": "walk_right",
+            "weight": 11.5,
+            "setFacing": "RIGHT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "RIGHT",
+          "choices": [
+            {
+              "to": "walk_left",
+              "weight": 11.5,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "proud_strut_left",
+              "weight": 0.8,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "flying_ace_takeoff",
+              "weight": 2
+            },
+            {
+              "to": "climb_right",
+              "weight": 0.6,
+              "setFacing": "RIGHT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "bounce",
+      "type": "GROUND",
+      "subtype": "BOUNCE",
+      "level": 1,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 26,
+          "durationTicks": 15
+        },
+        {
+          "sprite": 27,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 28,
+          "durationTicks": 2
+        },
+        {
+          "sprite": 29,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 30,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 31,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 32,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 33,
+          "durationTicks": 2
+        },
+        {
+          "sprite": 34,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 35,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 36,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 37,
+          "durationTicks": 2
+        },
+        {
+          "sprite": 38,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 39,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 40,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 41,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 42,
+          "durationTicks": 2
+        },
+        {
+          "sprite": 43,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 44,
+          "durationTicks": 12
+        },
+        {
+          "sprite": 45,
+          "durationTicks": 10
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 5
+          },
+          {
+            "to": "walk_left",
+            "weight": 11.5,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 11.5,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "sit_down",
+            "weight": 2
+          },
+          {
+            "to": "flying_ace_land",
+            "weight": 2
+          },
+          {
+            "to": "proud_strut_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "proud_strut_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "flying_ace_takeoff",
+            "weight": 2
+          },
+          {
+            "to": "ears_flop_wag",
+            "weight": 33
+          },
+          {
+            "to": "sniff_curious",
+            "weight": 33
+          },
+          {
+            "to": "scratch_ear_paw",
+            "weight": 33
+          },
+          {
+            "to": "big_yawn_stretch",
+            "weight": 33
+          },
+          {
+            "to": "typewriter_novelist",
+            "weight": 33
+          },
+          {
+            "to": "tail_wag_wiggle",
+            "weight": 33
+          },
+          {
+            "to": "bark_alert",
+            "weight": 33
+          },
+          {
+            "to": "beg_paws_up",
+            "weight": 33
+          },
+          {
+            "to": "shiver_cold",
+            "weight": 33
+          },
+          {
+            "to": "look_up_whistle",
+            "weight": 33
+          },
+          {
+            "to": "flying_ace_victory",
+            "weight": 0.5
+          },
+          {
+            "to": "snoopy_happy_dance",
+            "weight": 0.5
+          },
+          {
+            "to": "joe_cool_pose",
+            "weight": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "key": "idle",
+      "type": "GROUND",
+      "subtype": "IDLE",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 46,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 47,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 48,
+          "durationTicks": 9
+        },
+        {
+          "sprite": 49,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 50,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 51,
+          "durationTicks": 9
+        }
+      ]
+    },
+    {
+      "key": "climb_ceiling_left",
+      "type": "CEILING",
+      "subtype": "HANG",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "LEFT",
+      "frames": [
+        {
+          "sprite": 9,
+          "dx": -2,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 10,
+          "dx": -2,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 11,
+          "dx": -2,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 12,
+          "dx": -2,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 13,
+          "dx": -2,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 14,
+          "dx": -2,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 15,
+          "dx": -2,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 16,
+          "dx": -2,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 17,
+          "dx": -2,
+          "durationTicks": 7
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "climb_ceiling_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "roof_ceiling_perch",
+            "weight": 1
+          },
+          {
+            "to": "fall",
+            "weight": 1,
+            "setFacing": "RANDOM"
+          },
+          {
+            "to": "climb_ceiling_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "LEFT",
+          "choices": [
+            {
+              "to": "climb_ceiling_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "descend_left",
+              "weight": 0.6,
+              "setFacing": "LEFT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "climb_ceiling_right",
+      "type": "CEILING",
+      "subtype": "HANG",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "RIGHT",
+      "frames": [
+        {
+          "sprite": 9,
+          "dx": 2,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 10,
+          "dx": 2,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 11,
+          "dx": 2,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 12,
+          "dx": 2,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 13,
+          "dx": 2,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 14,
+          "dx": 2,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 15,
+          "dx": 2,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 16,
+          "dx": 2,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 17,
+          "dx": 2,
+          "durationTicks": 7
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "climb_ceiling_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "roof_ceiling_perch",
+            "weight": 1
+          },
+          {
+            "to": "fall",
+            "weight": 1,
+            "setFacing": "RANDOM"
+          },
+          {
+            "to": "climb_ceiling_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "RIGHT",
+          "choices": [
+            {
+              "to": "climb_ceiling_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "descend_right",
+              "weight": 0.6,
+              "setFacing": "RIGHT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "climb_left",
+      "type": "WALL",
+      "subtype": "CLIMB",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "LEFT",
+      "frames": [
+        {
+          "sprite": 18,
+          "dy": -2,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 19,
+          "dy": -2,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 20,
+          "dy": -2,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 21,
+          "dy": -2,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 22,
+          "dy": -2,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 23,
+          "dy": -2,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 24,
+          "dy": -2,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 25,
+          "dy": -2,
+          "durationTicks": 5
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "descend_left",
+            "weight": 0.6,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "lie_on_doghouse_roof_left",
+            "weight": 0.75,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "climb_left",
+            "weight": 0.6,
+            "setFacing": "LEFT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "TOP",
+          "choices": [
+            {
+              "to": "descend_left",
+              "weight": 0.6,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "climb_ceiling_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "climb_right",
+      "type": "WALL",
+      "subtype": "CLIMB",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "RIGHT",
+      "frames": [
+        {
+          "sprite": 18,
+          "dy": -2,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 19,
+          "dy": -2,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 20,
+          "dy": -2,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 21,
+          "dy": -2,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 22,
+          "dy": -2,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 23,
+          "dy": -2,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 24,
+          "dy": -2,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 25,
+          "dy": -2,
+          "durationTicks": 5
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "descend_right",
+            "weight": 0.6,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "lie_on_doghouse_roof_right",
+            "weight": 0.75,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "climb_right",
+            "weight": 0.6,
+            "setFacing": "RIGHT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "TOP",
+          "choices": [
+            {
+              "to": "descend_right",
+              "weight": 0.6,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "climb_ceiling_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "descend_left",
+      "type": "WALL",
+      "subtype": "DESCEND",
+      "level": 3,
+      "loop": "LOOP",
+      "direction": "LEFT",
+      "frames": [
+        {
+          "sprite": 25,
+          "dy": 2,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 24,
+          "dy": 2,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 23,
+          "dy": 2,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 22,
+          "dy": 2,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 21,
+          "dy": 2,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 20,
+          "dy": 2,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 19,
+          "dy": 2,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 18,
+          "dy": 2,
+          "durationTicks": 7
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "climb_left",
+            "weight": 0.6,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "lie_on_doghouse_roof_left",
+            "weight": 0.75,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "descend_left",
+            "weight": 0.6,
+            "setFacing": "LEFT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "BOTTOM",
+          "choices": [
+            {
+              "to": "climb_left",
+              "weight": 0.6,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "walk_right",
+              "weight": 11.5,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "proud_strut_right",
+              "weight": 0.8,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "flying_ace_takeoff",
+              "weight": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "descend_right",
+      "type": "WALL",
+      "subtype": "DESCEND",
+      "level": 3,
+      "loop": "LOOP",
+      "direction": "RIGHT",
+      "frames": [
+        {
+          "sprite": 25,
+          "dy": 2,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 24,
+          "dy": 2,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 23,
+          "dy": 2,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 22,
+          "dy": 2,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 21,
+          "dy": 2,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 20,
+          "dy": 2,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 19,
+          "dy": 2,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 18,
+          "dy": 2,
+          "durationTicks": 7
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "climb_right",
+            "weight": 0.6,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "lie_on_doghouse_roof_right",
+            "weight": 0.75,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "descend_right",
+            "weight": 0.6,
+            "setFacing": "RIGHT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "BOTTOM",
+          "choices": [
+            {
+              "to": "climb_right",
+              "weight": 0.6,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "walk_left",
+              "weight": 11.5,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "proud_strut_left",
+              "weight": 0.8,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "flying_ace_takeoff",
+              "weight": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fall",
+      "type": "AIR",
+      "subtype": "FALL",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 26,
+          "dy": 10,
+          "durationTicks": 15
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "flying_ace_hover",
+            "weight": 1
+          },
+          {
+            "to": "flying_ace_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "flying_ace_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "fall",
+            "weight": 1
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "BOTTOM",
+          "choices": [
+            {
+              "to": "bounce",
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "drag",
+      "type": "USER",
+      "subtype": "DRAG",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 52,
+          "durationTicks": 4
+        },
+        {
+          "sprite": 53,
+          "durationTicks": 12
+        },
+        {
+          "sprite": 54,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 55,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 56,
+          "durationTicks": 8
+        }
+      ],
+      "eventTransitions": [
+        {
+          "event": "DRAG_END",
+          "from": "drag",
+          "when": "LEFT",
+          "choices": [
+            {
+              "to": "climb_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "descend_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "lie_on_doghouse_roof_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            }
+          ]
+        },
+        {
+          "event": "DRAG_END",
+          "from": "drag",
+          "when": "RIGHT",
+          "choices": [
+            {
+              "to": "climb_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "descend_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "lie_on_doghouse_roof_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            }
+          ]
+        },
+        {
+          "event": "DRAG_END",
+          "from": "drag",
+          "when": "TOP",
+          "facing": "LEFT",
+          "choices": [
+            {
+              "to": "climb_ceiling_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "roof_ceiling_perch",
+              "weight": 1,
+              "setFacing": "LEFT"
+            }
+          ]
+        },
+        {
+          "event": "DRAG_END",
+          "from": "drag",
+          "when": "TOP",
+          "facing": "RIGHT",
+          "choices": [
+            {
+              "to": "climb_ceiling_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "roof_ceiling_perch",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            }
+          ]
+        },
+        {
+          "event": "DRAG_END",
+          "from": "drag",
+          "choices": [
+            {
+              "to": "fall",
+              "weight": 1,
+              "setFacing": "RANDOM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fling",
+      "type": "USER",
+      "subtype": "FLING",
+      "level": 2,
+      "loop": "LOOP",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 52,
+          "durationTicks": 4
+        },
+        {
+          "sprite": 53,
+          "durationTicks": 12
+        },
+        {
+          "sprite": 54,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 55,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 56,
+          "durationTicks": 8
+        }
+      ],
+      "eventTransitions": [
+        {
+          "event": "FLING_END",
+          "from": "fling",
+          "when": "LEFT",
+          "choices": [
+            {
+              "to": "climb_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "descend_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "lie_on_doghouse_roof_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            }
+          ]
+        },
+        {
+          "event": "FLING_END",
+          "from": "fling",
+          "when": "RIGHT",
+          "choices": [
+            {
+              "to": "climb_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "descend_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "lie_on_doghouse_roof_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            }
+          ]
+        },
+        {
+          "event": "FLING_END",
+          "from": "fling",
+          "when": "TOP",
+          "facing": "LEFT",
+          "choices": [
+            {
+              "to": "climb_ceiling_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "roof_ceiling_perch",
+              "weight": 1,
+              "setFacing": "LEFT"
+            }
+          ]
+        },
+        {
+          "event": "FLING_END",
+          "from": "fling",
+          "when": "TOP",
+          "facing": "RIGHT",
+          "choices": [
+            {
+              "to": "climb_ceiling_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "roof_ceiling_perch",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            }
+          ]
+        },
+        {
+          "event": "FLING_END",
+          "from": "fling",
+          "when": "BOTTOM",
+          "facing": "LEFT",
+          "choices": [
+            {
+              "to": "bounce",
+              "weight": 1,
+              "setFacing": "LEFT"
+            }
+          ]
+        },
+        {
+          "event": "FLING_END",
+          "from": "fling",
+          "when": "BOTTOM",
+          "facing": "RIGHT",
+          "choices": [
+            {
+              "to": "bounce",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            }
+          ]
+        },
+        {
+          "event": "FLING_END",
+          "from": "fling",
+          "choices": [
+            {
+              "to": "fall",
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "sit_down",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 3,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 63,
+          "durationTicks": 14
+        },
+        {
+          "sprite": 64,
+          "durationTicks": 4
+        },
+        {
+          "sprite": 65,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 66,
+          "durationTicks": 11
+        },
+        {
+          "sprite": 67,
+          "durationTicks": 4
+        },
+        {
+          "sprite": 68,
+          "durationTicks": 4
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "sitting",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "key": "stand_up",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 3,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 68,
+          "durationTicks": 4
+        },
+        {
+          "sprite": 67,
+          "durationTicks": 4
+        },
+        {
+          "sprite": 66,
+          "durationTicks": 11
+        },
+        {
+          "sprite": 65,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 64,
+          "durationTicks": 4
+        },
+        {
+          "sprite": 63,
+          "durationTicks": 14
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 5
+          },
+          {
+            "to": "walk_left",
+            "weight": 11.5,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 11.5,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "proud_strut_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "proud_strut_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          }
+        ]
+      }
+    },
+    {
+      "key": "flying_ace_hover",
+      "type": "AIR",
+      "subtype": "CUSTOM",
+      "level": 2,
+      "loop": "LOOP",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 69,
+          "durationTicks": 3
+        },
+        {
+          "sprite": 70,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 71,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 72,
+          "durationTicks": 3
+        },
+        {
+          "sprite": 73,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 74,
+          "durationTicks": 8
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "fall",
+            "weight": 1
+          },
+          {
+            "to": "flying_ace_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "flying_ace_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          }
+        ]
+      }
+    },
+    {
+      "key": "flying_ace_left",
+      "type": "AIR",
+      "subtype": "CUSTOM",
+      "level": 2,
+      "loop": "LOOP",
+      "direction": "LEFT",
+      "frames": [
+        {
+          "sprite": 75,
+          "dx": -3,
+          "durationTicks": 9
+        },
+        {
+          "sprite": 76,
+          "dx": -3,
+          "durationTicks": 12
+        },
+        {
+          "sprite": 77,
+          "dx": -3,
+          "durationTicks": 3
+        },
+        {
+          "sprite": 78,
+          "dx": -3,
+          "durationTicks": 9
+        },
+        {
+          "sprite": 79,
+          "dx": -3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 80,
+          "dx": -3,
+          "durationTicks": 3
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "fall",
+            "weight": 1
+          },
+          {
+            "to": "flying_ace_hover",
+            "weight": 1
+          },
+          {
+            "to": "flying_ace_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "flying_ace_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "LEFT",
+          "choices": [
+            {
+              "to": "fall",
+              "weight": 1
+            },
+            {
+              "to": "flying_ace_hover",
+              "weight": 1
+            },
+            {
+              "to": "flying_ace_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "climb_left",
+              "weight": 0.6,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "descend_left",
+              "weight": 0.6,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "lie_on_doghouse_roof_left",
+              "weight": 0.75,
+              "setFacing": "LEFT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "flying_ace_right",
+      "type": "AIR",
+      "subtype": "CUSTOM",
+      "level": 2,
+      "loop": "LOOP",
+      "direction": "RIGHT",
+      "frames": [
+        {
+          "sprite": 75,
+          "dx": 3,
+          "durationTicks": 9
+        },
+        {
+          "sprite": 76,
+          "dx": 3,
+          "durationTicks": 12
+        },
+        {
+          "sprite": 77,
+          "dx": 3,
+          "durationTicks": 3
+        },
+        {
+          "sprite": 78,
+          "dx": 3,
+          "durationTicks": 9
+        },
+        {
+          "sprite": 79,
+          "dx": 3,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 80,
+          "dx": 3,
+          "durationTicks": 3
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "fall",
+            "weight": 1
+          },
+          {
+            "to": "flying_ace_hover",
+            "weight": 1
+          },
+          {
+            "to": "flying_ace_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "flying_ace_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "RIGHT",
+          "choices": [
+            {
+              "to": "fall",
+              "weight": 1
+            },
+            {
+              "to": "flying_ace_hover",
+              "weight": 1
+            },
+            {
+              "to": "flying_ace_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "climb_right",
+              "weight": 0.6,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "descend_right",
+              "weight": 0.6,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "lie_on_doghouse_roof_right",
+              "weight": 0.75,
+              "setFacing": "RIGHT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "flying_ace_land",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 2,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 81,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 82,
+          "durationTicks": 13
+        },
+        {
+          "sprite": 83,
+          "durationTicks": 16
+        },
+        {
+          "sprite": 84,
+          "durationTicks": 6
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 5
+          },
+          {
+            "to": "walk_left",
+            "weight": 11.5,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 11.5,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "sit_down",
+            "weight": 2
+          },
+          {
+            "to": "proud_strut_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "proud_strut_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "flying_ace_takeoff",
+            "weight": 2
+          },
+          {
+            "to": "ears_flop_wag",
+            "weight": 33
+          },
+          {
+            "to": "sniff_curious",
+            "weight": 33
+          },
+          {
+            "to": "scratch_ear_paw",
+            "weight": 33
+          },
+          {
+            "to": "big_yawn_stretch",
+            "weight": 33
+          },
+          {
+            "to": "typewriter_novelist",
+            "weight": 33
+          },
+          {
+            "to": "tail_wag_wiggle",
+            "weight": 33
+          },
+          {
+            "to": "bark_alert",
+            "weight": 33
+          },
+          {
+            "to": "beg_paws_up",
+            "weight": 33
+          },
+          {
+            "to": "shiver_cold",
+            "weight": 33
+          },
+          {
+            "to": "look_up_whistle",
+            "weight": 33
+          },
+          {
+            "to": "flying_ace_victory",
+            "weight": 0.5
+          },
+          {
+            "to": "snoopy_happy_dance",
+            "weight": 0.5
+          },
+          {
+            "to": "joe_cool_pose",
+            "weight": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "key": "proud_strut_left",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 3,
+      "loop": "LOOP",
+      "direction": "LEFT",
+      "frames": [
+        {
+          "sprite": 85,
+          "dx": -2,
+          "durationTicks": 9
+        },
+        {
+          "sprite": 86,
+          "dx": -2,
+          "durationTicks": 9
+        },
+        {
+          "sprite": 87,
+          "dx": -2,
+          "durationTicks": 12
+        },
+        {
+          "sprite": 88,
+          "dx": -2,
+          "durationTicks": 12
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 5
+          },
+          {
+            "to": "walk_left",
+            "weight": 11.5,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 11.5,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "sit_down",
+            "weight": 2
+          },
+          {
+            "to": "flying_ace_land",
+            "weight": 2
+          },
+          {
+            "to": "proud_strut_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "flying_ace_takeoff",
+            "weight": 2
+          },
+          {
+            "to": "ears_flop_wag",
+            "weight": 33
+          },
+          {
+            "to": "sniff_curious",
+            "weight": 33
+          },
+          {
+            "to": "scratch_ear_paw",
+            "weight": 33
+          },
+          {
+            "to": "big_yawn_stretch",
+            "weight": 33
+          },
+          {
+            "to": "typewriter_novelist",
+            "weight": 33
+          },
+          {
+            "to": "tail_wag_wiggle",
+            "weight": 33
+          },
+          {
+            "to": "bark_alert",
+            "weight": 33
+          },
+          {
+            "to": "beg_paws_up",
+            "weight": 33
+          },
+          {
+            "to": "shiver_cold",
+            "weight": 33
+          },
+          {
+            "to": "look_up_whistle",
+            "weight": 33
+          },
+          {
+            "to": "flying_ace_victory",
+            "weight": 0.5
+          },
+          {
+            "to": "snoopy_happy_dance",
+            "weight": 0.5
+          },
+          {
+            "to": "joe_cool_pose",
+            "weight": 0.5
+          },
+          {
+            "to": "proud_strut_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "LEFT",
+          "choices": [
+            {
+              "to": "walk_right",
+              "weight": 11.5,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "proud_strut_right",
+              "weight": 0.8,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "flying_ace_takeoff",
+              "weight": 2
+            },
+            {
+              "to": "climb_left",
+              "weight": 0.6,
+              "setFacing": "LEFT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "proud_strut_right",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 3,
+      "loop": "LOOP",
+      "direction": "RIGHT",
+      "frames": [
+        {
+          "sprite": 85,
+          "dx": 2,
+          "durationTicks": 9
+        },
+        {
+          "sprite": 86,
+          "dx": 2,
+          "durationTicks": 9
+        },
+        {
+          "sprite": 87,
+          "dx": 2,
+          "durationTicks": 12
+        },
+        {
+          "sprite": 88,
+          "dx": 2,
+          "durationTicks": 12
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 5
+          },
+          {
+            "to": "walk_left",
+            "weight": 11.5,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 11.5,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "sit_down",
+            "weight": 2
+          },
+          {
+            "to": "flying_ace_land",
+            "weight": 2
+          },
+          {
+            "to": "proud_strut_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "flying_ace_takeoff",
+            "weight": 2
+          },
+          {
+            "to": "ears_flop_wag",
+            "weight": 33
+          },
+          {
+            "to": "sniff_curious",
+            "weight": 33
+          },
+          {
+            "to": "scratch_ear_paw",
+            "weight": 33
+          },
+          {
+            "to": "big_yawn_stretch",
+            "weight": 33
+          },
+          {
+            "to": "typewriter_novelist",
+            "weight": 33
+          },
+          {
+            "to": "tail_wag_wiggle",
+            "weight": 33
+          },
+          {
+            "to": "bark_alert",
+            "weight": 33
+          },
+          {
+            "to": "beg_paws_up",
+            "weight": 33
+          },
+          {
+            "to": "shiver_cold",
+            "weight": 33
+          },
+          {
+            "to": "look_up_whistle",
+            "weight": 33
+          },
+          {
+            "to": "flying_ace_victory",
+            "weight": 0.5
+          },
+          {
+            "to": "snoopy_happy_dance",
+            "weight": 0.5
+          },
+          {
+            "to": "joe_cool_pose",
+            "weight": 0.5
+          },
+          {
+            "to": "proud_strut_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "RIGHT",
+          "choices": [
+            {
+              "to": "walk_left",
+              "weight": 11.5,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "proud_strut_left",
+              "weight": 0.8,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "flying_ace_takeoff",
+              "weight": 2
+            },
+            {
+              "to": "climb_right",
+              "weight": 0.6,
+              "setFacing": "RIGHT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "lie_on_doghouse_roof_left",
+      "type": "WALL",
+      "subtype": "CUSTOM",
+      "level": 4,
+      "loop": "LOOP",
+      "direction": "LEFT",
+      "frames": [
+        {
+          "sprite": 89,
+          "durationTicks": 20
+        },
+        {
+          "sprite": 90,
+          "durationTicks": 20
+        },
+        {
+          "sprite": 91,
+          "durationTicks": 20
+        },
+        {
+          "sprite": 92,
+          "durationTicks": 20
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "climb_left",
+            "weight": 0.6,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "descend_left",
+            "weight": 0.6,
+            "setFacing": "LEFT"
+          }
+        ]
+      }
+    },
+    {
+      "key": "lie_on_doghouse_roof_right",
+      "type": "WALL",
+      "subtype": "CUSTOM",
+      "level": 4,
+      "loop": "LOOP",
+      "direction": "RIGHT",
+      "frames": [
+        {
+          "sprite": 89,
+          "durationTicks": 20
+        },
+        {
+          "sprite": 90,
+          "durationTicks": 20
+        },
+        {
+          "sprite": 91,
+          "durationTicks": 20
+        },
+        {
+          "sprite": 92,
+          "durationTicks": 20
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "climb_right",
+            "weight": 0.6,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "descend_right",
+            "weight": 0.6,
+            "setFacing": "RIGHT"
+          }
+        ]
+      }
+    },
+    {
+      "key": "sitting",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 3,
+      "loop": "LOOP",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 93,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 94,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 95,
+          "durationTicks": 18
+        },
+        {
+          "sprite": 96,
+          "durationTicks": 7
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "stand_up",
+            "weight": 3
+          }
+        ]
+      }
+    },
+    {
+      "key": "roof_ceiling_perch",
+      "type": "CEILING",
+      "subtype": "CUSTOM",
+      "level": 4,
+      "loop": "LOOP",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 97,
+          "durationTicks": 24
+        },
+        {
+          "sprite": 98,
+          "durationTicks": 24
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "climb_ceiling_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "climb_ceiling_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "fall",
+            "weight": 1,
+            "setFacing": "RANDOM"
+          }
+        ]
+      }
+    },
+    {
+      "key": "flying_ace_takeoff",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 2,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 57,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 58,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 59,
+          "dy": -6,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 60,
+          "dy": -6,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 61,
+          "dy": -9,
+          "durationTicks": 6
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "flying_ace_hover",
+            "weight": 2
+          },
+          {
+            "to": "flying_ace_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "flying_ace_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "TOP",
+          "choices": [
+            {
+              "to": "stand",
+              "weight": 5
+            },
+            {
+              "to": "walk_left",
+              "weight": 11.5,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "walk_right",
+              "weight": 11.5,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "sit_down",
+              "weight": 2
+            },
+            {
+              "to": "flying_ace_land",
+              "weight": 2
+            },
+            {
+              "to": "proud_strut_left",
+              "weight": 0.8,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "proud_strut_right",
+              "weight": 0.8,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "ears_flop_wag",
+              "weight": 33
+            },
+            {
+              "to": "sniff_curious",
+              "weight": 33
+            },
+            {
+              "to": "scratch_ear_paw",
+              "weight": 33
+            },
+            {
+              "to": "big_yawn_stretch",
+              "weight": 33
+            },
+            {
+              "to": "typewriter_novelist",
+              "weight": 33
+            },
+            {
+              "to": "tail_wag_wiggle",
+              "weight": 33
+            },
+            {
+              "to": "bark_alert",
+              "weight": 33
+            },
+            {
+              "to": "beg_paws_up",
+              "weight": 33
+            },
+            {
+              "to": "shiver_cold",
+              "weight": 33
+            },
+            {
+              "to": "look_up_whistle",
+              "weight": 33
+            },
+            {
+              "to": "flying_ace_victory",
+              "weight": 0.5
+            },
+            {
+              "to": "snoopy_happy_dance",
+              "weight": 0.5
+            },
+            {
+              "to": "joe_cool_pose",
+              "weight": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ears_flop_wag",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 4,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 99,
+          "durationTicks": 17
+        },
+        {
+          "sprite": 100,
+          "durationTicks": 3
+        },
+        {
+          "sprite": 101,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 102,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 103,
+          "durationTicks": 3
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 5
+          },
+          {
+            "to": "walk_left",
+            "weight": 11.5,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 11.5,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "flying_ace_land",
+            "weight": 2
+          },
+          {
+            "to": "proud_strut_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "proud_strut_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "flying_ace_takeoff",
+            "weight": 2
+          },
+          {
+            "to": "sniff_curious",
+            "weight": 33
+          },
+          {
+            "to": "scratch_ear_paw",
+            "weight": 33
+          },
+          {
+            "to": "big_yawn_stretch",
+            "weight": 33
+          },
+          {
+            "to": "typewriter_novelist",
+            "weight": 33
+          },
+          {
+            "to": "tail_wag_wiggle",
+            "weight": 33
+          },
+          {
+            "to": "bark_alert",
+            "weight": 33
+          },
+          {
+            "to": "beg_paws_up",
+            "weight": 33
+          },
+          {
+            "to": "shiver_cold",
+            "weight": 33
+          },
+          {
+            "to": "look_up_whistle",
+            "weight": 33
+          },
+          {
+            "to": "flying_ace_victory",
+            "weight": 0.5
+          },
+          {
+            "to": "snoopy_happy_dance",
+            "weight": 0.5
+          },
+          {
+            "to": "joe_cool_pose",
+            "weight": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "key": "sniff_curious",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 4,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 104,
+          "durationTicks": 13
+        },
+        {
+          "sprite": 105,
+          "durationTicks": 4
+        },
+        {
+          "sprite": 106,
+          "durationTicks": 11
+        },
+        {
+          "sprite": 107,
+          "durationTicks": 4
+        },
+        {
+          "sprite": 108,
+          "durationTicks": 7
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 5
+          },
+          {
+            "to": "walk_left",
+            "weight": 11.5,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 11.5,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "flying_ace_land",
+            "weight": 2
+          },
+          {
+            "to": "proud_strut_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "proud_strut_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "flying_ace_takeoff",
+            "weight": 2
+          },
+          {
+            "to": "ears_flop_wag",
+            "weight": 33
+          },
+          {
+            "to": "scratch_ear_paw",
+            "weight": 33
+          },
+          {
+            "to": "big_yawn_stretch",
+            "weight": 33
+          },
+          {
+            "to": "typewriter_novelist",
+            "weight": 33
+          },
+          {
+            "to": "tail_wag_wiggle",
+            "weight": 33
+          },
+          {
+            "to": "bark_alert",
+            "weight": 33
+          },
+          {
+            "to": "beg_paws_up",
+            "weight": 33
+          },
+          {
+            "to": "shiver_cold",
+            "weight": 33
+          },
+          {
+            "to": "look_up_whistle",
+            "weight": 33
+          },
+          {
+            "to": "flying_ace_victory",
+            "weight": 0.5
+          },
+          {
+            "to": "snoopy_happy_dance",
+            "weight": 0.5
+          },
+          {
+            "to": "joe_cool_pose",
+            "weight": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "key": "scratch_ear_paw",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 4,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 109,
+          "durationTicks": 13
+        },
+        {
+          "sprite": 110,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 111,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 112,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 113,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 114,
+          "durationTicks": 8
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 5
+          },
+          {
+            "to": "walk_left",
+            "weight": 11.5,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 11.5,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "flying_ace_land",
+            "weight": 2
+          },
+          {
+            "to": "proud_strut_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "proud_strut_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "flying_ace_takeoff",
+            "weight": 2
+          },
+          {
+            "to": "ears_flop_wag",
+            "weight": 33
+          },
+          {
+            "to": "sniff_curious",
+            "weight": 33
+          },
+          {
+            "to": "big_yawn_stretch",
+            "weight": 33
+          },
+          {
+            "to": "typewriter_novelist",
+            "weight": 33
+          },
+          {
+            "to": "tail_wag_wiggle",
+            "weight": 33
+          },
+          {
+            "to": "bark_alert",
+            "weight": 33
+          },
+          {
+            "to": "beg_paws_up",
+            "weight": 33
+          },
+          {
+            "to": "shiver_cold",
+            "weight": 33
+          },
+          {
+            "to": "look_up_whistle",
+            "weight": 33
+          },
+          {
+            "to": "flying_ace_victory",
+            "weight": 0.5
+          },
+          {
+            "to": "snoopy_happy_dance",
+            "weight": 0.5
+          },
+          {
+            "to": "joe_cool_pose",
+            "weight": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "key": "big_yawn_stretch",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 5,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 115,
+          "durationTicks": 17
+        },
+        {
+          "sprite": 116,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 117,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 118,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 119,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 120,
+          "durationTicks": 2
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 5
+          },
+          {
+            "to": "walk_left",
+            "weight": 11.5,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 11.5,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "flying_ace_land",
+            "weight": 2
+          },
+          {
+            "to": "proud_strut_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "proud_strut_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "flying_ace_takeoff",
+            "weight": 2
+          },
+          {
+            "to": "ears_flop_wag",
+            "weight": 33
+          },
+          {
+            "to": "sniff_curious",
+            "weight": 33
+          },
+          {
+            "to": "scratch_ear_paw",
+            "weight": 33
+          },
+          {
+            "to": "typewriter_novelist",
+            "weight": 33
+          },
+          {
+            "to": "tail_wag_wiggle",
+            "weight": 33
+          },
+          {
+            "to": "bark_alert",
+            "weight": 33
+          },
+          {
+            "to": "beg_paws_up",
+            "weight": 33
+          },
+          {
+            "to": "shiver_cold",
+            "weight": 33
+          },
+          {
+            "to": "look_up_whistle",
+            "weight": 33
+          },
+          {
+            "to": "flying_ace_victory",
+            "weight": 0.5
+          },
+          {
+            "to": "snoopy_happy_dance",
+            "weight": 0.5
+          },
+          {
+            "to": "joe_cool_pose",
+            "weight": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "key": "typewriter_novelist",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 5,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 121,
+          "durationTicks": 17
+        },
+        {
+          "sprite": 122,
+          "durationTicks": 4
+        },
+        {
+          "sprite": 123,
+          "durationTicks": 4
+        },
+        {
+          "sprite": 124,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 125,
+          "durationTicks": 2
+        },
+        {
+          "sprite": 126,
+          "durationTicks": 8
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 5
+          },
+          {
+            "to": "walk_left",
+            "weight": 11.5,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 11.5,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "flying_ace_land",
+            "weight": 2
+          },
+          {
+            "to": "proud_strut_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "proud_strut_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "flying_ace_takeoff",
+            "weight": 2
+          },
+          {
+            "to": "ears_flop_wag",
+            "weight": 33
+          },
+          {
+            "to": "sniff_curious",
+            "weight": 33
+          },
+          {
+            "to": "scratch_ear_paw",
+            "weight": 33
+          },
+          {
+            "to": "big_yawn_stretch",
+            "weight": 33
+          },
+          {
+            "to": "tail_wag_wiggle",
+            "weight": 33
+          },
+          {
+            "to": "bark_alert",
+            "weight": 33
+          },
+          {
+            "to": "beg_paws_up",
+            "weight": 33
+          },
+          {
+            "to": "shiver_cold",
+            "weight": 33
+          },
+          {
+            "to": "look_up_whistle",
+            "weight": 33
+          },
+          {
+            "to": "flying_ace_victory",
+            "weight": 0.5
+          },
+          {
+            "to": "snoopy_happy_dance",
+            "weight": 0.5
+          },
+          {
+            "to": "joe_cool_pose",
+            "weight": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "key": "tail_wag_wiggle",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 4,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 127,
+          "durationTicks": 12
+        },
+        {
+          "sprite": 128,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 129,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 130,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 131,
+          "durationTicks": 4
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 5
+          },
+          {
+            "to": "walk_left",
+            "weight": 11.5,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 11.5,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "flying_ace_land",
+            "weight": 2
+          },
+          {
+            "to": "proud_strut_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "proud_strut_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "flying_ace_takeoff",
+            "weight": 2
+          },
+          {
+            "to": "ears_flop_wag",
+            "weight": 33
+          },
+          {
+            "to": "sniff_curious",
+            "weight": 33
+          },
+          {
+            "to": "scratch_ear_paw",
+            "weight": 33
+          },
+          {
+            "to": "big_yawn_stretch",
+            "weight": 33
+          },
+          {
+            "to": "typewriter_novelist",
+            "weight": 33
+          },
+          {
+            "to": "bark_alert",
+            "weight": 33
+          },
+          {
+            "to": "beg_paws_up",
+            "weight": 33
+          },
+          {
+            "to": "shiver_cold",
+            "weight": 33
+          },
+          {
+            "to": "look_up_whistle",
+            "weight": 33
+          },
+          {
+            "to": "flying_ace_victory",
+            "weight": 0.5
+          },
+          {
+            "to": "snoopy_happy_dance",
+            "weight": 0.5
+          },
+          {
+            "to": "joe_cool_pose",
+            "weight": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "key": "bark_alert",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 5,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 132,
+          "durationTicks": 11
+        },
+        {
+          "sprite": 133,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 134,
+          "durationTicks": 9
+        },
+        {
+          "sprite": 135,
+          "durationTicks": 6
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 5
+          },
+          {
+            "to": "walk_left",
+            "weight": 11.5,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 11.5,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "flying_ace_land",
+            "weight": 2
+          },
+          {
+            "to": "proud_strut_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "proud_strut_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "flying_ace_takeoff",
+            "weight": 2
+          },
+          {
+            "to": "ears_flop_wag",
+            "weight": 33
+          },
+          {
+            "to": "sniff_curious",
+            "weight": 33
+          },
+          {
+            "to": "scratch_ear_paw",
+            "weight": 33
+          },
+          {
+            "to": "big_yawn_stretch",
+            "weight": 33
+          },
+          {
+            "to": "typewriter_novelist",
+            "weight": 33
+          },
+          {
+            "to": "tail_wag_wiggle",
+            "weight": 33
+          },
+          {
+            "to": "beg_paws_up",
+            "weight": 33
+          },
+          {
+            "to": "shiver_cold",
+            "weight": 33
+          },
+          {
+            "to": "look_up_whistle",
+            "weight": 33
+          },
+          {
+            "to": "flying_ace_victory",
+            "weight": 0.5
+          },
+          {
+            "to": "snoopy_happy_dance",
+            "weight": 0.5
+          },
+          {
+            "to": "joe_cool_pose",
+            "weight": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "key": "beg_paws_up",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 5,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 136,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 137,
+          "durationTicks": 3
+        },
+        {
+          "sprite": 138,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 139,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 140,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 141,
+          "durationTicks": 10
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 5
+          },
+          {
+            "to": "walk_left",
+            "weight": 11.5,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 11.5,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "flying_ace_land",
+            "weight": 2
+          },
+          {
+            "to": "proud_strut_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "proud_strut_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "flying_ace_takeoff",
+            "weight": 2
+          },
+          {
+            "to": "ears_flop_wag",
+            "weight": 33
+          },
+          {
+            "to": "sniff_curious",
+            "weight": 33
+          },
+          {
+            "to": "scratch_ear_paw",
+            "weight": 33
+          },
+          {
+            "to": "big_yawn_stretch",
+            "weight": 33
+          },
+          {
+            "to": "typewriter_novelist",
+            "weight": 33
+          },
+          {
+            "to": "tail_wag_wiggle",
+            "weight": 33
+          },
+          {
+            "to": "bark_alert",
+            "weight": 33
+          },
+          {
+            "to": "shiver_cold",
+            "weight": 33
+          },
+          {
+            "to": "look_up_whistle",
+            "weight": 33
+          },
+          {
+            "to": "flying_ace_victory",
+            "weight": 0.5
+          },
+          {
+            "to": "snoopy_happy_dance",
+            "weight": 0.5
+          },
+          {
+            "to": "joe_cool_pose",
+            "weight": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "key": "shiver_cold",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 5,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 142,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 143,
+          "durationTicks": 3
+        },
+        {
+          "sprite": 144,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 145,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 146,
+          "durationTicks": 10
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 5
+          },
+          {
+            "to": "walk_left",
+            "weight": 11.5,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 11.5,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "flying_ace_land",
+            "weight": 2
+          },
+          {
+            "to": "proud_strut_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "proud_strut_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "flying_ace_takeoff",
+            "weight": 2
+          },
+          {
+            "to": "ears_flop_wag",
+            "weight": 33
+          },
+          {
+            "to": "sniff_curious",
+            "weight": 33
+          },
+          {
+            "to": "scratch_ear_paw",
+            "weight": 33
+          },
+          {
+            "to": "big_yawn_stretch",
+            "weight": 33
+          },
+          {
+            "to": "typewriter_novelist",
+            "weight": 33
+          },
+          {
+            "to": "tail_wag_wiggle",
+            "weight": 33
+          },
+          {
+            "to": "bark_alert",
+            "weight": 33
+          },
+          {
+            "to": "beg_paws_up",
+            "weight": 33
+          },
+          {
+            "to": "look_up_whistle",
+            "weight": 33
+          },
+          {
+            "to": "flying_ace_victory",
+            "weight": 0.5
+          },
+          {
+            "to": "snoopy_happy_dance",
+            "weight": 0.5
+          },
+          {
+            "to": "joe_cool_pose",
+            "weight": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "key": "look_up_whistle",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 5,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 147,
+          "durationTicks": 17
+        },
+        {
+          "sprite": 148,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 149,
+          "durationTicks": 3
+        },
+        {
+          "sprite": 150,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 151,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 150,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 149,
+          "durationTicks": 3
+        },
+        {
+          "sprite": 148,
+          "durationTicks": 5
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 5
+          },
+          {
+            "to": "walk_left",
+            "weight": 11.5,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 11.5,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "flying_ace_land",
+            "weight": 2
+          },
+          {
+            "to": "proud_strut_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "proud_strut_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "flying_ace_takeoff",
+            "weight": 2
+          },
+          {
+            "to": "ears_flop_wag",
+            "weight": 33
+          },
+          {
+            "to": "sniff_curious",
+            "weight": 33
+          },
+          {
+            "to": "scratch_ear_paw",
+            "weight": 33
+          },
+          {
+            "to": "big_yawn_stretch",
+            "weight": 33
+          },
+          {
+            "to": "typewriter_novelist",
+            "weight": 33
+          },
+          {
+            "to": "tail_wag_wiggle",
+            "weight": 33
+          },
+          {
+            "to": "bark_alert",
+            "weight": 33
+          },
+          {
+            "to": "beg_paws_up",
+            "weight": 33
+          },
+          {
+            "to": "shiver_cold",
+            "weight": 33
+          },
+          {
+            "to": "flying_ace_victory",
+            "weight": 0.5
+          },
+          {
+            "to": "snoopy_happy_dance",
+            "weight": 0.5
+          },
+          {
+            "to": "joe_cool_pose",
+            "weight": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "key": "flying_ace_victory",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 6,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 152,
+          "durationTicks": 9
+        },
+        {
+          "sprite": 153,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 154,
+          "durationTicks": 2
+        },
+        {
+          "sprite": 155,
+          "durationTicks": 2
+        },
+        {
+          "sprite": 156,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 157,
+          "durationTicks": 14
+        },
+        {
+          "sprite": 158,
+          "durationTicks": 5
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 5
+          },
+          {
+            "to": "walk_left",
+            "weight": 11.5,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 11.5,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "flying_ace_land",
+            "weight": 2
+          },
+          {
+            "to": "proud_strut_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "proud_strut_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "flying_ace_takeoff",
+            "weight": 2
+          },
+          {
+            "to": "ears_flop_wag",
+            "weight": 33
+          },
+          {
+            "to": "sniff_curious",
+            "weight": 33
+          },
+          {
+            "to": "scratch_ear_paw",
+            "weight": 33
+          },
+          {
+            "to": "big_yawn_stretch",
+            "weight": 33
+          },
+          {
+            "to": "typewriter_novelist",
+            "weight": 33
+          },
+          {
+            "to": "tail_wag_wiggle",
+            "weight": 33
+          },
+          {
+            "to": "bark_alert",
+            "weight": 33
+          },
+          {
+            "to": "beg_paws_up",
+            "weight": 33
+          },
+          {
+            "to": "shiver_cold",
+            "weight": 33
+          },
+          {
+            "to": "look_up_whistle",
+            "weight": 33
+          },
+          {
+            "to": "snoopy_happy_dance",
+            "weight": 0.5
+          },
+          {
+            "to": "joe_cool_pose",
+            "weight": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "key": "snoopy_happy_dance",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 6,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 159,
+          "durationTicks": 12
+        },
+        {
+          "sprite": 160,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 161,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 162,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 163,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 164,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 165,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 166,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 167,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 168,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 169,
+          "durationTicks": 5
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 5
+          },
+          {
+            "to": "walk_left",
+            "weight": 11.5,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 11.5,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "flying_ace_land",
+            "weight": 2
+          },
+          {
+            "to": "proud_strut_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "proud_strut_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "flying_ace_takeoff",
+            "weight": 2
+          },
+          {
+            "to": "ears_flop_wag",
+            "weight": 33
+          },
+          {
+            "to": "sniff_curious",
+            "weight": 33
+          },
+          {
+            "to": "scratch_ear_paw",
+            "weight": 33
+          },
+          {
+            "to": "big_yawn_stretch",
+            "weight": 33
+          },
+          {
+            "to": "typewriter_novelist",
+            "weight": 33
+          },
+          {
+            "to": "tail_wag_wiggle",
+            "weight": 33
+          },
+          {
+            "to": "bark_alert",
+            "weight": 33
+          },
+          {
+            "to": "beg_paws_up",
+            "weight": 33
+          },
+          {
+            "to": "shiver_cold",
+            "weight": 33
+          },
+          {
+            "to": "look_up_whistle",
+            "weight": 33
+          },
+          {
+            "to": "flying_ace_victory",
+            "weight": 0.5
+          },
+          {
+            "to": "joe_cool_pose",
+            "weight": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "key": "joe_cool_pose",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 6,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 170,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 171,
+          "durationTicks": 3
+        },
+        {
+          "sprite": 172,
+          "durationTicks": 3
+        },
+        {
+          "sprite": 173,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 174,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 175,
+          "durationTicks": 12
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 5
+          },
+          {
+            "to": "walk_left",
+            "weight": 11.5,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 11.5,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "flying_ace_land",
+            "weight": 2
+          },
+          {
+            "to": "proud_strut_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "proud_strut_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "flying_ace_takeoff",
+            "weight": 2
+          },
+          {
+            "to": "ears_flop_wag",
+            "weight": 33
+          },
+          {
+            "to": "sniff_curious",
+            "weight": 33
+          },
+          {
+            "to": "scratch_ear_paw",
+            "weight": 33
+          },
+          {
+            "to": "big_yawn_stretch",
+            "weight": 33
+          },
+          {
+            "to": "typewriter_novelist",
+            "weight": 33
+          },
+          {
+            "to": "tail_wag_wiggle",
+            "weight": 33
+          },
+          {
+            "to": "bark_alert",
+            "weight": 33
+          },
+          {
+            "to": "beg_paws_up",
+            "weight": 33
+          },
+          {
+            "to": "shiver_cold",
+            "weight": 33
+          },
+          {
+            "to": "look_up_whistle",
+            "weight": 33
+          },
+          {
+            "to": "flying_ace_victory",
+            "weight": 0.5
+          },
+          {
+            "to": "snoopy_happy_dance",
+            "weight": 0.5
+          }
+        ]
+      }
+    }
+  ],
+  "events": [
+    {
+      "event": "DRAG_START",
+      "from": "*",
+      "choices": [
+        {
+          "to": "drag",
+          "weight": 1,
+          "setFacing": "RANDOM"
+        }
+      ]
+    },
+    {
+      "event": "FLING_START",
+      "from": "*",
+      "choices": [
+        {
+          "to": "fling",
+          "weight": 1,
+          "setFacing": "EVENT_VELOCITY"
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "stand",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "walk_left",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "walk_right",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "flying_ace_land",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "proud_strut_left",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "proud_strut_right",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "ears_flop_wag",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "sniff_curious",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "scratch_ear_paw",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "big_yawn_stretch",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "typewriter_novelist",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "tail_wag_wiggle",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "bark_alert",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "beg_paws_up",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "shiver_cold",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "look_up_whistle",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "flying_ace_victory",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "snoopy_happy_dance",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "joe_cool_pose",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "idle",
+      "choices": [
+        {
+          "to": "walk_left",
+          "weight": 1,
+          "setFacing": "LEFT"
+        },
+        {
+          "to": "walk_right",
+          "weight": 1,
+          "setFacing": "RIGHT"
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "flying_ace_takeoff",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "sit_down",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "stand_up",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "sitting",
+      "choices": [
+        {
+          "to": "stand_up",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "minLevel": 1,
+      "allowedTypes": [
+        "WALL"
+      ],
+      "choices": [
+        {
+          "to": "fall",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "minLevel": 1,
+      "allowedTypes": [
+        "CEILING"
+      ],
+      "choices": [
+        {
+          "to": "fall",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

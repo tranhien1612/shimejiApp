@@ -1,0 +1,6779 @@
+{
+  "schema_id": "pc_import_v1",
+  "version": 1,
+  "default_animation": "fall",
+  "initial_candidates": [
+    "fall"
+  ],
+  "animations": [
+    {
+      "key": "stand",
+      "type": "GROUND",
+      "subtype": "STAND",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 0,
+          "durationTicks": 181
+        },
+        {
+          "sprite": 2,
+          "durationTicks": 12
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "walk_with_ie_right",
+            "weight": 1.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "pull_up_shimeji1",
+            "weight": 1.5
+          },
+          {
+            "to": "jumping",
+            "weight": 0.7
+          },
+          {
+            "to": "bounce",
+            "weight": 2
+          },
+          {
+            "to": "pull_up_shimeji2_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "scroll_phone",
+            "weight": 2
+          },
+          {
+            "to": "dash_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "run_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "tap_yarn_action",
+            "weight": 3
+          },
+          {
+            "to": "dash_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "yarn_ball_action",
+            "weight": 3
+          },
+          {
+            "to": "be_pet",
+            "weight": 3
+          },
+          {
+            "to": "tripping_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "snooze",
+            "weight": 3
+          },
+          {
+            "to": "run_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "stand",
+            "weight": 3.6
+          },
+          {
+            "to": "watch_loop",
+            "weight": 2
+          },
+          {
+            "to": "walk_with_ie_left",
+            "weight": 1.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "pet_action",
+            "weight": 2
+          },
+          {
+            "to": "sit",
+            "weight": 3.3
+          },
+          {
+            "to": "pull_up_shimeji2_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "phone_action",
+            "weight": 3
+          },
+          {
+            "to": "watch_action",
+            "weight": 3
+          },
+          {
+            "to": "walk_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "walk_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "tripping_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "sprawl",
+            "weight": 3.3
+          }
+        ]
+      }
+    },
+    {
+      "key": "walk_left",
+      "type": "GROUND",
+      "subtype": "WALK",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "LEFT",
+      "frames": [
+        {
+          "sprite": 4,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 6,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 8,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 10,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 12,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 14,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 4,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 6,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 8,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 10,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 12,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 14,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 4,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 6,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 8,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 10,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 12,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 14,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 4,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 6,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 8,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 16,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 12,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 14,
+          "dx": -2,
+          "durationTicks": 10
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "walk_with_ie_right",
+            "weight": 1.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "pull_up_shimeji1",
+            "weight": 1.5
+          },
+          {
+            "to": "jumping",
+            "weight": 0.7
+          },
+          {
+            "to": "bounce",
+            "weight": 2
+          },
+          {
+            "to": "pull_up_shimeji2_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "scroll_phone",
+            "weight": 2
+          },
+          {
+            "to": "dash_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "run_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "tap_yarn_action",
+            "weight": 3
+          },
+          {
+            "to": "dash_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "yarn_ball_action",
+            "weight": 3
+          },
+          {
+            "to": "be_pet",
+            "weight": 3
+          },
+          {
+            "to": "tripping_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "snooze",
+            "weight": 3
+          },
+          {
+            "to": "run_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "stand",
+            "weight": 3.6
+          },
+          {
+            "to": "watch_loop",
+            "weight": 2
+          },
+          {
+            "to": "walk_with_ie_left",
+            "weight": 1.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "pet_action",
+            "weight": 2
+          },
+          {
+            "to": "sit",
+            "weight": 3.3
+          },
+          {
+            "to": "pull_up_shimeji2_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "phone_action",
+            "weight": 3
+          },
+          {
+            "to": "watch_action",
+            "weight": 3
+          },
+          {
+            "to": "walk_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "walk_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "tripping_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "sprawl",
+            "weight": 3.3
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "LEFT",
+          "facing": "LEFT",
+          "choices": [
+            {
+              "to": "climb_wall_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "walk_right",
+              "weight": 3,
+              "setFacing": "RIGHT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "walk_right",
+      "type": "GROUND",
+      "subtype": "WALK",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "RIGHT",
+      "frames": [
+        {
+          "sprite": 4,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 6,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 8,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 10,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 12,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 14,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 4,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 6,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 8,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 10,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 12,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 14,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 4,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 6,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 8,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 10,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 12,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 14,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 4,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 6,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 8,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 16,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 12,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 14,
+          "dx": 2,
+          "durationTicks": 10
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "walk_with_ie_right",
+            "weight": 1.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "pull_up_shimeji1",
+            "weight": 1.5
+          },
+          {
+            "to": "jumping",
+            "weight": 0.7
+          },
+          {
+            "to": "bounce",
+            "weight": 2
+          },
+          {
+            "to": "pull_up_shimeji2_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "scroll_phone",
+            "weight": 2
+          },
+          {
+            "to": "dash_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "run_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "tap_yarn_action",
+            "weight": 3
+          },
+          {
+            "to": "dash_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "yarn_ball_action",
+            "weight": 3
+          },
+          {
+            "to": "be_pet",
+            "weight": 3
+          },
+          {
+            "to": "tripping_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "snooze",
+            "weight": 3
+          },
+          {
+            "to": "run_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "stand",
+            "weight": 3.6
+          },
+          {
+            "to": "watch_loop",
+            "weight": 2
+          },
+          {
+            "to": "walk_with_ie_left",
+            "weight": 1.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "pet_action",
+            "weight": 2
+          },
+          {
+            "to": "sit",
+            "weight": 3.3
+          },
+          {
+            "to": "pull_up_shimeji2_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "phone_action",
+            "weight": 3
+          },
+          {
+            "to": "watch_action",
+            "weight": 3
+          },
+          {
+            "to": "walk_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "walk_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "tripping_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "sprawl",
+            "weight": 3.3
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "RIGHT",
+          "facing": "RIGHT",
+          "choices": [
+            {
+              "to": "climb_wall_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "walk_left",
+              "weight": 3,
+              "setFacing": "LEFT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "run_left",
+      "type": "GROUND",
+      "subtype": "RUN",
+      "level": 2,
+      "loop": "LOOP",
+      "direction": "LEFT",
+      "frames": [
+        {
+          "sprite": 18,
+          "dx": -4,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 20,
+          "dx": -4,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 22,
+          "dx": -4,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 24,
+          "dx": -4,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 26,
+          "dx": -4,
+          "durationTicks": 5
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "walk_with_ie_right",
+            "weight": 1.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "pull_up_shimeji1",
+            "weight": 1.5
+          },
+          {
+            "to": "jumping",
+            "weight": 0.7
+          },
+          {
+            "to": "bounce",
+            "weight": 2
+          },
+          {
+            "to": "pull_up_shimeji2_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "scroll_phone",
+            "weight": 2
+          },
+          {
+            "to": "dash_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "run_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "tap_yarn_action",
+            "weight": 3
+          },
+          {
+            "to": "dash_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "yarn_ball_action",
+            "weight": 3
+          },
+          {
+            "to": "be_pet",
+            "weight": 3
+          },
+          {
+            "to": "tripping_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "snooze",
+            "weight": 3
+          },
+          {
+            "to": "run_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "stand",
+            "weight": 3.6
+          },
+          {
+            "to": "watch_loop",
+            "weight": 2
+          },
+          {
+            "to": "walk_with_ie_left",
+            "weight": 1.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "pet_action",
+            "weight": 2
+          },
+          {
+            "to": "sit",
+            "weight": 3.3
+          },
+          {
+            "to": "pull_up_shimeji2_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "phone_action",
+            "weight": 3
+          },
+          {
+            "to": "watch_action",
+            "weight": 3
+          },
+          {
+            "to": "walk_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "walk_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "tripping_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "sprawl",
+            "weight": 3.3
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "LEFT",
+          "facing": "LEFT",
+          "choices": [
+            {
+              "to": "climb_wall_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "walk_right",
+              "weight": 3,
+              "setFacing": "RIGHT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "run_right",
+      "type": "GROUND",
+      "subtype": "RUN",
+      "level": 2,
+      "loop": "LOOP",
+      "direction": "RIGHT",
+      "frames": [
+        {
+          "sprite": 18,
+          "dx": 4,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 20,
+          "dx": 4,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 22,
+          "dx": 4,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 24,
+          "dx": 4,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 26,
+          "dx": 4,
+          "durationTicks": 5
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "walk_with_ie_right",
+            "weight": 1.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "pull_up_shimeji1",
+            "weight": 1.5
+          },
+          {
+            "to": "jumping",
+            "weight": 0.7
+          },
+          {
+            "to": "bounce",
+            "weight": 2
+          },
+          {
+            "to": "pull_up_shimeji2_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "scroll_phone",
+            "weight": 2
+          },
+          {
+            "to": "dash_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "run_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "tap_yarn_action",
+            "weight": 3
+          },
+          {
+            "to": "dash_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "yarn_ball_action",
+            "weight": 3
+          },
+          {
+            "to": "be_pet",
+            "weight": 3
+          },
+          {
+            "to": "tripping_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "snooze",
+            "weight": 3
+          },
+          {
+            "to": "run_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "stand",
+            "weight": 3.6
+          },
+          {
+            "to": "watch_loop",
+            "weight": 2
+          },
+          {
+            "to": "walk_with_ie_left",
+            "weight": 1.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "pet_action",
+            "weight": 2
+          },
+          {
+            "to": "sit",
+            "weight": 3.3
+          },
+          {
+            "to": "pull_up_shimeji2_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "phone_action",
+            "weight": 3
+          },
+          {
+            "to": "watch_action",
+            "weight": 3
+          },
+          {
+            "to": "walk_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "walk_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "tripping_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "sprawl",
+            "weight": 3.3
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "RIGHT",
+          "facing": "RIGHT",
+          "choices": [
+            {
+              "to": "climb_wall_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "walk_left",
+              "weight": 3,
+              "setFacing": "LEFT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "dash_left",
+      "type": "GROUND",
+      "subtype": "DASH",
+      "level": 4,
+      "loop": "LOOP",
+      "direction": "LEFT",
+      "frames": [
+        {
+          "sprite": 18,
+          "dx": -8,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 20,
+          "dx": -8,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 22,
+          "dx": -8,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 24,
+          "dx": -8,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 26,
+          "dx": -8,
+          "durationTicks": 5
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "walk_with_ie_right",
+            "weight": 1.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "pull_up_shimeji1",
+            "weight": 1.5
+          },
+          {
+            "to": "jumping",
+            "weight": 0.7
+          },
+          {
+            "to": "bounce",
+            "weight": 2
+          },
+          {
+            "to": "pull_up_shimeji2_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "scroll_phone",
+            "weight": 2
+          },
+          {
+            "to": "dash_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "run_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "tap_yarn_action",
+            "weight": 3
+          },
+          {
+            "to": "dash_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "yarn_ball_action",
+            "weight": 3
+          },
+          {
+            "to": "be_pet",
+            "weight": 3
+          },
+          {
+            "to": "tripping_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "snooze",
+            "weight": 3
+          },
+          {
+            "to": "run_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "stand",
+            "weight": 3.6
+          },
+          {
+            "to": "watch_loop",
+            "weight": 2
+          },
+          {
+            "to": "walk_with_ie_left",
+            "weight": 1.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "pet_action",
+            "weight": 2
+          },
+          {
+            "to": "sit",
+            "weight": 3.3
+          },
+          {
+            "to": "pull_up_shimeji2_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "phone_action",
+            "weight": 3
+          },
+          {
+            "to": "watch_action",
+            "weight": 3
+          },
+          {
+            "to": "walk_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "walk_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "tripping_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "sprawl",
+            "weight": 3.3
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "LEFT",
+          "facing": "LEFT",
+          "choices": [
+            {
+              "to": "climb_wall_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "walk_right",
+              "weight": 3,
+              "setFacing": "RIGHT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "dash_right",
+      "type": "GROUND",
+      "subtype": "DASH",
+      "level": 4,
+      "loop": "LOOP",
+      "direction": "RIGHT",
+      "frames": [
+        {
+          "sprite": 18,
+          "dx": 8,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 20,
+          "dx": 8,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 22,
+          "dx": 8,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 24,
+          "dx": 8,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 26,
+          "dx": 8,
+          "durationTicks": 5
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "walk_with_ie_right",
+            "weight": 1.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "pull_up_shimeji1",
+            "weight": 1.5
+          },
+          {
+            "to": "jumping",
+            "weight": 0.7
+          },
+          {
+            "to": "bounce",
+            "weight": 2
+          },
+          {
+            "to": "pull_up_shimeji2_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "scroll_phone",
+            "weight": 2
+          },
+          {
+            "to": "dash_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "run_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "tap_yarn_action",
+            "weight": 3
+          },
+          {
+            "to": "dash_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "yarn_ball_action",
+            "weight": 3
+          },
+          {
+            "to": "be_pet",
+            "weight": 3
+          },
+          {
+            "to": "tripping_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "snooze",
+            "weight": 3
+          },
+          {
+            "to": "run_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "stand",
+            "weight": 3.6
+          },
+          {
+            "to": "watch_loop",
+            "weight": 2
+          },
+          {
+            "to": "walk_with_ie_left",
+            "weight": 1.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "pet_action",
+            "weight": 2
+          },
+          {
+            "to": "sit",
+            "weight": 3.3
+          },
+          {
+            "to": "pull_up_shimeji2_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "phone_action",
+            "weight": 3
+          },
+          {
+            "to": "watch_action",
+            "weight": 3
+          },
+          {
+            "to": "walk_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "walk_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "tripping_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "sprawl",
+            "weight": 3.3
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "RIGHT",
+          "facing": "RIGHT",
+          "choices": [
+            {
+              "to": "climb_wall_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "walk_left",
+              "weight": 3,
+              "setFacing": "LEFT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "sit",
+      "type": "GROUND",
+      "subtype": "SIT",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 28,
+          "durationTicks": 181
+        },
+        {
+          "sprite": 30,
+          "durationTicks": 12
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "walk_with_ie_right",
+            "weight": 1.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "pull_up_shimeji1",
+            "weight": 1.5
+          },
+          {
+            "to": "jumping",
+            "weight": 0.7
+          },
+          {
+            "to": "bounce",
+            "weight": 2
+          },
+          {
+            "to": "pull_up_shimeji2_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "scroll_phone",
+            "weight": 2
+          },
+          {
+            "to": "dash_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "run_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "tap_yarn_action",
+            "weight": 3
+          },
+          {
+            "to": "dash_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "yarn_ball_action",
+            "weight": 3
+          },
+          {
+            "to": "be_pet",
+            "weight": 3
+          },
+          {
+            "to": "tripping_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "snooze",
+            "weight": 3
+          },
+          {
+            "to": "run_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "stand",
+            "weight": 3.6
+          },
+          {
+            "to": "watch_loop",
+            "weight": 2
+          },
+          {
+            "to": "walk_with_ie_left",
+            "weight": 1.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "pet_action",
+            "weight": 2
+          },
+          {
+            "to": "sit",
+            "weight": 3.3
+          },
+          {
+            "to": "pull_up_shimeji2_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "phone_action",
+            "weight": 3
+          },
+          {
+            "to": "watch_action",
+            "weight": 3
+          },
+          {
+            "to": "walk_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "walk_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "tripping_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "sprawl",
+            "weight": 3.3
+          }
+        ]
+      }
+    },
+    {
+      "key": "be_pet",
+      "type": "GROUND",
+      "subtype": "BEPET",
+      "level": 6,
+      "loop": "LOOP",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 32,
+          "durationTicks": 21
+        },
+        {
+          "sprite": 156,
+          "durationTicks": 5
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "walk_with_ie_right",
+            "weight": 1.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "pull_up_shimeji1",
+            "weight": 1.5
+          },
+          {
+            "to": "jumping",
+            "weight": 0.7
+          },
+          {
+            "to": "bounce",
+            "weight": 2
+          },
+          {
+            "to": "pull_up_shimeji2_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "scroll_phone",
+            "weight": 2
+          },
+          {
+            "to": "dash_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "run_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "tap_yarn_action",
+            "weight": 3
+          },
+          {
+            "to": "dash_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "yarn_ball_action",
+            "weight": 3
+          },
+          {
+            "to": "be_pet",
+            "weight": 3
+          },
+          {
+            "to": "tripping_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "snooze",
+            "weight": 3
+          },
+          {
+            "to": "run_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "stand",
+            "weight": 3.6
+          },
+          {
+            "to": "watch_loop",
+            "weight": 2
+          },
+          {
+            "to": "walk_with_ie_left",
+            "weight": 1.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "pet_action",
+            "weight": 2
+          },
+          {
+            "to": "sit",
+            "weight": 3.3
+          },
+          {
+            "to": "pull_up_shimeji2_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "phone_action",
+            "weight": 3
+          },
+          {
+            "to": "watch_action",
+            "weight": 3
+          },
+          {
+            "to": "walk_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "walk_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "tripping_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "sprawl",
+            "weight": 3.3
+          }
+        ]
+      }
+    },
+    {
+      "key": "pet_action",
+      "type": "GROUND",
+      "subtype": "PETACTION",
+      "level": 6,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 34,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 36,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 38,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 40,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 42,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 44,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 46,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 48,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 50,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 52,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 56,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 58,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 32,
+          "durationTicks": 7
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "walk_with_ie_right",
+            "weight": 1.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "pull_up_shimeji1",
+            "weight": 1.5
+          },
+          {
+            "to": "jumping",
+            "weight": 0.7
+          },
+          {
+            "to": "bounce",
+            "weight": 2
+          },
+          {
+            "to": "pull_up_shimeji2_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "scroll_phone",
+            "weight": 2
+          },
+          {
+            "to": "dash_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "run_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "tap_yarn_action",
+            "weight": 3
+          },
+          {
+            "to": "dash_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "yarn_ball_action",
+            "weight": 3
+          },
+          {
+            "to": "be_pet",
+            "weight": 3
+          },
+          {
+            "to": "tripping_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "snooze",
+            "weight": 3
+          },
+          {
+            "to": "run_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "stand",
+            "weight": 3.6
+          },
+          {
+            "to": "watch_loop",
+            "weight": 2
+          },
+          {
+            "to": "walk_with_ie_left",
+            "weight": 1.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "pet_action",
+            "weight": 2
+          },
+          {
+            "to": "sit",
+            "weight": 3.3
+          },
+          {
+            "to": "pull_up_shimeji2_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "phone_action",
+            "weight": 3
+          },
+          {
+            "to": "watch_action",
+            "weight": 3
+          },
+          {
+            "to": "walk_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "walk_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "tripping_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "sprawl",
+            "weight": 3.3
+          }
+        ]
+      }
+    },
+    {
+      "key": "watch_action",
+      "type": "GROUND",
+      "subtype": "WATCHACTION",
+      "level": 7,
+      "loop": "LOOP",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 60,
+          "durationTicks": 602
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "walk_with_ie_right",
+            "weight": 1.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "pull_up_shimeji1",
+            "weight": 1.5
+          },
+          {
+            "to": "jumping",
+            "weight": 0.7
+          },
+          {
+            "to": "bounce",
+            "weight": 2
+          },
+          {
+            "to": "pull_up_shimeji2_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "scroll_phone",
+            "weight": 2
+          },
+          {
+            "to": "dash_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "run_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "tap_yarn_action",
+            "weight": 3
+          },
+          {
+            "to": "dash_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "yarn_ball_action",
+            "weight": 3
+          },
+          {
+            "to": "be_pet",
+            "weight": 3
+          },
+          {
+            "to": "tripping_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "snooze",
+            "weight": 3
+          },
+          {
+            "to": "run_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "stand",
+            "weight": 3.6
+          },
+          {
+            "to": "watch_loop",
+            "weight": 2
+          },
+          {
+            "to": "walk_with_ie_left",
+            "weight": 1.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "pet_action",
+            "weight": 2
+          },
+          {
+            "to": "sit",
+            "weight": 3.3
+          },
+          {
+            "to": "pull_up_shimeji2_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "phone_action",
+            "weight": 3
+          },
+          {
+            "to": "watch_action",
+            "weight": 3
+          },
+          {
+            "to": "walk_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "walk_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "tripping_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "sprawl",
+            "weight": 3.3
+          }
+        ]
+      }
+    },
+    {
+      "key": "watch_loop",
+      "type": "GROUND",
+      "subtype": "WATCHLOOP",
+      "level": 7,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 60,
+          "durationTicks": 602
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "walk_with_ie_right",
+            "weight": 1.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "pull_up_shimeji1",
+            "weight": 1.5
+          },
+          {
+            "to": "jumping",
+            "weight": 0.7
+          },
+          {
+            "to": "bounce",
+            "weight": 2
+          },
+          {
+            "to": "pull_up_shimeji2_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "scroll_phone",
+            "weight": 2
+          },
+          {
+            "to": "dash_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "run_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "tap_yarn_action",
+            "weight": 3
+          },
+          {
+            "to": "dash_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "yarn_ball_action",
+            "weight": 3
+          },
+          {
+            "to": "be_pet",
+            "weight": 3
+          },
+          {
+            "to": "tripping_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "snooze",
+            "weight": 3
+          },
+          {
+            "to": "run_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "stand",
+            "weight": 3.6
+          },
+          {
+            "to": "watch_loop",
+            "weight": 2
+          },
+          {
+            "to": "walk_with_ie_left",
+            "weight": 1.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "pet_action",
+            "weight": 2
+          },
+          {
+            "to": "sit",
+            "weight": 3.3
+          },
+          {
+            "to": "pull_up_shimeji2_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "phone_action",
+            "weight": 3
+          },
+          {
+            "to": "watch_action",
+            "weight": 3
+          },
+          {
+            "to": "walk_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "walk_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "tripping_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "sprawl",
+            "weight": 3.3
+          }
+        ]
+      }
+    },
+    {
+      "key": "phone_action",
+      "type": "GROUND",
+      "subtype": "PHONEACTION",
+      "level": 6,
+      "loop": "LOOP",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 62,
+          "durationTicks": 181
+        },
+        {
+          "sprite": 64,
+          "durationTicks": 12
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "walk_with_ie_right",
+            "weight": 1.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "pull_up_shimeji1",
+            "weight": 1.5
+          },
+          {
+            "to": "jumping",
+            "weight": 0.7
+          },
+          {
+            "to": "bounce",
+            "weight": 2
+          },
+          {
+            "to": "pull_up_shimeji2_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "scroll_phone",
+            "weight": 2
+          },
+          {
+            "to": "dash_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "run_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "tap_yarn_action",
+            "weight": 3
+          },
+          {
+            "to": "dash_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "yarn_ball_action",
+            "weight": 3
+          },
+          {
+            "to": "be_pet",
+            "weight": 3
+          },
+          {
+            "to": "tripping_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "snooze",
+            "weight": 3
+          },
+          {
+            "to": "run_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "stand",
+            "weight": 3.6
+          },
+          {
+            "to": "watch_loop",
+            "weight": 2
+          },
+          {
+            "to": "walk_with_ie_left",
+            "weight": 1.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "pet_action",
+            "weight": 2
+          },
+          {
+            "to": "sit",
+            "weight": 3.3
+          },
+          {
+            "to": "pull_up_shimeji2_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "phone_action",
+            "weight": 3
+          },
+          {
+            "to": "watch_action",
+            "weight": 3
+          },
+          {
+            "to": "walk_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "walk_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "tripping_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "sprawl",
+            "weight": 3.3
+          }
+        ]
+      }
+    },
+    {
+      "key": "scroll_phone",
+      "type": "GROUND",
+      "subtype": "SCROLLPHONE",
+      "level": 7,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 66,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 68,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 70,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 72,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 66,
+          "durationTicks": 10
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "walk_with_ie_right",
+            "weight": 1.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "pull_up_shimeji1",
+            "weight": 1.5
+          },
+          {
+            "to": "jumping",
+            "weight": 0.7
+          },
+          {
+            "to": "bounce",
+            "weight": 2
+          },
+          {
+            "to": "pull_up_shimeji2_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "scroll_phone",
+            "weight": 2
+          },
+          {
+            "to": "dash_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "run_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "tap_yarn_action",
+            "weight": 3
+          },
+          {
+            "to": "dash_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "yarn_ball_action",
+            "weight": 3
+          },
+          {
+            "to": "be_pet",
+            "weight": 3
+          },
+          {
+            "to": "tripping_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "snooze",
+            "weight": 3
+          },
+          {
+            "to": "run_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "stand",
+            "weight": 3.6
+          },
+          {
+            "to": "watch_loop",
+            "weight": 2
+          },
+          {
+            "to": "walk_with_ie_left",
+            "weight": 1.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "pet_action",
+            "weight": 2
+          },
+          {
+            "to": "sit",
+            "weight": 3.3
+          },
+          {
+            "to": "pull_up_shimeji2_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "phone_action",
+            "weight": 3
+          },
+          {
+            "to": "watch_action",
+            "weight": 3
+          },
+          {
+            "to": "walk_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "walk_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "tripping_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "sprawl",
+            "weight": 3.3
+          }
+        ]
+      }
+    },
+    {
+      "key": "yarn_ball_action",
+      "type": "GROUND",
+      "subtype": "YARNBALLACTION",
+      "level": 8,
+      "loop": "LOOP",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 74,
+          "durationTicks": 181
+        },
+        {
+          "sprite": 76,
+          "durationTicks": 12
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "walk_with_ie_right",
+            "weight": 1.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "pull_up_shimeji1",
+            "weight": 1.5
+          },
+          {
+            "to": "jumping",
+            "weight": 0.7
+          },
+          {
+            "to": "bounce",
+            "weight": 2
+          },
+          {
+            "to": "pull_up_shimeji2_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "scroll_phone",
+            "weight": 2
+          },
+          {
+            "to": "dash_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "run_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "tap_yarn_action",
+            "weight": 3
+          },
+          {
+            "to": "dash_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "yarn_ball_action",
+            "weight": 3
+          },
+          {
+            "to": "be_pet",
+            "weight": 3
+          },
+          {
+            "to": "tripping_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "snooze",
+            "weight": 3
+          },
+          {
+            "to": "run_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "stand",
+            "weight": 3.6
+          },
+          {
+            "to": "watch_loop",
+            "weight": 2
+          },
+          {
+            "to": "walk_with_ie_left",
+            "weight": 1.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "pet_action",
+            "weight": 2
+          },
+          {
+            "to": "sit",
+            "weight": 3.3
+          },
+          {
+            "to": "pull_up_shimeji2_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "phone_action",
+            "weight": 3
+          },
+          {
+            "to": "watch_action",
+            "weight": 3
+          },
+          {
+            "to": "walk_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "walk_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "tripping_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "sprawl",
+            "weight": 3.3
+          }
+        ]
+      }
+    },
+    {
+      "key": "tap_yarn_action",
+      "type": "GROUND",
+      "subtype": "TAPYARNACTION",
+      "level": 7,
+      "loop": "LOOP",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 74,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 78,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 80,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 78,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 74,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 82,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 84,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 82,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 74,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 78,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 80,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 78,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 74,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 82,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 84,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 82,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 76,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 78,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 80,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 78,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 74,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 82,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 84,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 82,
+          "durationTicks": 10
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "walk_with_ie_right",
+            "weight": 1.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "pull_up_shimeji1",
+            "weight": 1.5
+          },
+          {
+            "to": "jumping",
+            "weight": 0.7
+          },
+          {
+            "to": "bounce",
+            "weight": 2
+          },
+          {
+            "to": "pull_up_shimeji2_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "scroll_phone",
+            "weight": 2
+          },
+          {
+            "to": "dash_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "run_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "tap_yarn_action",
+            "weight": 3
+          },
+          {
+            "to": "dash_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "yarn_ball_action",
+            "weight": 3
+          },
+          {
+            "to": "be_pet",
+            "weight": 3
+          },
+          {
+            "to": "tripping_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "snooze",
+            "weight": 3
+          },
+          {
+            "to": "run_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "stand",
+            "weight": 3.6
+          },
+          {
+            "to": "watch_loop",
+            "weight": 2
+          },
+          {
+            "to": "walk_with_ie_left",
+            "weight": 1.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "pet_action",
+            "weight": 2
+          },
+          {
+            "to": "sit",
+            "weight": 3.3
+          },
+          {
+            "to": "pull_up_shimeji2_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "phone_action",
+            "weight": 3
+          },
+          {
+            "to": "watch_action",
+            "weight": 3
+          },
+          {
+            "to": "walk_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "walk_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "tripping_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "sprawl",
+            "weight": 3.3
+          }
+        ]
+      }
+    },
+    {
+      "key": "roll_yarn_action",
+      "type": "GROUND",
+      "subtype": "ROLLYARNACTION",
+      "level": 6,
+      "loop": "LOOP",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 74,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 86,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 88,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 86,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 74,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 90,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 92,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 90,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 74,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 86,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 88,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 86,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 74,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 90,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 92,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 90,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 74,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 86,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 88,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 86,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 74,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 90,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 92,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 90,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 76,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 86,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 88,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 86,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 74,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 90,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 92,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 90,
+          "durationTicks": 10
+        }
+      ]
+    },
+    {
+      "key": "sprawl",
+      "type": "GROUND",
+      "subtype": "SPRAWL",
+      "level": 3,
+      "loop": "LOOP",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 94,
+          "durationTicks": 181
+        },
+        {
+          "sprite": 96,
+          "durationTicks": 12
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "walk_with_ie_right",
+            "weight": 1.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "pull_up_shimeji1",
+            "weight": 1.5
+          },
+          {
+            "to": "jumping",
+            "weight": 0.7
+          },
+          {
+            "to": "bounce",
+            "weight": 2
+          },
+          {
+            "to": "pull_up_shimeji2_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "scroll_phone",
+            "weight": 2
+          },
+          {
+            "to": "dash_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "run_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "tap_yarn_action",
+            "weight": 3
+          },
+          {
+            "to": "dash_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "yarn_ball_action",
+            "weight": 3
+          },
+          {
+            "to": "be_pet",
+            "weight": 3
+          },
+          {
+            "to": "tripping_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "snooze",
+            "weight": 3
+          },
+          {
+            "to": "run_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "stand",
+            "weight": 3.6
+          },
+          {
+            "to": "watch_loop",
+            "weight": 2
+          },
+          {
+            "to": "walk_with_ie_left",
+            "weight": 1.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "pet_action",
+            "weight": 2
+          },
+          {
+            "to": "sit",
+            "weight": 3.3
+          },
+          {
+            "to": "pull_up_shimeji2_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "phone_action",
+            "weight": 3
+          },
+          {
+            "to": "watch_action",
+            "weight": 3
+          },
+          {
+            "to": "walk_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "walk_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "tripping_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "sprawl",
+            "weight": 3.3
+          }
+        ]
+      }
+    },
+    {
+      "key": "snooze",
+      "type": "GROUND",
+      "subtype": "SNOOZE",
+      "level": 7,
+      "loop": "LOOP",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 98,
+          "durationTicks": 72
+        },
+        {
+          "sprite": 100,
+          "durationTicks": 72
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "walk_with_ie_right",
+            "weight": 1.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "pull_up_shimeji1",
+            "weight": 1.5
+          },
+          {
+            "to": "jumping",
+            "weight": 0.7
+          },
+          {
+            "to": "bounce",
+            "weight": 2
+          },
+          {
+            "to": "pull_up_shimeji2_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "scroll_phone",
+            "weight": 2
+          },
+          {
+            "to": "dash_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "run_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "tap_yarn_action",
+            "weight": 3
+          },
+          {
+            "to": "dash_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "yarn_ball_action",
+            "weight": 3
+          },
+          {
+            "to": "be_pet",
+            "weight": 3
+          },
+          {
+            "to": "tripping_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "snooze",
+            "weight": 3
+          },
+          {
+            "to": "run_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "stand",
+            "weight": 3.6
+          },
+          {
+            "to": "watch_loop",
+            "weight": 2
+          },
+          {
+            "to": "walk_with_ie_left",
+            "weight": 1.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "pet_action",
+            "weight": 2
+          },
+          {
+            "to": "sit",
+            "weight": 3.3
+          },
+          {
+            "to": "pull_up_shimeji2_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "phone_action",
+            "weight": 3
+          },
+          {
+            "to": "watch_action",
+            "weight": 3
+          },
+          {
+            "to": "walk_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "walk_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "tripping_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "sprawl",
+            "weight": 3.3
+          }
+        ]
+      }
+    },
+    {
+      "key": "grab_ceiling_left",
+      "type": "CEILING",
+      "subtype": "GRABCEILING",
+      "level": 3,
+      "loop": "LOOP",
+      "direction": "LEFT",
+      "frames": [
+        {
+          "sprite": 102,
+          "durationTicks": 181
+        },
+        {
+          "sprite": 104,
+          "durationTicks": 12
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "grab_ceiling_left",
+            "weight": 2.1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "climb_ceiling_left",
+            "weight": 4.2,
+            "setFacing": "LEFT"
+          }
+        ]
+      }
+    },
+    {
+      "key": "grab_ceiling_right",
+      "type": "CEILING",
+      "subtype": "GRABCEILING",
+      "level": 3,
+      "loop": "LOOP",
+      "direction": "RIGHT",
+      "frames": [
+        {
+          "sprite": 102,
+          "durationTicks": 181
+        },
+        {
+          "sprite": 104,
+          "durationTicks": 12
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "climb_ceiling_right",
+            "weight": 4.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "grab_ceiling_right",
+            "weight": 2.1,
+            "setFacing": "RIGHT"
+          }
+        ]
+      }
+    },
+    {
+      "key": "climb_ceiling_left",
+      "type": "CEILING",
+      "subtype": "CLIMBCEILING",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "LEFT",
+      "frames": [
+        {
+          "sprite": 106,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 106,
+          "dx": -1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 102,
+          "dx": -1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 108,
+          "dx": -1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 108,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 108,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 102,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 106,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 106,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 106,
+          "dx": -1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 102,
+          "dx": -1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 108,
+          "dx": -1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 108,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 108,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 102,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 106,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 106,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 106,
+          "dx": -1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 102,
+          "dx": -1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 108,
+          "dx": -1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 108,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 108,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 102,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 106,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 106,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 106,
+          "dx": -1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 104,
+          "dx": -1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 108,
+          "dx": -1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 108,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 108,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 102,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 106,
+          "dx": -2,
+          "durationTicks": 10
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "grab_ceiling_left",
+            "weight": 2.1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "climb_ceiling_left",
+            "weight": 4.2,
+            "setFacing": "LEFT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "LEFT",
+          "facing": "LEFT",
+          "choices": [
+            {
+              "to": "climb_ceiling_right",
+              "weight": 2,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "fall",
+              "weight": 1,
+              "setFacing": "RANDOM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "climb_ceiling_right",
+      "type": "CEILING",
+      "subtype": "CLIMBCEILING",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "RIGHT",
+      "frames": [
+        {
+          "sprite": 106,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 106,
+          "dx": 1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 102,
+          "dx": 1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 108,
+          "dx": 1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 108,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 108,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 102,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 106,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 106,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 106,
+          "dx": 1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 102,
+          "dx": 1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 108,
+          "dx": 1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 108,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 108,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 102,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 106,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 106,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 106,
+          "dx": 1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 102,
+          "dx": 1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 108,
+          "dx": 1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 108,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 108,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 102,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 106,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 106,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 106,
+          "dx": 1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 104,
+          "dx": 1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 108,
+          "dx": 1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 108,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 108,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 102,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 106,
+          "dx": 2,
+          "durationTicks": 10
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "climb_ceiling_right",
+            "weight": 4.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "grab_ceiling_right",
+            "weight": 2.1,
+            "setFacing": "RIGHT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "RIGHT",
+          "facing": "RIGHT",
+          "choices": [
+            {
+              "to": "climb_ceiling_left",
+              "weight": 2,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "fall",
+              "weight": 1,
+              "setFacing": "RANDOM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "grab_wall_left",
+      "type": "WALL",
+      "subtype": "GRABWALL",
+      "level": 2,
+      "loop": "LOOP",
+      "direction": "LEFT",
+      "frames": [
+        {
+          "sprite": 110,
+          "durationTicks": 181
+        },
+        {
+          "sprite": 112,
+          "durationTicks": 12
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "grab_wall_left",
+            "weight": 2.1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "climb_wall_left",
+            "weight": 4.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "climb_wall_descend_left",
+            "weight": 0.5,
+            "setFacing": "LEFT"
+          }
+        ]
+      }
+    },
+    {
+      "key": "grab_wall_right",
+      "type": "WALL",
+      "subtype": "GRABWALL",
+      "level": 2,
+      "loop": "LOOP",
+      "direction": "RIGHT",
+      "frames": [
+        {
+          "sprite": 110,
+          "durationTicks": 181
+        },
+        {
+          "sprite": 112,
+          "durationTicks": 12
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "climb_wall_right",
+            "weight": 4.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "grab_wall_right",
+            "weight": 2.1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "climb_wall_descend_right",
+            "weight": 0.5,
+            "setFacing": "RIGHT"
+          }
+        ]
+      }
+    },
+    {
+      "key": "climb_wall_left",
+      "type": "WALL",
+      "subtype": "CLIMBWALL",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "LEFT",
+      "frames": [
+        {
+          "sprite": 114,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 114,
+          "dy": -1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 116,
+          "dy": -1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 110,
+          "dy": -1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 110,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 110,
+          "dy": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 116,
+          "dy": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 114,
+          "dy": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 114,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 114,
+          "dy": -1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 116,
+          "dy": -1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 110,
+          "dy": -1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 110,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 110,
+          "dy": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 116,
+          "dy": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 114,
+          "dy": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 114,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 114,
+          "dy": -1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 116,
+          "dy": -1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 110,
+          "dy": -1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 110,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 110,
+          "dy": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 116,
+          "dy": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 114,
+          "dy": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 114,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 114,
+          "dy": -1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 116,
+          "dy": -1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 112,
+          "dy": -1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 110,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 110,
+          "dy": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 116,
+          "dy": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 114,
+          "dy": -2,
+          "durationTicks": 10
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "grab_wall_left",
+            "weight": 2.1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "climb_wall_left",
+            "weight": 4.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "climb_wall_descend_left",
+            "weight": 0.5,
+            "setFacing": "LEFT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "TOP",
+          "facing": "LEFT",
+          "choices": [
+            {
+              "to": "climb_ceiling_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "climb_wall_right",
+      "type": "WALL",
+      "subtype": "CLIMBWALL",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "RIGHT",
+      "frames": [
+        {
+          "sprite": 114,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 114,
+          "dy": -1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 116,
+          "dy": -1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 110,
+          "dy": -1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 110,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 110,
+          "dy": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 116,
+          "dy": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 114,
+          "dy": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 114,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 114,
+          "dy": -1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 116,
+          "dy": -1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 110,
+          "dy": -1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 110,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 110,
+          "dy": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 116,
+          "dy": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 114,
+          "dy": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 114,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 114,
+          "dy": -1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 116,
+          "dy": -1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 110,
+          "dy": -1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 110,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 110,
+          "dy": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 116,
+          "dy": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 114,
+          "dy": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 114,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 114,
+          "dy": -1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 116,
+          "dy": -1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 112,
+          "dy": -1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 110,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 110,
+          "dy": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 116,
+          "dy": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 114,
+          "dy": -2,
+          "durationTicks": 10
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "climb_wall_right",
+            "weight": 4.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "grab_wall_right",
+            "weight": 2.1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "climb_wall_descend_right",
+            "weight": 0.5,
+            "setFacing": "RIGHT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "TOP",
+          "facing": "RIGHT",
+          "choices": [
+            {
+              "to": "climb_ceiling_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "climb_wall_descend_left",
+      "type": "WALL",
+      "subtype": "DESCEND",
+      "level": 3,
+      "loop": "LOOP",
+      "direction": "LEFT",
+      "frames": [
+        {
+          "sprite": 114,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 114,
+          "dy": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 116,
+          "dy": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 110,
+          "dy": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 110,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 110,
+          "dy": 1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 116,
+          "dy": 1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 114,
+          "dy": 1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 114,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 114,
+          "dy": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 116,
+          "dy": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 110,
+          "dy": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 110,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 110,
+          "dy": 1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 116,
+          "dy": 1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 114,
+          "dy": 1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 114,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 114,
+          "dy": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 116,
+          "dy": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 110,
+          "dy": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 110,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 110,
+          "dy": 1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 116,
+          "dy": 1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 114,
+          "dy": 1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 114,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 114,
+          "dy": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 116,
+          "dy": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 112,
+          "dy": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 110,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 110,
+          "dy": 1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 116,
+          "dy": 1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 114,
+          "dy": 1,
+          "durationTicks": 10
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "grab_wall_left",
+            "weight": 2.1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "climb_wall_left",
+            "weight": 4.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "climb_wall_descend_left",
+            "weight": 0.5,
+            "setFacing": "LEFT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "BOTTOM",
+          "choices": [
+            {
+              "to": "walk_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "climb_wall_descend_right",
+      "type": "WALL",
+      "subtype": "DESCEND",
+      "level": 3,
+      "loop": "LOOP",
+      "direction": "RIGHT",
+      "frames": [
+        {
+          "sprite": 114,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 114,
+          "dy": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 116,
+          "dy": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 110,
+          "dy": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 110,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 110,
+          "dy": 1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 116,
+          "dy": 1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 114,
+          "dy": 1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 114,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 114,
+          "dy": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 116,
+          "dy": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 110,
+          "dy": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 110,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 110,
+          "dy": 1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 116,
+          "dy": 1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 114,
+          "dy": 1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 114,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 114,
+          "dy": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 116,
+          "dy": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 110,
+          "dy": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 110,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 110,
+          "dy": 1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 116,
+          "dy": 1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 114,
+          "dy": 1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 114,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 114,
+          "dy": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 116,
+          "dy": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 112,
+          "dy": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 110,
+          "durationTicks": 39
+        },
+        {
+          "sprite": 110,
+          "dy": 1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 116,
+          "dy": 1,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 114,
+          "dy": 1,
+          "durationTicks": 10
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "climb_wall_right",
+            "weight": 4.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "grab_wall_right",
+            "weight": 2.1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "climb_wall_descend_right",
+            "weight": 0.5,
+            "setFacing": "RIGHT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "BOTTOM",
+          "choices": [
+            {
+              "to": "walk_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "walk_with_ie_left",
+      "type": "GROUND",
+      "subtype": "WALKWITHIE",
+      "level": 5,
+      "loop": "ONESHOT",
+      "direction": "LEFT",
+      "frames": [
+        {
+          "sprite": 118,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 120,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 122,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 124,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 126,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 128,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 118,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 120,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 122,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 124,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 126,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 128,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 118,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 120,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 122,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 124,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 126,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 128,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 118,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 120,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 122,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 130,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 126,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 128,
+          "dx": -2,
+          "durationTicks": 10
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "walk_with_ie_right",
+            "weight": 1.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "pull_up_shimeji1",
+            "weight": 1.5
+          },
+          {
+            "to": "jumping",
+            "weight": 0.7
+          },
+          {
+            "to": "bounce",
+            "weight": 2
+          },
+          {
+            "to": "pull_up_shimeji2_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "scroll_phone",
+            "weight": 2
+          },
+          {
+            "to": "dash_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "run_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "tap_yarn_action",
+            "weight": 3
+          },
+          {
+            "to": "dash_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "yarn_ball_action",
+            "weight": 3
+          },
+          {
+            "to": "be_pet",
+            "weight": 3
+          },
+          {
+            "to": "tripping_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "snooze",
+            "weight": 3
+          },
+          {
+            "to": "run_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "stand",
+            "weight": 3.6
+          },
+          {
+            "to": "watch_loop",
+            "weight": 2
+          },
+          {
+            "to": "walk_with_ie_left",
+            "weight": 1.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "pet_action",
+            "weight": 2
+          },
+          {
+            "to": "sit",
+            "weight": 3.3
+          },
+          {
+            "to": "pull_up_shimeji2_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "phone_action",
+            "weight": 3
+          },
+          {
+            "to": "watch_action",
+            "weight": 3
+          },
+          {
+            "to": "walk_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "walk_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "tripping_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "sprawl",
+            "weight": 3.3
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "LEFT",
+          "facing": "LEFT",
+          "choices": [
+            {
+              "to": "climb_wall_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "walk_right",
+              "weight": 3,
+              "setFacing": "RIGHT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "walk_with_ie_right",
+      "type": "GROUND",
+      "subtype": "WALKWITHIE",
+      "level": 5,
+      "loop": "ONESHOT",
+      "direction": "RIGHT",
+      "frames": [
+        {
+          "sprite": 118,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 120,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 122,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 124,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 126,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 128,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 118,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 120,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 122,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 124,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 126,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 128,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 118,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 120,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 122,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 124,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 126,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 128,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 118,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 120,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 122,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 130,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 126,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 128,
+          "dx": 2,
+          "durationTicks": 10
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "walk_with_ie_right",
+            "weight": 1.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "pull_up_shimeji1",
+            "weight": 1.5
+          },
+          {
+            "to": "jumping",
+            "weight": 0.7
+          },
+          {
+            "to": "bounce",
+            "weight": 2
+          },
+          {
+            "to": "pull_up_shimeji2_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "scroll_phone",
+            "weight": 2
+          },
+          {
+            "to": "dash_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "run_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "tap_yarn_action",
+            "weight": 3
+          },
+          {
+            "to": "dash_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "yarn_ball_action",
+            "weight": 3
+          },
+          {
+            "to": "be_pet",
+            "weight": 3
+          },
+          {
+            "to": "tripping_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "snooze",
+            "weight": 3
+          },
+          {
+            "to": "run_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "stand",
+            "weight": 3.6
+          },
+          {
+            "to": "watch_loop",
+            "weight": 2
+          },
+          {
+            "to": "walk_with_ie_left",
+            "weight": 1.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "pet_action",
+            "weight": 2
+          },
+          {
+            "to": "sit",
+            "weight": 3.3
+          },
+          {
+            "to": "pull_up_shimeji2_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "phone_action",
+            "weight": 3
+          },
+          {
+            "to": "watch_action",
+            "weight": 3
+          },
+          {
+            "to": "walk_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "walk_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "tripping_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "sprawl",
+            "weight": 3.3
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "RIGHT",
+          "facing": "RIGHT",
+          "choices": [
+            {
+              "to": "climb_wall_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "walk_left",
+              "weight": 3,
+              "setFacing": "LEFT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "jumping",
+      "type": "AIR",
+      "subtype": "JUMPING",
+      "level": 3,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 132,
+          "dy": -8,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 132,
+          "dy": -4,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 132,
+          "durationTicks": 6
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "fall",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "key": "fall",
+      "type": "AIR",
+      "subtype": "FALLING",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 134,
+          "dy": 10,
+          "durationTicks": 602
+        }
+      ],
+      "borderTransitions": [
+        {
+          "when": "BOTTOM",
+          "facing": "LEFT",
+          "choices": [
+            {
+              "to": "bounce",
+              "weight": 1,
+              "setFacing": "LEFT"
+            }
+          ]
+        },
+        {
+          "when": "BOTTOM",
+          "facing": "RIGHT",
+          "choices": [
+            {
+              "to": "bounce",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "falling2",
+      "type": "AIR",
+      "subtype": "FALLING2",
+      "level": 6,
+      "loop": "LOOP",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 136,
+          "dy": 10,
+          "durationTicks": 602
+        }
+      ],
+      "borderTransitions": [
+        {
+          "when": "BOTTOM",
+          "facing": "LEFT",
+          "choices": [
+            {
+              "to": "bounce",
+              "weight": 1,
+              "setFacing": "LEFT"
+            }
+          ]
+        },
+        {
+          "when": "BOTTOM",
+          "facing": "RIGHT",
+          "choices": [
+            {
+              "to": "bounce",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "bounce",
+      "type": "GROUND",
+      "subtype": "BOUNCING",
+      "level": 1,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 138,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 136,
+          "durationTicks": 10
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "walk_with_ie_right",
+            "weight": 1.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "pull_up_shimeji1",
+            "weight": 1.5
+          },
+          {
+            "to": "jumping",
+            "weight": 0.7
+          },
+          {
+            "to": "bounce",
+            "weight": 2
+          },
+          {
+            "to": "pull_up_shimeji2_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "scroll_phone",
+            "weight": 2
+          },
+          {
+            "to": "dash_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "run_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "tap_yarn_action",
+            "weight": 3
+          },
+          {
+            "to": "dash_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "yarn_ball_action",
+            "weight": 3
+          },
+          {
+            "to": "be_pet",
+            "weight": 3
+          },
+          {
+            "to": "tripping_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "snooze",
+            "weight": 3
+          },
+          {
+            "to": "run_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "stand",
+            "weight": 3.6
+          },
+          {
+            "to": "watch_loop",
+            "weight": 2
+          },
+          {
+            "to": "walk_with_ie_left",
+            "weight": 1.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "pet_action",
+            "weight": 2
+          },
+          {
+            "to": "sit",
+            "weight": 3.3
+          },
+          {
+            "to": "pull_up_shimeji2_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "phone_action",
+            "weight": 3
+          },
+          {
+            "to": "watch_action",
+            "weight": 3
+          },
+          {
+            "to": "walk_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "walk_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "tripping_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "sprawl",
+            "weight": 3.3
+          }
+        ]
+      }
+    },
+    {
+      "key": "tripping_left",
+      "type": "GROUND",
+      "subtype": "TRIPPING",
+      "level": 5,
+      "loop": "ONESHOT",
+      "direction": "LEFT",
+      "frames": [
+        {
+          "sprite": 136,
+          "dx": -8,
+          "durationTicks": 19
+        },
+        {
+          "sprite": 138,
+          "dx": -4,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 94,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 94,
+          "durationTicks": 24
+        },
+        {
+          "sprite": 136,
+          "dx": -4,
+          "durationTicks": 10
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "walk_with_ie_right",
+            "weight": 1.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "pull_up_shimeji1",
+            "weight": 1.5
+          },
+          {
+            "to": "jumping",
+            "weight": 0.7
+          },
+          {
+            "to": "bounce",
+            "weight": 2
+          },
+          {
+            "to": "pull_up_shimeji2_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "scroll_phone",
+            "weight": 2
+          },
+          {
+            "to": "dash_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "run_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "tap_yarn_action",
+            "weight": 3
+          },
+          {
+            "to": "dash_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "yarn_ball_action",
+            "weight": 3
+          },
+          {
+            "to": "be_pet",
+            "weight": 3
+          },
+          {
+            "to": "tripping_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "snooze",
+            "weight": 3
+          },
+          {
+            "to": "run_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "stand",
+            "weight": 3.6
+          },
+          {
+            "to": "watch_loop",
+            "weight": 2
+          },
+          {
+            "to": "walk_with_ie_left",
+            "weight": 1.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "pet_action",
+            "weight": 2
+          },
+          {
+            "to": "sit",
+            "weight": 3.3
+          },
+          {
+            "to": "pull_up_shimeji2_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "phone_action",
+            "weight": 3
+          },
+          {
+            "to": "watch_action",
+            "weight": 3
+          },
+          {
+            "to": "walk_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "walk_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "tripping_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "sprawl",
+            "weight": 3.3
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "LEFT",
+          "facing": "LEFT",
+          "choices": [
+            {
+              "to": "climb_wall_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "walk_right",
+              "weight": 3,
+              "setFacing": "RIGHT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "tripping_right",
+      "type": "GROUND",
+      "subtype": "TRIPPING",
+      "level": 5,
+      "loop": "ONESHOT",
+      "direction": "RIGHT",
+      "frames": [
+        {
+          "sprite": 136,
+          "dx": 8,
+          "durationTicks": 19
+        },
+        {
+          "sprite": 138,
+          "dx": 4,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 94,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 94,
+          "durationTicks": 24
+        },
+        {
+          "sprite": 136,
+          "dx": 4,
+          "durationTicks": 10
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "walk_with_ie_right",
+            "weight": 1.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "pull_up_shimeji1",
+            "weight": 1.5
+          },
+          {
+            "to": "jumping",
+            "weight": 0.7
+          },
+          {
+            "to": "bounce",
+            "weight": 2
+          },
+          {
+            "to": "pull_up_shimeji2_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "scroll_phone",
+            "weight": 2
+          },
+          {
+            "to": "dash_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "run_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "tap_yarn_action",
+            "weight": 3
+          },
+          {
+            "to": "dash_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "yarn_ball_action",
+            "weight": 3
+          },
+          {
+            "to": "be_pet",
+            "weight": 3
+          },
+          {
+            "to": "tripping_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "snooze",
+            "weight": 3
+          },
+          {
+            "to": "run_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "stand",
+            "weight": 3.6
+          },
+          {
+            "to": "watch_loop",
+            "weight": 2
+          },
+          {
+            "to": "walk_with_ie_left",
+            "weight": 1.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "pet_action",
+            "weight": 2
+          },
+          {
+            "to": "sit",
+            "weight": 3.3
+          },
+          {
+            "to": "pull_up_shimeji2_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "phone_action",
+            "weight": 3
+          },
+          {
+            "to": "watch_action",
+            "weight": 3
+          },
+          {
+            "to": "walk_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "walk_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "tripping_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "sprawl",
+            "weight": 3.3
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "RIGHT",
+          "facing": "RIGHT",
+          "choices": [
+            {
+              "to": "climb_wall_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "walk_left",
+              "weight": 3,
+              "setFacing": "LEFT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pinched",
+      "type": "USER",
+      "subtype": "PINCHED",
+      "level": 2,
+      "loop": "LOOP",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 140,
+          "durationTicks": 12
+        }
+      ]
+    },
+    {
+      "key": "drag",
+      "type": "USER",
+      "subtype": "RESISTING",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 142,
+          "durationTicks": 12
+        },
+        {
+          "sprite": 147,
+          "durationTicks": 12
+        },
+        {
+          "sprite": 142,
+          "durationTicks": 12
+        },
+        {
+          "sprite": 147,
+          "durationTicks": 12
+        },
+        {
+          "sprite": 143,
+          "durationTicks": 120
+        },
+        {
+          "sprite": 142,
+          "durationTicks": 12
+        },
+        {
+          "sprite": 147,
+          "durationTicks": 12
+        },
+        {
+          "sprite": 142,
+          "durationTicks": 12
+        },
+        {
+          "sprite": 147,
+          "durationTicks": 12
+        },
+        {
+          "sprite": 142,
+          "durationTicks": 12
+        },
+        {
+          "sprite": 147,
+          "durationTicks": 12
+        },
+        {
+          "sprite": 142,
+          "durationTicks": 12
+        },
+        {
+          "sprite": 147,
+          "durationTicks": 12
+        },
+        {
+          "sprite": 143,
+          "durationTicks": 241
+        },
+        {
+          "sprite": 142,
+          "durationTicks": 12
+        },
+        {
+          "sprite": 147,
+          "durationTicks": 12
+        },
+        {
+          "sprite": 142,
+          "durationTicks": 12
+        },
+        {
+          "sprite": 147,
+          "durationTicks": 12
+        },
+        {
+          "sprite": 142,
+          "durationTicks": 12
+        },
+        {
+          "sprite": 147,
+          "durationTicks": 12
+        },
+        {
+          "sprite": 142,
+          "durationTicks": 12
+        },
+        {
+          "sprite": 147,
+          "durationTicks": 12
+        },
+        {
+          "sprite": 142,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 147,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 142,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 147,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 142,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 147,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 142,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 147,
+          "durationTicks": 5
+        }
+      ]
+    },
+    {
+      "key": "pull_up_shimeji1",
+      "type": "GROUND",
+      "subtype": "PULLUPSHIMEJI1",
+      "level": 5,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 148,
+          "durationTicks": 48
+        },
+        {
+          "sprite": 150,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 152,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 154,
+          "durationTicks": 58
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "walk_with_ie_right",
+            "weight": 1.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "pull_up_shimeji1",
+            "weight": 1.5
+          },
+          {
+            "to": "jumping",
+            "weight": 0.7
+          },
+          {
+            "to": "bounce",
+            "weight": 2
+          },
+          {
+            "to": "pull_up_shimeji2_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "scroll_phone",
+            "weight": 2
+          },
+          {
+            "to": "dash_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "run_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "tap_yarn_action",
+            "weight": 3
+          },
+          {
+            "to": "dash_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "yarn_ball_action",
+            "weight": 3
+          },
+          {
+            "to": "be_pet",
+            "weight": 3
+          },
+          {
+            "to": "tripping_right",
+            "weight": 0.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "snooze",
+            "weight": 3
+          },
+          {
+            "to": "run_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "stand",
+            "weight": 3.6
+          },
+          {
+            "to": "watch_loop",
+            "weight": 2
+          },
+          {
+            "to": "walk_with_ie_left",
+            "weight": 1.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "pet_action",
+            "weight": 2
+          },
+          {
+            "to": "sit",
+            "weight": 3.3
+          },
+          {
+            "to": "pull_up_shimeji2_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "phone_action",
+            "weight": 3
+          },
+          {
+            "to": "watch_action",
+            "weight": 3
+          },
+          {
+            "to": "walk_right",
+            "weight": 4.8,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "walk_left",
+            "weight": 4.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "tripping_left",
+            "weight": 0.8,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "sprawl",
+            "weight": 3.3
+          }
+        ]
+      }
+    },
+    {
+      "key": "pull_up_shimeji2_left",
+      "type": "GROUND",
+      "subtype": "PULLUPSHIMEJI2",
+      "level": 5,
+      "loop": "ONESHOT",
+      "direction": "LEFT",
+      "frames": [
+        {
+          "sprite": 136,
+          "dx": 20,
+          "dy": -20,
+          "durationTicks": 2
+        },
+        {
+          "sprite": 136,
+          "dx": 20,
+          "dy": -10,
+          "durationTicks": 2
+        },
+        {
+          "sprite": 136,
+          "dx": 20,
+          "dy": -5,
+          "durationTicks": 2
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "fall",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "key": "pull_up_shimeji2_right",
+      "type": "GROUND",
+      "subtype": "PULLUPSHIMEJI2",
+      "level": 5,
+      "loop": "ONESHOT",
+      "direction": "RIGHT",
+      "frames": [
+        {
+          "sprite": 136,
+          "dx": -20,
+          "dy": -20,
+          "durationTicks": 2
+        },
+        {
+          "sprite": 136,
+          "dx": -20,
+          "dy": -10,
+          "durationTicks": 2
+        },
+        {
+          "sprite": 136,
+          "dx": -20,
+          "dy": -5,
+          "durationTicks": 2
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "fall",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "key": "fling",
+      "type": "USER",
+      "subtype": "FALLING",
+      "level": 2,
+      "loop": "LOOP",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 134,
+          "dy": 10,
+          "durationTicks": 602
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "event": "DRAG_START",
+      "from": "*",
+      "to": "drag",
+      "setFacing": "RANDOM"
+    },
+    {
+      "event": "DRAG_END",
+      "from": "drag",
+      "when": "LEFT",
+      "choices": [
+        {
+          "to": "grab_wall_left",
+          "weight": 1,
+          "setFacing": "LEFT"
+        },
+        {
+          "to": "climb_wall_left",
+          "weight": 1,
+          "setFacing": "LEFT"
+        },
+        {
+          "to": "climb_wall_descend_left",
+          "weight": 1,
+          "setFacing": "LEFT"
+        }
+      ]
+    },
+    {
+      "event": "DRAG_END",
+      "from": "drag",
+      "when": "RIGHT",
+      "choices": [
+        {
+          "to": "grab_wall_right",
+          "weight": 1,
+          "setFacing": "RIGHT"
+        },
+        {
+          "to": "climb_wall_right",
+          "weight": 1,
+          "setFacing": "RIGHT"
+        },
+        {
+          "to": "climb_wall_descend_right",
+          "weight": 1,
+          "setFacing": "RIGHT"
+        }
+      ]
+    },
+    {
+      "event": "DRAG_END",
+      "from": "drag",
+      "when": "TOP",
+      "facing": "LEFT",
+      "choices": [
+        {
+          "to": "grab_ceiling_left",
+          "weight": 1,
+          "setFacing": "LEFT"
+        },
+        {
+          "to": "climb_ceiling_left",
+          "weight": 1,
+          "setFacing": "LEFT"
+        }
+      ]
+    },
+    {
+      "event": "DRAG_END",
+      "from": "drag",
+      "when": "TOP",
+      "facing": "RIGHT",
+      "choices": [
+        {
+          "to": "grab_ceiling_right",
+          "weight": 1,
+          "setFacing": "RIGHT"
+        },
+        {
+          "to": "climb_ceiling_right",
+          "weight": 1,
+          "setFacing": "RIGHT"
+        }
+      ]
+    },
+    {
+      "event": "DRAG_END",
+      "from": "drag",
+      "to": "fall",
+      "setFacing": "RANDOM"
+    },
+    {
+      "event": "FLING_START",
+      "from": "*",
+      "choices": [
+        {
+          "to": "fling",
+          "weight": 1,
+          "setFacing": "EVENT_VELOCITY"
+        }
+      ]
+    },
+    {
+      "event": "FLING_END",
+      "from": "fling",
+      "when": "LEFT",
+      "choices": [
+        {
+          "to": "grab_wall_left",
+          "weight": 1,
+          "setFacing": "LEFT"
+        },
+        {
+          "to": "climb_wall_left",
+          "weight": 1,
+          "setFacing": "LEFT"
+        },
+        {
+          "to": "climb_wall_descend_left",
+          "weight": 1,
+          "setFacing": "LEFT"
+        }
+      ]
+    },
+    {
+      "event": "FLING_END",
+      "from": "fling",
+      "when": "RIGHT",
+      "choices": [
+        {
+          "to": "grab_wall_right",
+          "weight": 1,
+          "setFacing": "RIGHT"
+        },
+        {
+          "to": "climb_wall_right",
+          "weight": 1,
+          "setFacing": "RIGHT"
+        },
+        {
+          "to": "climb_wall_descend_right",
+          "weight": 1,
+          "setFacing": "RIGHT"
+        }
+      ]
+    },
+    {
+      "event": "FLING_END",
+      "from": "fling",
+      "when": "TOP",
+      "facing": "LEFT",
+      "choices": [
+        {
+          "to": "grab_ceiling_left",
+          "weight": 1,
+          "setFacing": "LEFT"
+        },
+        {
+          "to": "climb_ceiling_left",
+          "weight": 1,
+          "setFacing": "LEFT"
+        }
+      ]
+    },
+    {
+      "event": "FLING_END",
+      "from": "fling",
+      "when": "TOP",
+      "facing": "RIGHT",
+      "choices": [
+        {
+          "to": "grab_ceiling_right",
+          "weight": 1,
+          "setFacing": "RIGHT"
+        },
+        {
+          "to": "climb_ceiling_right",
+          "weight": 1,
+          "setFacing": "RIGHT"
+        }
+      ]
+    },
+    {
+      "event": "FLING_END",
+      "from": "fling",
+      "when": "BOTTOM",
+      "facing": "LEFT",
+      "to": "bounce"
+    },
+    {
+      "event": "FLING_END",
+      "from": "fling",
+      "when": "BOTTOM",
+      "facing": "RIGHT",
+      "to": "bounce"
+    },
+    {
+      "event": "FLING_END",
+      "from": "fling",
+      "to": "fall"
+    },
+    {
+      "event": "TAP",
+      "from": "stand",
+      "choices": [
+        {
+          "to": "roll_yarn_action",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "walk_left",
+      "choices": [
+        {
+          "to": "roll_yarn_action",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "walk_right",
+      "choices": [
+        {
+          "to": "roll_yarn_action",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "run_left",
+      "choices": [
+        {
+          "to": "roll_yarn_action",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "run_right",
+      "choices": [
+        {
+          "to": "roll_yarn_action",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "dash_left",
+      "choices": [
+        {
+          "to": "roll_yarn_action",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "dash_right",
+      "choices": [
+        {
+          "to": "roll_yarn_action",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "sit",
+      "choices": [
+        {
+          "to": "roll_yarn_action",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "be_pet",
+      "choices": [
+        {
+          "to": "roll_yarn_action",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "pet_action",
+      "choices": [
+        {
+          "to": "roll_yarn_action",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "watch_action",
+      "choices": [
+        {
+          "to": "roll_yarn_action",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "watch_loop",
+      "choices": [
+        {
+          "to": "roll_yarn_action",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "phone_action",
+      "choices": [
+        {
+          "to": "roll_yarn_action",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "scroll_phone",
+      "choices": [
+        {
+          "to": "roll_yarn_action",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "yarn_ball_action",
+      "choices": [
+        {
+          "to": "roll_yarn_action",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "tap_yarn_action",
+      "choices": [
+        {
+          "to": "roll_yarn_action",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "roll_yarn_action",
+      "choices": [
+        {
+          "to": "stand",
+          "weight": 1
+        },
+        {
+          "to": "walk_left",
+          "weight": 1
+        },
+        {
+          "to": "walk_right",
+          "weight": 1
+        },
+        {
+          "to": "run_left",
+          "weight": 1
+        },
+        {
+          "to": "run_right",
+          "weight": 1
+        },
+        {
+          "to": "dash_left",
+          "weight": 1
+        },
+        {
+          "to": "dash_right",
+          "weight": 1
+        },
+        {
+          "to": "sit",
+          "weight": 1
+        },
+        {
+          "to": "be_pet",
+          "weight": 1
+        },
+        {
+          "to": "pet_action",
+          "weight": 1
+        },
+        {
+          "to": "watch_action",
+          "weight": 1
+        },
+        {
+          "to": "watch_loop",
+          "weight": 1
+        },
+        {
+          "to": "phone_action",
+          "weight": 1
+        },
+        {
+          "to": "scroll_phone",
+          "weight": 1
+        },
+        {
+          "to": "yarn_ball_action",
+          "weight": 1
+        },
+        {
+          "to": "tap_yarn_action",
+          "weight": 1
+        },
+        {
+          "to": "sprawl",
+          "weight": 1
+        },
+        {
+          "to": "snooze",
+          "weight": 1
+        },
+        {
+          "to": "walk_with_ie_left",
+          "weight": 1
+        },
+        {
+          "to": "walk_with_ie_right",
+          "weight": 1
+        },
+        {
+          "to": "bounce",
+          "weight": 1
+        },
+        {
+          "to": "tripping_left",
+          "weight": 1
+        },
+        {
+          "to": "tripping_right",
+          "weight": 1
+        },
+        {
+          "to": "pull_up_shimeji1",
+          "weight": 1
+        },
+        {
+          "to": "pull_up_shimeji2_left",
+          "weight": 1
+        },
+        {
+          "to": "pull_up_shimeji2_right",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "sprawl",
+      "choices": [
+        {
+          "to": "roll_yarn_action",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "snooze",
+      "choices": [
+        {
+          "to": "roll_yarn_action",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "walk_with_ie_left",
+      "choices": [
+        {
+          "to": "roll_yarn_action",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "walk_with_ie_right",
+      "choices": [
+        {
+          "to": "roll_yarn_action",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "bounce",
+      "choices": [
+        {
+          "to": "roll_yarn_action",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "tripping_left",
+      "choices": [
+        {
+          "to": "roll_yarn_action",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "tripping_right",
+      "choices": [
+        {
+          "to": "roll_yarn_action",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "pull_up_shimeji1",
+      "choices": [
+        {
+          "to": "roll_yarn_action",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "pull_up_shimeji2_left",
+      "choices": [
+        {
+          "to": "roll_yarn_action",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "pull_up_shimeji2_right",
+      "choices": [
+        {
+          "to": "roll_yarn_action",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "allowedTypes": [
+        "WALL"
+      ],
+      "choices": [
+        {
+          "to": "fall",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "allowedTypes": [
+        "CEILING"
+      ],
+      "choices": [
+        {
+          "to": "fall",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "allowedTypes": [
+        "AIR"
+      ],
+      "choices": [
+        {
+          "to": "fall",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

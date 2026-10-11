@@ -1,0 +1,6476 @@
+{
+  "schema_id": "default",
+  "version": 1,
+  "default_animation": "fall",
+  "initial_candidates": [
+    "fall"
+  ],
+  "animations": [
+    {
+      "key": "stand",
+      "type": "GROUND",
+      "subtype": "STAND",
+      "level": 1,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 50,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 51,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 52,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 53,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 53,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 54,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 53,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 53,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 52,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 51,
+          "durationTicks": 7
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "walk_left",
+            "weight": 2.15,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 2.15,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "sit_down",
+            "weight": 1
+          },
+          {
+            "to": "sword_draw",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_sigh",
+            "weight": 1.75
+          },
+          {
+            "to": "look_away_aloof",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_rest_shoulder",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_sheathe",
+            "weight": 1.75
+          },
+          {
+            "to": "arms_crossed",
+            "weight": 1.75
+          },
+          {
+            "to": "slow_nod",
+            "weight": 1.75
+          },
+          {
+            "to": "climb_boulder_left",
+            "weight": 0.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "climb_boulder_right",
+            "weight": 0.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "stare_into_distance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_stance_ready",
+            "weight": 1.75
+          },
+          {
+            "to": "cold_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_inspect",
+            "weight": 1.75
+          },
+          {
+            "to": "stretch",
+            "weight": 1.75
+          },
+          {
+            "to": "single_nod_acknowledge",
+            "weight": 1.75
+          },
+          {
+            "to": "crow_companion_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_exhale",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_raise_guard",
+            "weight": 1.75
+          },
+          {
+            "to": "kneels_examine_trail",
+            "weight": 1.75
+          },
+          {
+            "to": "water_breathing_stance",
+            "weight": 0.5
+          },
+          {
+            "to": "water_breathing_eleventh_form",
+            "weight": 0.3
+          },
+          {
+            "to": "bows_head_respect",
+            "weight": 1.75
+          },
+          {
+            "to": "turns_away_pause",
+            "weight": 1.75
+          },
+          {
+            "to": "water_takeoff",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "key": "walk_left",
+      "type": "GROUND",
+      "subtype": "WALK",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "LEFT",
+      "frames": [
+        {
+          "sprite": 0,
+          "dx": -2,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 1,
+          "dx": -2,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 2,
+          "dx": -2,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 3,
+          "dx": -2,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 4,
+          "dx": -2,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 5,
+          "dx": -2,
+          "durationTicks": 10
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 1
+          },
+          {
+            "to": "walk_right",
+            "weight": 2.15,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "sit_down",
+            "weight": 1
+          },
+          {
+            "to": "sword_draw",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_sigh",
+            "weight": 1.75
+          },
+          {
+            "to": "look_away_aloof",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_rest_shoulder",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_sheathe",
+            "weight": 1.75
+          },
+          {
+            "to": "arms_crossed",
+            "weight": 1.75
+          },
+          {
+            "to": "slow_nod",
+            "weight": 1.75
+          },
+          {
+            "to": "climb_boulder_left",
+            "weight": 0.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "climb_boulder_right",
+            "weight": 0.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "stare_into_distance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_stance_ready",
+            "weight": 1.75
+          },
+          {
+            "to": "cold_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_inspect",
+            "weight": 1.75
+          },
+          {
+            "to": "stretch",
+            "weight": 1.75
+          },
+          {
+            "to": "single_nod_acknowledge",
+            "weight": 1.75
+          },
+          {
+            "to": "crow_companion_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_exhale",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_raise_guard",
+            "weight": 1.75
+          },
+          {
+            "to": "kneels_examine_trail",
+            "weight": 1.75
+          },
+          {
+            "to": "water_breathing_stance",
+            "weight": 0.5
+          },
+          {
+            "to": "water_breathing_eleventh_form",
+            "weight": 0.3
+          },
+          {
+            "to": "bows_head_respect",
+            "weight": 1.75
+          },
+          {
+            "to": "turns_away_pause",
+            "weight": 1.75
+          },
+          {
+            "to": "water_takeoff",
+            "weight": 1
+          },
+          {
+            "to": "walk_left",
+            "weight": 2.15,
+            "setFacing": "LEFT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "LEFT",
+          "choices": [
+            {
+              "to": "walk_right",
+              "weight": 2.15,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "climb_boulder_right",
+              "weight": 0.2,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "climb_left",
+              "weight": 0.24,
+              "setFacing": "LEFT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "walk_right",
+      "type": "GROUND",
+      "subtype": "WALK",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "RIGHT",
+      "frames": [
+        {
+          "sprite": 0,
+          "dx": 2,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 1,
+          "dx": 2,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 2,
+          "dx": 2,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 3,
+          "dx": 2,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 4,
+          "dx": 2,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 5,
+          "dx": 2,
+          "durationTicks": 10
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 1
+          },
+          {
+            "to": "walk_left",
+            "weight": 2.15,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "sit_down",
+            "weight": 1
+          },
+          {
+            "to": "sword_draw",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_sigh",
+            "weight": 1.75
+          },
+          {
+            "to": "look_away_aloof",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_rest_shoulder",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_sheathe",
+            "weight": 1.75
+          },
+          {
+            "to": "arms_crossed",
+            "weight": 1.75
+          },
+          {
+            "to": "slow_nod",
+            "weight": 1.75
+          },
+          {
+            "to": "climb_boulder_left",
+            "weight": 0.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "climb_boulder_right",
+            "weight": 0.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "stare_into_distance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_stance_ready",
+            "weight": 1.75
+          },
+          {
+            "to": "cold_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_inspect",
+            "weight": 1.75
+          },
+          {
+            "to": "stretch",
+            "weight": 1.75
+          },
+          {
+            "to": "single_nod_acknowledge",
+            "weight": 1.75
+          },
+          {
+            "to": "crow_companion_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_exhale",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_raise_guard",
+            "weight": 1.75
+          },
+          {
+            "to": "kneels_examine_trail",
+            "weight": 1.75
+          },
+          {
+            "to": "water_breathing_stance",
+            "weight": 0.5
+          },
+          {
+            "to": "water_breathing_eleventh_form",
+            "weight": 0.3
+          },
+          {
+            "to": "bows_head_respect",
+            "weight": 1.75
+          },
+          {
+            "to": "turns_away_pause",
+            "weight": 1.75
+          },
+          {
+            "to": "water_takeoff",
+            "weight": 1
+          },
+          {
+            "to": "walk_right",
+            "weight": 2.15,
+            "setFacing": "RIGHT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "RIGHT",
+          "choices": [
+            {
+              "to": "walk_left",
+              "weight": 2.15,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "climb_boulder_left",
+              "weight": 0.2,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "climb_right",
+              "weight": 0.24,
+              "setFacing": "RIGHT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "bounce",
+      "type": "GROUND",
+      "subtype": "BOUNCE",
+      "level": 1,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 12,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 13,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 14,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 15,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 16,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 17,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 18,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 19,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 20,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 21,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 22,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 23,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 24,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 25,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 26,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 27,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 28,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 29,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 30,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 31,
+          "durationTicks": 6
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 1
+          },
+          {
+            "to": "walk_left",
+            "weight": 2.15,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 2.15,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "sit_down",
+            "weight": 1
+          },
+          {
+            "to": "sword_draw",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_sigh",
+            "weight": 1.75
+          },
+          {
+            "to": "look_away_aloof",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_rest_shoulder",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_sheathe",
+            "weight": 1.75
+          },
+          {
+            "to": "arms_crossed",
+            "weight": 1.75
+          },
+          {
+            "to": "slow_nod",
+            "weight": 1.75
+          },
+          {
+            "to": "climb_boulder_left",
+            "weight": 0.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "climb_boulder_right",
+            "weight": 0.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "stare_into_distance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_stance_ready",
+            "weight": 1.75
+          },
+          {
+            "to": "cold_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_inspect",
+            "weight": 1.75
+          },
+          {
+            "to": "stretch",
+            "weight": 1.75
+          },
+          {
+            "to": "single_nod_acknowledge",
+            "weight": 1.75
+          },
+          {
+            "to": "crow_companion_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_exhale",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_raise_guard",
+            "weight": 1.75
+          },
+          {
+            "to": "kneels_examine_trail",
+            "weight": 1.75
+          },
+          {
+            "to": "water_breathing_stance",
+            "weight": 0.5
+          },
+          {
+            "to": "water_breathing_eleventh_form",
+            "weight": 0.3
+          },
+          {
+            "to": "bows_head_respect",
+            "weight": 1.75
+          },
+          {
+            "to": "turns_away_pause",
+            "weight": 1.75
+          },
+          {
+            "to": "water_takeoff",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "key": "idle",
+      "type": "GROUND",
+      "subtype": "IDLE",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 37,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 38,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 39,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 40,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 41,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 42,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 43,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 44,
+          "durationTicks": 8
+        }
+      ]
+    },
+    {
+      "key": "climb_ceiling_left",
+      "type": "CEILING",
+      "subtype": "HANG",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "LEFT",
+      "frames": [
+        {
+          "sprite": 6,
+          "dx": -2,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 7,
+          "dx": -2,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 8,
+          "dx": -2,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 9,
+          "dx": -2,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 10,
+          "dx": -2,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 11,
+          "dx": -2,
+          "durationTicks": 10
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "climb_ceiling_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "perch_rock",
+            "weight": 1
+          },
+          {
+            "to": "fall",
+            "weight": 1,
+            "setFacing": "RANDOM"
+          },
+          {
+            "to": "climb_ceiling_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "LEFT",
+          "choices": [
+            {
+              "to": "climb_ceiling_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "descend_left",
+              "weight": 0.24,
+              "setFacing": "LEFT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "climb_ceiling_right",
+      "type": "CEILING",
+      "subtype": "HANG",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "RIGHT",
+      "frames": [
+        {
+          "sprite": 6,
+          "dx": 2,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 7,
+          "dx": 2,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 8,
+          "dx": 2,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 9,
+          "dx": 2,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 10,
+          "dx": 2,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 11,
+          "dx": 2,
+          "durationTicks": 10
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "climb_ceiling_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "perch_rock",
+            "weight": 1
+          },
+          {
+            "to": "fall",
+            "weight": 1,
+            "setFacing": "RANDOM"
+          },
+          {
+            "to": "climb_ceiling_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "RIGHT",
+          "choices": [
+            {
+              "to": "climb_ceiling_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "descend_right",
+              "weight": 0.24,
+              "setFacing": "RIGHT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "climb_left",
+      "type": "WALL",
+      "subtype": "CLIMB",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "LEFT",
+      "frames": [
+        {
+          "sprite": 32,
+          "dy": -2,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 33,
+          "dy": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 34,
+          "dy": -2,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 35,
+          "dy": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 36,
+          "dy": -2,
+          "durationTicks": 7
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "descend_left",
+            "weight": 0.24,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "wall_lean_stoic",
+            "weight": 0.2,
+            "setFacing": "KEEP"
+          },
+          {
+            "to": "climb_left",
+            "weight": 0.24,
+            "setFacing": "LEFT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "TOP",
+          "choices": [
+            {
+              "to": "descend_left",
+              "weight": 0.24,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "climb_ceiling_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "climb_right",
+      "type": "WALL",
+      "subtype": "CLIMB",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "RIGHT",
+      "frames": [
+        {
+          "sprite": 32,
+          "dy": -2,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 33,
+          "dy": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 34,
+          "dy": -2,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 35,
+          "dy": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 36,
+          "dy": -2,
+          "durationTicks": 7
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "descend_right",
+            "weight": 0.24,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "wall_lean_stoic",
+            "weight": 0.2,
+            "setFacing": "KEEP"
+          },
+          {
+            "to": "climb_right",
+            "weight": 0.24,
+            "setFacing": "RIGHT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "TOP",
+          "choices": [
+            {
+              "to": "descend_right",
+              "weight": 0.24,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "climb_ceiling_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "descend_left",
+      "type": "WALL",
+      "subtype": "DESCEND",
+      "level": 3,
+      "loop": "LOOP",
+      "direction": "LEFT",
+      "frames": [
+        {
+          "sprite": 36,
+          "dy": 2,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 35,
+          "dy": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 34,
+          "dy": 2,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 33,
+          "dy": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 32,
+          "dy": 2,
+          "durationTicks": 7
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "climb_left",
+            "weight": 0.24,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "wall_lean_stoic",
+            "weight": 0.2,
+            "setFacing": "KEEP"
+          },
+          {
+            "to": "descend_left",
+            "weight": 0.24,
+            "setFacing": "LEFT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "BOTTOM",
+          "choices": [
+            {
+              "to": "climb_left",
+              "weight": 0.24,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "walk_right",
+              "weight": 2.15,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "climb_boulder_right",
+              "weight": 0.2,
+              "setFacing": "RIGHT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "descend_right",
+      "type": "WALL",
+      "subtype": "DESCEND",
+      "level": 3,
+      "loop": "LOOP",
+      "direction": "RIGHT",
+      "frames": [
+        {
+          "sprite": 36,
+          "dy": 2,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 35,
+          "dy": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 34,
+          "dy": 2,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 33,
+          "dy": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 32,
+          "dy": 2,
+          "durationTicks": 7
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "climb_right",
+            "weight": 0.24,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "wall_lean_stoic",
+            "weight": 0.2,
+            "setFacing": "KEEP"
+          },
+          {
+            "to": "descend_right",
+            "weight": 0.24,
+            "setFacing": "RIGHT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "BOTTOM",
+          "choices": [
+            {
+              "to": "climb_right",
+              "weight": 0.24,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "walk_left",
+              "weight": 2.15,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "climb_boulder_left",
+              "weight": 0.2,
+              "setFacing": "LEFT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fall",
+      "type": "AIR",
+      "subtype": "FALL",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 12,
+          "dy": 10,
+          "durationTicks": 6
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "water_ripple_hover",
+            "weight": 1
+          },
+          {
+            "to": "water_drift_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "water_drift_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "water_land",
+            "weight": 1
+          },
+          {
+            "to": "fall",
+            "weight": 1
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "BOTTOM",
+          "choices": [
+            {
+              "to": "bounce",
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "drag",
+      "type": "USER",
+      "subtype": "DRAG",
+      "level": 1,
+      "loop": "LOOP",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 45,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 46,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 47,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 48,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 49,
+          "durationTicks": 8
+        }
+      ],
+      "eventTransitions": [
+        {
+          "event": "DRAG_END",
+          "from": "drag",
+          "when": "LEFT",
+          "choices": [
+            {
+              "to": "climb_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "descend_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "wall_lean_stoic",
+              "weight": 1,
+              "setFacing": "LEFT"
+            }
+          ]
+        },
+        {
+          "event": "DRAG_END",
+          "from": "drag",
+          "when": "RIGHT",
+          "choices": [
+            {
+              "to": "climb_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "descend_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "wall_lean_stoic",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            }
+          ]
+        },
+        {
+          "event": "DRAG_END",
+          "from": "drag",
+          "when": "TOP",
+          "facing": "LEFT",
+          "choices": [
+            {
+              "to": "climb_ceiling_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "perch_rock",
+              "weight": 1,
+              "setFacing": "LEFT"
+            }
+          ]
+        },
+        {
+          "event": "DRAG_END",
+          "from": "drag",
+          "when": "TOP",
+          "facing": "RIGHT",
+          "choices": [
+            {
+              "to": "climb_ceiling_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "perch_rock",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            }
+          ]
+        },
+        {
+          "event": "DRAG_END",
+          "from": "drag",
+          "choices": [
+            {
+              "to": "fall",
+              "weight": 1,
+              "setFacing": "RANDOM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fling",
+      "type": "USER",
+      "subtype": "FLING",
+      "level": 2,
+      "loop": "LOOP",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 45,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 46,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 47,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 48,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 49,
+          "durationTicks": 8
+        }
+      ],
+      "eventTransitions": [
+        {
+          "event": "FLING_END",
+          "from": "fling",
+          "when": "LEFT",
+          "choices": [
+            {
+              "to": "climb_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "descend_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "wall_lean_stoic",
+              "weight": 1,
+              "setFacing": "LEFT"
+            }
+          ]
+        },
+        {
+          "event": "FLING_END",
+          "from": "fling",
+          "when": "RIGHT",
+          "choices": [
+            {
+              "to": "climb_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "descend_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "wall_lean_stoic",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            }
+          ]
+        },
+        {
+          "event": "FLING_END",
+          "from": "fling",
+          "when": "TOP",
+          "facing": "LEFT",
+          "choices": [
+            {
+              "to": "climb_ceiling_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "perch_rock",
+              "weight": 1,
+              "setFacing": "LEFT"
+            }
+          ]
+        },
+        {
+          "event": "FLING_END",
+          "from": "fling",
+          "when": "TOP",
+          "facing": "RIGHT",
+          "choices": [
+            {
+              "to": "climb_ceiling_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "perch_rock",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            }
+          ]
+        },
+        {
+          "event": "FLING_END",
+          "from": "fling",
+          "when": "BOTTOM",
+          "facing": "LEFT",
+          "choices": [
+            {
+              "to": "bounce",
+              "weight": 1,
+              "setFacing": "LEFT"
+            }
+          ]
+        },
+        {
+          "event": "FLING_END",
+          "from": "fling",
+          "when": "BOTTOM",
+          "facing": "RIGHT",
+          "choices": [
+            {
+              "to": "bounce",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            }
+          ]
+        },
+        {
+          "event": "FLING_END",
+          "from": "fling",
+          "choices": [
+            {
+              "to": "fall",
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "sit_down",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 2,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 55,
+          "durationTicks": 11
+        },
+        {
+          "sprite": 56,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 57,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 58,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 59,
+          "durationTicks": 3
+        },
+        {
+          "sprite": 60,
+          "durationTicks": 3
+        },
+        {
+          "sprite": 61,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 62,
+          "durationTicks": 6
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "sitting",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "key": "stand_up",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 2,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 62,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 61,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 60,
+          "durationTicks": 3
+        },
+        {
+          "sprite": 59,
+          "durationTicks": 3
+        },
+        {
+          "sprite": 58,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 57,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 56,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 55,
+          "durationTicks": 11
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 1
+          },
+          {
+            "to": "walk_left",
+            "weight": 2.15,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 2.15,
+            "setFacing": "RIGHT"
+          }
+        ]
+      }
+    },
+    {
+      "key": "sword_draw",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 3,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 55,
+          "durationTicks": 9
+        },
+        {
+          "sprite": 63,
+          "durationTicks": 4
+        },
+        {
+          "sprite": 64,
+          "durationTicks": 11
+        },
+        {
+          "sprite": 65,
+          "durationTicks": 4
+        },
+        {
+          "sprite": 66,
+          "durationTicks": 2
+        },
+        {
+          "sprite": 67,
+          "durationTicks": 11
+        },
+        {
+          "sprite": 68,
+          "durationTicks": 2
+        },
+        {
+          "sprite": 67,
+          "durationTicks": 11
+        },
+        {
+          "sprite": 66,
+          "durationTicks": 2
+        },
+        {
+          "sprite": 65,
+          "durationTicks": 4
+        },
+        {
+          "sprite": 64,
+          "durationTicks": 11
+        },
+        {
+          "sprite": 63,
+          "durationTicks": 4
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 1
+          },
+          {
+            "to": "walk_left",
+            "weight": 2.15,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 2.15,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "sit_down",
+            "weight": 1
+          },
+          {
+            "to": "quiet_sigh",
+            "weight": 1.75
+          },
+          {
+            "to": "look_away_aloof",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_rest_shoulder",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_sheathe",
+            "weight": 1.75
+          },
+          {
+            "to": "arms_crossed",
+            "weight": 1.75
+          },
+          {
+            "to": "slow_nod",
+            "weight": 1.75
+          },
+          {
+            "to": "climb_boulder_left",
+            "weight": 0.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "climb_boulder_right",
+            "weight": 0.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "stare_into_distance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_stance_ready",
+            "weight": 1.75
+          },
+          {
+            "to": "cold_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_inspect",
+            "weight": 1.75
+          },
+          {
+            "to": "stretch",
+            "weight": 1.75
+          },
+          {
+            "to": "single_nod_acknowledge",
+            "weight": 1.75
+          },
+          {
+            "to": "crow_companion_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_exhale",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_raise_guard",
+            "weight": 1.75
+          },
+          {
+            "to": "kneels_examine_trail",
+            "weight": 1.75
+          },
+          {
+            "to": "water_breathing_stance",
+            "weight": 0.5
+          },
+          {
+            "to": "water_breathing_eleventh_form",
+            "weight": 0.3
+          },
+          {
+            "to": "bows_head_respect",
+            "weight": 1.75
+          },
+          {
+            "to": "turns_away_pause",
+            "weight": 1.75
+          },
+          {
+            "to": "water_takeoff",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "key": "quiet_sigh",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 3,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 55,
+          "durationTicks": 3
+        },
+        {
+          "sprite": 69,
+          "durationTicks": 13
+        },
+        {
+          "sprite": 70,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 71,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 72,
+          "durationTicks": 3
+        },
+        {
+          "sprite": 73,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 72,
+          "durationTicks": 3
+        },
+        {
+          "sprite": 71,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 70,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 69,
+          "durationTicks": 13
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 1
+          },
+          {
+            "to": "walk_left",
+            "weight": 2.15,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 2.15,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "sit_down",
+            "weight": 1
+          },
+          {
+            "to": "sword_draw",
+            "weight": 1.75
+          },
+          {
+            "to": "look_away_aloof",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_rest_shoulder",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_sheathe",
+            "weight": 1.75
+          },
+          {
+            "to": "arms_crossed",
+            "weight": 1.75
+          },
+          {
+            "to": "slow_nod",
+            "weight": 1.75
+          },
+          {
+            "to": "climb_boulder_left",
+            "weight": 0.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "climb_boulder_right",
+            "weight": 0.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "stare_into_distance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_stance_ready",
+            "weight": 1.75
+          },
+          {
+            "to": "cold_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_inspect",
+            "weight": 1.75
+          },
+          {
+            "to": "stretch",
+            "weight": 1.75
+          },
+          {
+            "to": "single_nod_acknowledge",
+            "weight": 1.75
+          },
+          {
+            "to": "crow_companion_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_exhale",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_raise_guard",
+            "weight": 1.75
+          },
+          {
+            "to": "kneels_examine_trail",
+            "weight": 1.75
+          },
+          {
+            "to": "water_breathing_stance",
+            "weight": 0.5
+          },
+          {
+            "to": "water_breathing_eleventh_form",
+            "weight": 0.3
+          },
+          {
+            "to": "bows_head_respect",
+            "weight": 1.75
+          },
+          {
+            "to": "turns_away_pause",
+            "weight": 1.75
+          },
+          {
+            "to": "water_takeoff",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "key": "look_away_aloof",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 3,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 74,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 75,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 76,
+          "durationTicks": 4
+        },
+        {
+          "sprite": 77,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 78,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 79,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 78,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 77,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 76,
+          "durationTicks": 4
+        },
+        {
+          "sprite": 75,
+          "durationTicks": 6
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 1
+          },
+          {
+            "to": "walk_left",
+            "weight": 2.15,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 2.15,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "sit_down",
+            "weight": 1
+          },
+          {
+            "to": "sword_draw",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_sigh",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_rest_shoulder",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_sheathe",
+            "weight": 1.75
+          },
+          {
+            "to": "arms_crossed",
+            "weight": 1.75
+          },
+          {
+            "to": "slow_nod",
+            "weight": 1.75
+          },
+          {
+            "to": "climb_boulder_left",
+            "weight": 0.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "climb_boulder_right",
+            "weight": 0.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "stare_into_distance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_stance_ready",
+            "weight": 1.75
+          },
+          {
+            "to": "cold_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_inspect",
+            "weight": 1.75
+          },
+          {
+            "to": "stretch",
+            "weight": 1.75
+          },
+          {
+            "to": "single_nod_acknowledge",
+            "weight": 1.75
+          },
+          {
+            "to": "crow_companion_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_exhale",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_raise_guard",
+            "weight": 1.75
+          },
+          {
+            "to": "kneels_examine_trail",
+            "weight": 1.75
+          },
+          {
+            "to": "water_breathing_stance",
+            "weight": 0.5
+          },
+          {
+            "to": "water_breathing_eleventh_form",
+            "weight": 0.3
+          },
+          {
+            "to": "bows_head_respect",
+            "weight": 1.75
+          },
+          {
+            "to": "turns_away_pause",
+            "weight": 1.75
+          },
+          {
+            "to": "water_takeoff",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "key": "sword_rest_shoulder",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 3,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 55,
+          "durationTicks": 3
+        },
+        {
+          "sprite": 80,
+          "durationTicks": 3
+        },
+        {
+          "sprite": 81,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 82,
+          "durationTicks": 3
+        },
+        {
+          "sprite": 83,
+          "durationTicks": 3
+        },
+        {
+          "sprite": 84,
+          "durationTicks": 13
+        },
+        {
+          "sprite": 85,
+          "durationTicks": 140
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 1
+          },
+          {
+            "to": "walk_left",
+            "weight": 2.15,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 2.15,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "sit_down",
+            "weight": 1
+          },
+          {
+            "to": "sword_draw",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_sigh",
+            "weight": 1.75
+          },
+          {
+            "to": "look_away_aloof",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_sheathe",
+            "weight": 1.75
+          },
+          {
+            "to": "arms_crossed",
+            "weight": 1.75
+          },
+          {
+            "to": "slow_nod",
+            "weight": 1.75
+          },
+          {
+            "to": "climb_boulder_left",
+            "weight": 0.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "climb_boulder_right",
+            "weight": 0.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "stare_into_distance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_stance_ready",
+            "weight": 1.75
+          },
+          {
+            "to": "cold_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_inspect",
+            "weight": 1.75
+          },
+          {
+            "to": "stretch",
+            "weight": 1.75
+          },
+          {
+            "to": "single_nod_acknowledge",
+            "weight": 1.75
+          },
+          {
+            "to": "crow_companion_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_exhale",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_raise_guard",
+            "weight": 1.75
+          },
+          {
+            "to": "kneels_examine_trail",
+            "weight": 1.75
+          },
+          {
+            "to": "water_breathing_stance",
+            "weight": 0.5
+          },
+          {
+            "to": "water_breathing_eleventh_form",
+            "weight": 0.3
+          },
+          {
+            "to": "bows_head_respect",
+            "weight": 1.75
+          },
+          {
+            "to": "turns_away_pause",
+            "weight": 1.75
+          },
+          {
+            "to": "water_takeoff",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "key": "sword_sheathe",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 3,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 86,
+          "durationTicks": 11
+        },
+        {
+          "sprite": 87,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 88,
+          "durationTicks": 9
+        },
+        {
+          "sprite": 89,
+          "durationTicks": 4
+        },
+        {
+          "sprite": 90,
+          "durationTicks": 4
+        },
+        {
+          "sprite": 91,
+          "durationTicks": 102
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 1
+          },
+          {
+            "to": "walk_left",
+            "weight": 2.15,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 2.15,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "sit_down",
+            "weight": 1
+          },
+          {
+            "to": "sword_draw",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_sigh",
+            "weight": 1.75
+          },
+          {
+            "to": "look_away_aloof",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_rest_shoulder",
+            "weight": 1.75
+          },
+          {
+            "to": "arms_crossed",
+            "weight": 1.75
+          },
+          {
+            "to": "slow_nod",
+            "weight": 1.75
+          },
+          {
+            "to": "climb_boulder_left",
+            "weight": 0.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "climb_boulder_right",
+            "weight": 0.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "stare_into_distance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_stance_ready",
+            "weight": 1.75
+          },
+          {
+            "to": "cold_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_inspect",
+            "weight": 1.75
+          },
+          {
+            "to": "stretch",
+            "weight": 1.75
+          },
+          {
+            "to": "single_nod_acknowledge",
+            "weight": 1.75
+          },
+          {
+            "to": "crow_companion_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_exhale",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_raise_guard",
+            "weight": 1.75
+          },
+          {
+            "to": "kneels_examine_trail",
+            "weight": 1.75
+          },
+          {
+            "to": "water_breathing_stance",
+            "weight": 0.5
+          },
+          {
+            "to": "water_breathing_eleventh_form",
+            "weight": 0.3
+          },
+          {
+            "to": "bows_head_respect",
+            "weight": 1.75
+          },
+          {
+            "to": "turns_away_pause",
+            "weight": 1.75
+          },
+          {
+            "to": "water_takeoff",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "key": "arms_crossed",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 4,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 92,
+          "durationTicks": 9
+        },
+        {
+          "sprite": 93,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 94,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 95,
+          "durationTicks": 12
+        },
+        {
+          "sprite": 96,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 97,
+          "durationTicks": 133
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 1
+          },
+          {
+            "to": "walk_left",
+            "weight": 2.15,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 2.15,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "sit_down",
+            "weight": 1
+          },
+          {
+            "to": "sword_draw",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_sigh",
+            "weight": 1.75
+          },
+          {
+            "to": "look_away_aloof",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_rest_shoulder",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_sheathe",
+            "weight": 1.75
+          },
+          {
+            "to": "slow_nod",
+            "weight": 1.75
+          },
+          {
+            "to": "climb_boulder_left",
+            "weight": 0.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "climb_boulder_right",
+            "weight": 0.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "stare_into_distance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_stance_ready",
+            "weight": 1.75
+          },
+          {
+            "to": "cold_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_inspect",
+            "weight": 1.75
+          },
+          {
+            "to": "stretch",
+            "weight": 1.75
+          },
+          {
+            "to": "single_nod_acknowledge",
+            "weight": 1.75
+          },
+          {
+            "to": "crow_companion_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_exhale",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_raise_guard",
+            "weight": 1.75
+          },
+          {
+            "to": "kneels_examine_trail",
+            "weight": 1.75
+          },
+          {
+            "to": "water_breathing_stance",
+            "weight": 0.5
+          },
+          {
+            "to": "water_breathing_eleventh_form",
+            "weight": 0.3
+          },
+          {
+            "to": "bows_head_respect",
+            "weight": 1.75
+          },
+          {
+            "to": "turns_away_pause",
+            "weight": 1.75
+          },
+          {
+            "to": "water_takeoff",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "key": "slow_nod",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 4,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 86,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 98,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 99,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 100,
+          "durationTicks": 3
+        },
+        {
+          "sprite": 101,
+          "durationTicks": 13
+        },
+        {
+          "sprite": 102,
+          "durationTicks": 5
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 1
+          },
+          {
+            "to": "walk_left",
+            "weight": 2.15,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 2.15,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "sit_down",
+            "weight": 1
+          },
+          {
+            "to": "sword_draw",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_sigh",
+            "weight": 1.75
+          },
+          {
+            "to": "look_away_aloof",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_rest_shoulder",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_sheathe",
+            "weight": 1.75
+          },
+          {
+            "to": "arms_crossed",
+            "weight": 1.75
+          },
+          {
+            "to": "climb_boulder_left",
+            "weight": 0.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "climb_boulder_right",
+            "weight": 0.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "stare_into_distance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_stance_ready",
+            "weight": 1.75
+          },
+          {
+            "to": "cold_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_inspect",
+            "weight": 1.75
+          },
+          {
+            "to": "stretch",
+            "weight": 1.75
+          },
+          {
+            "to": "single_nod_acknowledge",
+            "weight": 1.75
+          },
+          {
+            "to": "crow_companion_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_exhale",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_raise_guard",
+            "weight": 1.75
+          },
+          {
+            "to": "kneels_examine_trail",
+            "weight": 1.75
+          },
+          {
+            "to": "water_breathing_stance",
+            "weight": 0.5
+          },
+          {
+            "to": "water_breathing_eleventh_form",
+            "weight": 0.3
+          },
+          {
+            "to": "bows_head_respect",
+            "weight": 1.75
+          },
+          {
+            "to": "turns_away_pause",
+            "weight": 1.75
+          },
+          {
+            "to": "water_takeoff",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "key": "sitting",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 2,
+      "loop": "LOOP",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 103,
+          "durationTicks": 2
+        },
+        {
+          "sprite": 103,
+          "durationTicks": 9
+        },
+        {
+          "sprite": 103,
+          "durationTicks": 9
+        },
+        {
+          "sprite": 103,
+          "durationTicks": 9
+        },
+        {
+          "sprite": 104,
+          "durationTicks": 9
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "stand_up",
+            "weight": 3
+          },
+          {
+            "to": "sit_seiza",
+            "weight": 1
+          },
+          {
+            "to": "seated_rest",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "key": "climb_boulder_left",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 4,
+      "loop": "LOOP",
+      "direction": "LEFT",
+      "frames": [
+        {
+          "sprite": 105,
+          "dx": -2,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 106,
+          "dx": -2,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 107,
+          "dx": -2,
+          "durationTicks": 12
+        },
+        {
+          "sprite": 108,
+          "dx": -2,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 109,
+          "dx": -2,
+          "durationTicks": 4
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 1
+          },
+          {
+            "to": "walk_left",
+            "weight": 2.15,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 2.15,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "sit_down",
+            "weight": 1
+          },
+          {
+            "to": "sword_draw",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_sigh",
+            "weight": 1.75
+          },
+          {
+            "to": "look_away_aloof",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_rest_shoulder",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_sheathe",
+            "weight": 1.75
+          },
+          {
+            "to": "arms_crossed",
+            "weight": 1.75
+          },
+          {
+            "to": "slow_nod",
+            "weight": 1.75
+          },
+          {
+            "to": "climb_boulder_right",
+            "weight": 0.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "stare_into_distance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_stance_ready",
+            "weight": 1.75
+          },
+          {
+            "to": "cold_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_inspect",
+            "weight": 1.75
+          },
+          {
+            "to": "stretch",
+            "weight": 1.75
+          },
+          {
+            "to": "single_nod_acknowledge",
+            "weight": 1.75
+          },
+          {
+            "to": "crow_companion_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_exhale",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_raise_guard",
+            "weight": 1.75
+          },
+          {
+            "to": "kneels_examine_trail",
+            "weight": 1.75
+          },
+          {
+            "to": "water_breathing_stance",
+            "weight": 0.5
+          },
+          {
+            "to": "water_breathing_eleventh_form",
+            "weight": 0.3
+          },
+          {
+            "to": "bows_head_respect",
+            "weight": 1.75
+          },
+          {
+            "to": "turns_away_pause",
+            "weight": 1.75
+          },
+          {
+            "to": "water_takeoff",
+            "weight": 1
+          },
+          {
+            "to": "climb_boulder_left",
+            "weight": 0.2,
+            "setFacing": "LEFT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "LEFT",
+          "choices": [
+            {
+              "to": "walk_right",
+              "weight": 2.15,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "climb_boulder_right",
+              "weight": 0.2,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "climb_left",
+              "weight": 0.24,
+              "setFacing": "LEFT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "climb_boulder_right",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 4,
+      "loop": "LOOP",
+      "direction": "RIGHT",
+      "frames": [
+        {
+          "sprite": 105,
+          "dx": 2,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 106,
+          "dx": 2,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 107,
+          "dx": 2,
+          "durationTicks": 12
+        },
+        {
+          "sprite": 108,
+          "dx": 2,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 109,
+          "dx": 2,
+          "durationTicks": 4
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 1
+          },
+          {
+            "to": "walk_left",
+            "weight": 2.15,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 2.15,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "sit_down",
+            "weight": 1
+          },
+          {
+            "to": "sword_draw",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_sigh",
+            "weight": 1.75
+          },
+          {
+            "to": "look_away_aloof",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_rest_shoulder",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_sheathe",
+            "weight": 1.75
+          },
+          {
+            "to": "arms_crossed",
+            "weight": 1.75
+          },
+          {
+            "to": "slow_nod",
+            "weight": 1.75
+          },
+          {
+            "to": "climb_boulder_left",
+            "weight": 0.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "stare_into_distance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_stance_ready",
+            "weight": 1.75
+          },
+          {
+            "to": "cold_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_inspect",
+            "weight": 1.75
+          },
+          {
+            "to": "stretch",
+            "weight": 1.75
+          },
+          {
+            "to": "single_nod_acknowledge",
+            "weight": 1.75
+          },
+          {
+            "to": "crow_companion_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_exhale",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_raise_guard",
+            "weight": 1.75
+          },
+          {
+            "to": "kneels_examine_trail",
+            "weight": 1.75
+          },
+          {
+            "to": "water_breathing_stance",
+            "weight": 0.5
+          },
+          {
+            "to": "water_breathing_eleventh_form",
+            "weight": 0.3
+          },
+          {
+            "to": "bows_head_respect",
+            "weight": 1.75
+          },
+          {
+            "to": "turns_away_pause",
+            "weight": 1.75
+          },
+          {
+            "to": "water_takeoff",
+            "weight": 1
+          },
+          {
+            "to": "climb_boulder_right",
+            "weight": 0.2,
+            "setFacing": "RIGHT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "RIGHT",
+          "choices": [
+            {
+              "to": "walk_left",
+              "weight": 2.15,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "climb_boulder_left",
+              "weight": 0.2,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "climb_right",
+              "weight": 0.24,
+              "setFacing": "RIGHT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "water_ripple_hover",
+      "type": "AIR",
+      "subtype": "CUSTOM",
+      "level": 5,
+      "loop": "LOOP",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 110,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 111,
+          "durationTicks": 3
+        },
+        {
+          "sprite": 112,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 113,
+          "durationTicks": 3
+        },
+        {
+          "sprite": 114,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 115,
+          "durationTicks": 3
+        },
+        {
+          "sprite": 116,
+          "durationTicks": 10
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "fall",
+            "weight": 1
+          },
+          {
+            "to": "water_drift_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "water_drift_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "water_land",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "key": "perch_rock",
+      "type": "CEILING",
+      "subtype": "CUSTOM",
+      "level": 4,
+      "loop": "LOOP",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 117,
+          "durationTicks": 4
+        },
+        {
+          "sprite": 118,
+          "durationTicks": 11
+        },
+        {
+          "sprite": 119,
+          "durationTicks": 15
+        },
+        {
+          "sprite": 120,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 121,
+          "durationTicks": 2
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "climb_ceiling_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "climb_ceiling_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "fall",
+            "weight": 1,
+            "setFacing": "RANDOM"
+          }
+        ]
+      }
+    },
+    {
+      "key": "wall_lean_stoic",
+      "type": "WALL",
+      "subtype": "CUSTOM",
+      "level": 4,
+      "loop": "LOOP",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 122,
+          "durationTicks": 9
+        },
+        {
+          "sprite": 122,
+          "durationTicks": 4
+        },
+        {
+          "sprite": 123,
+          "durationTicks": 2
+        },
+        {
+          "sprite": 123,
+          "durationTicks": 18
+        },
+        {
+          "sprite": 124,
+          "durationTicks": 2
+        },
+        {
+          "sprite": 124,
+          "durationTicks": 4
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "climb_left",
+            "weight": 0.24,
+            "requires": "LEFT",
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "climb_right",
+            "weight": 0.24,
+            "requires": "RIGHT",
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "descend_left",
+            "weight": 0.24,
+            "requires": "LEFT",
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "descend_right",
+            "weight": 0.24,
+            "requires": "RIGHT",
+            "setFacing": "RIGHT"
+          }
+        ]
+      }
+    },
+    {
+      "key": "water_drift_left",
+      "type": "AIR",
+      "subtype": "CUSTOM",
+      "level": 5,
+      "loop": "LOOP",
+      "direction": "LEFT",
+      "frames": [
+        {
+          "sprite": 125,
+          "dx": -2,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 126,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 127,
+          "dx": -2,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 128,
+          "dx": -2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 129,
+          "dx": -2,
+          "durationTicks": 7
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "fall",
+            "weight": 1
+          },
+          {
+            "to": "water_ripple_hover",
+            "weight": 1
+          },
+          {
+            "to": "water_drift_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "water_land",
+            "weight": 1
+          },
+          {
+            "to": "water_drift_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "LEFT",
+          "choices": [
+            {
+              "to": "fall",
+              "weight": 1
+            },
+            {
+              "to": "water_ripple_hover",
+              "weight": 1
+            },
+            {
+              "to": "water_drift_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "water_land",
+              "weight": 1
+            },
+            {
+              "to": "climb_left",
+              "weight": 0.24,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "descend_left",
+              "weight": 0.24,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "wall_lean_stoic",
+              "weight": 0.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "water_drift_right",
+      "type": "AIR",
+      "subtype": "CUSTOM",
+      "level": 5,
+      "loop": "LOOP",
+      "direction": "RIGHT",
+      "frames": [
+        {
+          "sprite": 125,
+          "dx": 2,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 126,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 127,
+          "dx": 2,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 128,
+          "dx": 2,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 129,
+          "dx": 2,
+          "durationTicks": 7
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "fall",
+            "weight": 1
+          },
+          {
+            "to": "water_ripple_hover",
+            "weight": 1
+          },
+          {
+            "to": "water_drift_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "water_land",
+            "weight": 1
+          },
+          {
+            "to": "water_drift_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "RIGHT",
+          "choices": [
+            {
+              "to": "fall",
+              "weight": 1
+            },
+            {
+              "to": "water_ripple_hover",
+              "weight": 1
+            },
+            {
+              "to": "water_drift_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "water_land",
+              "weight": 1
+            },
+            {
+              "to": "climb_right",
+              "weight": 0.24,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "descend_right",
+              "weight": 0.24,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "wall_lean_stoic",
+              "weight": 0.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "stare_into_distance",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 5,
+      "loop": "LOOP",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 130,
+          "durationTicks": 9
+        },
+        {
+          "sprite": 131,
+          "durationTicks": 9
+        },
+        {
+          "sprite": 132,
+          "durationTicks": 12
+        },
+        {
+          "sprite": 133,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 134,
+          "durationTicks": 3
+        }
+      ],
+      "auto": {
+        "maxDurationTicks": {
+          "minTicks": 240,
+          "maxTicks": 480
+        },
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 1
+          },
+          {
+            "to": "walk_left",
+            "weight": 2.15,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 2.15,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "sit_down",
+            "weight": 1
+          },
+          {
+            "to": "sword_draw",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_sigh",
+            "weight": 1.75
+          },
+          {
+            "to": "look_away_aloof",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_rest_shoulder",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_sheathe",
+            "weight": 1.75
+          },
+          {
+            "to": "arms_crossed",
+            "weight": 1.75
+          },
+          {
+            "to": "slow_nod",
+            "weight": 1.75
+          },
+          {
+            "to": "climb_boulder_left",
+            "weight": 0.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "climb_boulder_right",
+            "weight": 0.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "sword_stance_ready",
+            "weight": 1.75
+          },
+          {
+            "to": "cold_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_inspect",
+            "weight": 1.75
+          },
+          {
+            "to": "stretch",
+            "weight": 1.75
+          },
+          {
+            "to": "single_nod_acknowledge",
+            "weight": 1.75
+          },
+          {
+            "to": "crow_companion_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_exhale",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_raise_guard",
+            "weight": 1.75
+          },
+          {
+            "to": "kneels_examine_trail",
+            "weight": 1.75
+          },
+          {
+            "to": "water_breathing_stance",
+            "weight": 0.5
+          },
+          {
+            "to": "water_breathing_eleventh_form",
+            "weight": 0.3
+          },
+          {
+            "to": "bows_head_respect",
+            "weight": 1.75
+          },
+          {
+            "to": "turns_away_pause",
+            "weight": 1.75
+          },
+          {
+            "to": "water_takeoff",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "key": "sword_stance_ready",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 5,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 55,
+          "durationTicks": 9
+        },
+        {
+          "sprite": 135,
+          "durationTicks": 3
+        },
+        {
+          "sprite": 136,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 137,
+          "durationTicks": 3
+        },
+        {
+          "sprite": 138,
+          "durationTicks": 3
+        },
+        {
+          "sprite": 139,
+          "durationTicks": 2
+        },
+        {
+          "sprite": 140,
+          "durationTicks": 16
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 1
+          },
+          {
+            "to": "walk_left",
+            "weight": 2.15,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 2.15,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "sit_down",
+            "weight": 1
+          },
+          {
+            "to": "sword_draw",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_sigh",
+            "weight": 1.75
+          },
+          {
+            "to": "look_away_aloof",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_rest_shoulder",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_sheathe",
+            "weight": 1.75
+          },
+          {
+            "to": "arms_crossed",
+            "weight": 1.75
+          },
+          {
+            "to": "slow_nod",
+            "weight": 1.75
+          },
+          {
+            "to": "climb_boulder_left",
+            "weight": 0.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "climb_boulder_right",
+            "weight": 0.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "stare_into_distance",
+            "weight": 1.75
+          },
+          {
+            "to": "cold_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_inspect",
+            "weight": 1.75
+          },
+          {
+            "to": "stretch",
+            "weight": 1.75
+          },
+          {
+            "to": "single_nod_acknowledge",
+            "weight": 1.75
+          },
+          {
+            "to": "crow_companion_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_exhale",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_raise_guard",
+            "weight": 1.75
+          },
+          {
+            "to": "kneels_examine_trail",
+            "weight": 1.75
+          },
+          {
+            "to": "water_breathing_stance",
+            "weight": 0.5
+          },
+          {
+            "to": "water_breathing_eleventh_form",
+            "weight": 0.3
+          },
+          {
+            "to": "bows_head_respect",
+            "weight": 1.75
+          },
+          {
+            "to": "turns_away_pause",
+            "weight": 1.75
+          },
+          {
+            "to": "water_takeoff",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "key": "water_land",
+      "type": "AIR",
+      "subtype": "CUSTOM",
+      "level": 5,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 55,
+          "dy": 4,
+          "durationTicks": 14
+        },
+        {
+          "sprite": 141,
+          "dy": 4,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 142,
+          "dy": 3,
+          "durationTicks": 4
+        },
+        {
+          "sprite": 143,
+          "dy": 2,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 144,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 145,
+          "durationTicks": 4
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "fall",
+            "weight": 1
+          },
+          {
+            "to": "water_ripple_hover",
+            "weight": 1
+          },
+          {
+            "to": "water_drift_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "water_drift_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "water_land",
+            "weight": 1
+          }
+        ]
+      },
+      "borderTransitions": [
+        {
+          "when": "BOTTOM",
+          "choices": [
+            {
+              "to": "water_ripple_hover",
+              "weight": 1
+            },
+            {
+              "to": "water_drift_left",
+              "weight": 1,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "water_drift_right",
+              "weight": 1,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "stand",
+              "weight": 1
+            },
+            {
+              "to": "walk_left",
+              "weight": 2.15,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "walk_right",
+              "weight": 2.15,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "sit_down",
+              "weight": 1
+            },
+            {
+              "to": "sword_draw",
+              "weight": 1.75
+            },
+            {
+              "to": "quiet_sigh",
+              "weight": 1.75
+            },
+            {
+              "to": "look_away_aloof",
+              "weight": 1.75
+            },
+            {
+              "to": "sword_rest_shoulder",
+              "weight": 1.75
+            },
+            {
+              "to": "sword_sheathe",
+              "weight": 1.75
+            },
+            {
+              "to": "arms_crossed",
+              "weight": 1.75
+            },
+            {
+              "to": "slow_nod",
+              "weight": 1.75
+            },
+            {
+              "to": "climb_boulder_left",
+              "weight": 0.2,
+              "setFacing": "LEFT"
+            },
+            {
+              "to": "climb_boulder_right",
+              "weight": 0.2,
+              "setFacing": "RIGHT"
+            },
+            {
+              "to": "stare_into_distance",
+              "weight": 1.75
+            },
+            {
+              "to": "sword_stance_ready",
+              "weight": 1.75
+            },
+            {
+              "to": "cold_glance",
+              "weight": 1.75
+            },
+            {
+              "to": "sword_inspect",
+              "weight": 1.75
+            },
+            {
+              "to": "stretch",
+              "weight": 1.75
+            },
+            {
+              "to": "single_nod_acknowledge",
+              "weight": 1.75
+            },
+            {
+              "to": "crow_companion_glance",
+              "weight": 1.75
+            },
+            {
+              "to": "quiet_exhale",
+              "weight": 1.75
+            },
+            {
+              "to": "sword_raise_guard",
+              "weight": 1.75
+            },
+            {
+              "to": "kneels_examine_trail",
+              "weight": 1.75
+            },
+            {
+              "to": "water_breathing_stance",
+              "weight": 0.5
+            },
+            {
+              "to": "water_breathing_eleventh_form",
+              "weight": 0.3
+            },
+            {
+              "to": "bows_head_respect",
+              "weight": 1.75
+            },
+            {
+              "to": "turns_away_pause",
+              "weight": 1.75
+            },
+            {
+              "to": "water_takeoff",
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "cold_glance",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 6,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 55,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 146,
+          "durationTicks": 2
+        },
+        {
+          "sprite": 147,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 148,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 149,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 150,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 151,
+          "durationTicks": 5
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 1
+          },
+          {
+            "to": "walk_left",
+            "weight": 2.15,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 2.15,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "sit_down",
+            "weight": 1
+          },
+          {
+            "to": "sword_draw",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_sigh",
+            "weight": 1.75
+          },
+          {
+            "to": "look_away_aloof",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_rest_shoulder",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_sheathe",
+            "weight": 1.75
+          },
+          {
+            "to": "arms_crossed",
+            "weight": 1.75
+          },
+          {
+            "to": "slow_nod",
+            "weight": 1.75
+          },
+          {
+            "to": "climb_boulder_left",
+            "weight": 0.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "climb_boulder_right",
+            "weight": 0.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "stare_into_distance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_stance_ready",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_inspect",
+            "weight": 1.75
+          },
+          {
+            "to": "stretch",
+            "weight": 1.75
+          },
+          {
+            "to": "single_nod_acknowledge",
+            "weight": 1.75
+          },
+          {
+            "to": "crow_companion_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_exhale",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_raise_guard",
+            "weight": 1.75
+          },
+          {
+            "to": "kneels_examine_trail",
+            "weight": 1.75
+          },
+          {
+            "to": "water_breathing_stance",
+            "weight": 0.5
+          },
+          {
+            "to": "water_breathing_eleventh_form",
+            "weight": 0.3
+          },
+          {
+            "to": "bows_head_respect",
+            "weight": 1.75
+          },
+          {
+            "to": "turns_away_pause",
+            "weight": 1.75
+          },
+          {
+            "to": "water_takeoff",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "key": "sword_inspect",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 6,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 55,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 152,
+          "durationTicks": 4
+        },
+        {
+          "sprite": 153,
+          "durationTicks": 2
+        },
+        {
+          "sprite": 154,
+          "durationTicks": 4
+        },
+        {
+          "sprite": 155,
+          "durationTicks": 4
+        },
+        {
+          "sprite": 156,
+          "durationTicks": 12
+        },
+        {
+          "sprite": 157,
+          "durationTicks": 6
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 1
+          },
+          {
+            "to": "walk_left",
+            "weight": 2.15,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 2.15,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "sit_down",
+            "weight": 1
+          },
+          {
+            "to": "sword_draw",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_sigh",
+            "weight": 1.75
+          },
+          {
+            "to": "look_away_aloof",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_rest_shoulder",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_sheathe",
+            "weight": 1.75
+          },
+          {
+            "to": "arms_crossed",
+            "weight": 1.75
+          },
+          {
+            "to": "slow_nod",
+            "weight": 1.75
+          },
+          {
+            "to": "climb_boulder_left",
+            "weight": 0.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "climb_boulder_right",
+            "weight": 0.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "stare_into_distance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_stance_ready",
+            "weight": 1.75
+          },
+          {
+            "to": "cold_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "stretch",
+            "weight": 1.75
+          },
+          {
+            "to": "single_nod_acknowledge",
+            "weight": 1.75
+          },
+          {
+            "to": "crow_companion_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_exhale",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_raise_guard",
+            "weight": 1.75
+          },
+          {
+            "to": "kneels_examine_trail",
+            "weight": 1.75
+          },
+          {
+            "to": "water_breathing_stance",
+            "weight": 0.5
+          },
+          {
+            "to": "water_breathing_eleventh_form",
+            "weight": 0.3
+          },
+          {
+            "to": "bows_head_respect",
+            "weight": 1.75
+          },
+          {
+            "to": "turns_away_pause",
+            "weight": 1.75
+          },
+          {
+            "to": "water_takeoff",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "key": "stretch",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 6,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 158,
+          "durationTicks": 11
+        },
+        {
+          "sprite": 159,
+          "durationTicks": 4
+        },
+        {
+          "sprite": 160,
+          "durationTicks": 4
+        },
+        {
+          "sprite": 161,
+          "durationTicks": 13
+        },
+        {
+          "sprite": 162,
+          "durationTicks": 4
+        },
+        {
+          "sprite": 163,
+          "durationTicks": 6
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 1
+          },
+          {
+            "to": "walk_left",
+            "weight": 2.15,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 2.15,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "sit_down",
+            "weight": 1
+          },
+          {
+            "to": "sword_draw",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_sigh",
+            "weight": 1.75
+          },
+          {
+            "to": "look_away_aloof",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_rest_shoulder",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_sheathe",
+            "weight": 1.75
+          },
+          {
+            "to": "arms_crossed",
+            "weight": 1.75
+          },
+          {
+            "to": "slow_nod",
+            "weight": 1.75
+          },
+          {
+            "to": "climb_boulder_left",
+            "weight": 0.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "climb_boulder_right",
+            "weight": 0.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "stare_into_distance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_stance_ready",
+            "weight": 1.75
+          },
+          {
+            "to": "cold_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_inspect",
+            "weight": 1.75
+          },
+          {
+            "to": "single_nod_acknowledge",
+            "weight": 1.75
+          },
+          {
+            "to": "crow_companion_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_exhale",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_raise_guard",
+            "weight": 1.75
+          },
+          {
+            "to": "kneels_examine_trail",
+            "weight": 1.75
+          },
+          {
+            "to": "water_breathing_stance",
+            "weight": 0.5
+          },
+          {
+            "to": "water_breathing_eleventh_form",
+            "weight": 0.3
+          },
+          {
+            "to": "bows_head_respect",
+            "weight": 1.75
+          },
+          {
+            "to": "turns_away_pause",
+            "weight": 1.75
+          },
+          {
+            "to": "water_takeoff",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "key": "single_nod_acknowledge",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 6,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 164,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 165,
+          "durationTicks": 4
+        },
+        {
+          "sprite": 166,
+          "durationTicks": 11
+        },
+        {
+          "sprite": 167,
+          "durationTicks": 4
+        },
+        {
+          "sprite": 168,
+          "durationTicks": 15
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 1
+          },
+          {
+            "to": "walk_left",
+            "weight": 2.15,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 2.15,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "sit_down",
+            "weight": 1
+          },
+          {
+            "to": "sword_draw",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_sigh",
+            "weight": 1.75
+          },
+          {
+            "to": "look_away_aloof",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_rest_shoulder",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_sheathe",
+            "weight": 1.75
+          },
+          {
+            "to": "arms_crossed",
+            "weight": 1.75
+          },
+          {
+            "to": "slow_nod",
+            "weight": 1.75
+          },
+          {
+            "to": "climb_boulder_left",
+            "weight": 0.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "climb_boulder_right",
+            "weight": 0.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "stare_into_distance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_stance_ready",
+            "weight": 1.75
+          },
+          {
+            "to": "cold_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_inspect",
+            "weight": 1.75
+          },
+          {
+            "to": "stretch",
+            "weight": 1.75
+          },
+          {
+            "to": "crow_companion_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_exhale",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_raise_guard",
+            "weight": 1.75
+          },
+          {
+            "to": "kneels_examine_trail",
+            "weight": 1.75
+          },
+          {
+            "to": "water_breathing_stance",
+            "weight": 0.5
+          },
+          {
+            "to": "water_breathing_eleventh_form",
+            "weight": 0.3
+          },
+          {
+            "to": "bows_head_respect",
+            "weight": 1.75
+          },
+          {
+            "to": "turns_away_pause",
+            "weight": 1.75
+          },
+          {
+            "to": "water_takeoff",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "key": "crow_companion_glance",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 6,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 158,
+          "durationTicks": 9
+        },
+        {
+          "sprite": 169,
+          "durationTicks": 2
+        },
+        {
+          "sprite": 170,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 171,
+          "durationTicks": 9
+        },
+        {
+          "sprite": 172,
+          "durationTicks": 9
+        },
+        {
+          "sprite": 173,
+          "durationTicks": 7
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 1
+          },
+          {
+            "to": "walk_left",
+            "weight": 2.15,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 2.15,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "sit_down",
+            "weight": 1
+          },
+          {
+            "to": "sword_draw",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_sigh",
+            "weight": 1.75
+          },
+          {
+            "to": "look_away_aloof",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_rest_shoulder",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_sheathe",
+            "weight": 1.75
+          },
+          {
+            "to": "arms_crossed",
+            "weight": 1.75
+          },
+          {
+            "to": "slow_nod",
+            "weight": 1.75
+          },
+          {
+            "to": "climb_boulder_left",
+            "weight": 0.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "climb_boulder_right",
+            "weight": 0.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "stare_into_distance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_stance_ready",
+            "weight": 1.75
+          },
+          {
+            "to": "cold_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_inspect",
+            "weight": 1.75
+          },
+          {
+            "to": "stretch",
+            "weight": 1.75
+          },
+          {
+            "to": "single_nod_acknowledge",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_exhale",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_raise_guard",
+            "weight": 1.75
+          },
+          {
+            "to": "kneels_examine_trail",
+            "weight": 1.75
+          },
+          {
+            "to": "water_breathing_stance",
+            "weight": 0.5
+          },
+          {
+            "to": "water_breathing_eleventh_form",
+            "weight": 0.3
+          },
+          {
+            "to": "bows_head_respect",
+            "weight": 1.75
+          },
+          {
+            "to": "turns_away_pause",
+            "weight": 1.75
+          },
+          {
+            "to": "water_takeoff",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "key": "quiet_exhale",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 7,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 55,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 174,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 175,
+          "durationTicks": 3
+        },
+        {
+          "sprite": 176,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 177,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 177,
+          "durationTicks": 6
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 1
+          },
+          {
+            "to": "walk_left",
+            "weight": 2.15,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 2.15,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "sit_down",
+            "weight": 1
+          },
+          {
+            "to": "sword_draw",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_sigh",
+            "weight": 1.75
+          },
+          {
+            "to": "look_away_aloof",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_rest_shoulder",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_sheathe",
+            "weight": 1.75
+          },
+          {
+            "to": "arms_crossed",
+            "weight": 1.75
+          },
+          {
+            "to": "slow_nod",
+            "weight": 1.75
+          },
+          {
+            "to": "climb_boulder_left",
+            "weight": 0.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "climb_boulder_right",
+            "weight": 0.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "stare_into_distance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_stance_ready",
+            "weight": 1.75
+          },
+          {
+            "to": "cold_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_inspect",
+            "weight": 1.75
+          },
+          {
+            "to": "stretch",
+            "weight": 1.75
+          },
+          {
+            "to": "single_nod_acknowledge",
+            "weight": 1.75
+          },
+          {
+            "to": "crow_companion_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_raise_guard",
+            "weight": 1.75
+          },
+          {
+            "to": "kneels_examine_trail",
+            "weight": 1.75
+          },
+          {
+            "to": "water_breathing_stance",
+            "weight": 0.5
+          },
+          {
+            "to": "water_breathing_eleventh_form",
+            "weight": 0.3
+          },
+          {
+            "to": "bows_head_respect",
+            "weight": 1.75
+          },
+          {
+            "to": "turns_away_pause",
+            "weight": 1.75
+          },
+          {
+            "to": "water_takeoff",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "key": "sword_raise_guard",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 7,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 178,
+          "durationTicks": 12
+        },
+        {
+          "sprite": 179,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 180,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 181,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 182,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 183,
+          "durationTicks": 7
+        },
+        {
+          "sprite": 184,
+          "durationTicks": 2
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 1
+          },
+          {
+            "to": "walk_left",
+            "weight": 2.15,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 2.15,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "sit_down",
+            "weight": 1
+          },
+          {
+            "to": "sword_draw",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_sigh",
+            "weight": 1.75
+          },
+          {
+            "to": "look_away_aloof",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_rest_shoulder",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_sheathe",
+            "weight": 1.75
+          },
+          {
+            "to": "arms_crossed",
+            "weight": 1.75
+          },
+          {
+            "to": "slow_nod",
+            "weight": 1.75
+          },
+          {
+            "to": "climb_boulder_left",
+            "weight": 0.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "climb_boulder_right",
+            "weight": 0.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "stare_into_distance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_stance_ready",
+            "weight": 1.75
+          },
+          {
+            "to": "cold_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_inspect",
+            "weight": 1.75
+          },
+          {
+            "to": "stretch",
+            "weight": 1.75
+          },
+          {
+            "to": "single_nod_acknowledge",
+            "weight": 1.75
+          },
+          {
+            "to": "crow_companion_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_exhale",
+            "weight": 1.75
+          },
+          {
+            "to": "kneels_examine_trail",
+            "weight": 1.75
+          },
+          {
+            "to": "water_breathing_stance",
+            "weight": 0.5
+          },
+          {
+            "to": "water_breathing_eleventh_form",
+            "weight": 0.3
+          },
+          {
+            "to": "bows_head_respect",
+            "weight": 1.75
+          },
+          {
+            "to": "turns_away_pause",
+            "weight": 1.75
+          },
+          {
+            "to": "water_takeoff",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "key": "sit_seiza",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 2,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 103,
+          "durationTicks": 18
+        },
+        {
+          "sprite": 185,
+          "durationTicks": 2
+        },
+        {
+          "sprite": 186,
+          "durationTicks": 2
+        },
+        {
+          "sprite": 187,
+          "durationTicks": 2
+        },
+        {
+          "sprite": 188,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 189,
+          "durationTicks": 150
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "sitting",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "key": "seated_rest",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 2,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 190,
+          "durationTicks": 12
+        },
+        {
+          "sprite": 191,
+          "durationTicks": 9
+        },
+        {
+          "sprite": 192,
+          "durationTicks": 2
+        },
+        {
+          "sprite": 193,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 194,
+          "durationTicks": 9
+        },
+        {
+          "sprite": 195,
+          "durationTicks": 225
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "sitting",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "key": "kneels_examine_trail",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 7,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 196,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 197,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 198,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 199,
+          "durationTicks": 10
+        },
+        {
+          "sprite": 200,
+          "durationTicks": 3
+        },
+        {
+          "sprite": 201,
+          "durationTicks": 3
+        },
+        {
+          "sprite": 202,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 203,
+          "durationTicks": 133
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 1
+          },
+          {
+            "to": "walk_left",
+            "weight": 2.15,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 2.15,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "sword_draw",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_sigh",
+            "weight": 1.75
+          },
+          {
+            "to": "look_away_aloof",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_rest_shoulder",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_sheathe",
+            "weight": 1.75
+          },
+          {
+            "to": "arms_crossed",
+            "weight": 1.75
+          },
+          {
+            "to": "slow_nod",
+            "weight": 1.75
+          },
+          {
+            "to": "climb_boulder_left",
+            "weight": 0.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "climb_boulder_right",
+            "weight": 0.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "stare_into_distance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_stance_ready",
+            "weight": 1.75
+          },
+          {
+            "to": "cold_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_inspect",
+            "weight": 1.75
+          },
+          {
+            "to": "stretch",
+            "weight": 1.75
+          },
+          {
+            "to": "single_nod_acknowledge",
+            "weight": 1.75
+          },
+          {
+            "to": "crow_companion_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_exhale",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_raise_guard",
+            "weight": 1.75
+          },
+          {
+            "to": "water_breathing_stance",
+            "weight": 0.5
+          },
+          {
+            "to": "water_breathing_eleventh_form",
+            "weight": 0.3
+          },
+          {
+            "to": "bows_head_respect",
+            "weight": 1.75
+          },
+          {
+            "to": "turns_away_pause",
+            "weight": 1.75
+          },
+          {
+            "to": "water_takeoff",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "key": "water_breathing_stance",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 8,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 204,
+          "durationTicks": 12
+        },
+        {
+          "sprite": 205,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 206,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 207,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 208,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 209,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 210,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 211,
+          "durationTicks": 267
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 1
+          },
+          {
+            "to": "walk_left",
+            "weight": 2.15,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 2.15,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "sword_draw",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_sigh",
+            "weight": 1.75
+          },
+          {
+            "to": "look_away_aloof",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_rest_shoulder",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_sheathe",
+            "weight": 1.75
+          },
+          {
+            "to": "arms_crossed",
+            "weight": 1.75
+          },
+          {
+            "to": "slow_nod",
+            "weight": 1.75
+          },
+          {
+            "to": "climb_boulder_left",
+            "weight": 0.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "climb_boulder_right",
+            "weight": 0.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "stare_into_distance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_stance_ready",
+            "weight": 1.75
+          },
+          {
+            "to": "cold_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_inspect",
+            "weight": 1.75
+          },
+          {
+            "to": "stretch",
+            "weight": 1.75
+          },
+          {
+            "to": "single_nod_acknowledge",
+            "weight": 1.75
+          },
+          {
+            "to": "crow_companion_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_exhale",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_raise_guard",
+            "weight": 1.75
+          },
+          {
+            "to": "kneels_examine_trail",
+            "weight": 1.75
+          },
+          {
+            "to": "water_breathing_eleventh_form",
+            "weight": 0.3
+          },
+          {
+            "to": "bows_head_respect",
+            "weight": 1.75
+          },
+          {
+            "to": "turns_away_pause",
+            "weight": 1.75
+          },
+          {
+            "to": "water_takeoff",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "key": "water_breathing_eleventh_form",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 8,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 212,
+          "durationTicks": 8
+        },
+        {
+          "sprite": 213,
+          "durationTicks": 4
+        },
+        {
+          "sprite": 214,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 215,
+          "durationTicks": 4
+        },
+        {
+          "sprite": 216,
+          "durationTicks": 4
+        },
+        {
+          "sprite": 217,
+          "durationTicks": 4
+        },
+        {
+          "sprite": 218,
+          "durationTicks": 15
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 1
+          },
+          {
+            "to": "walk_left",
+            "weight": 2.15,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 2.15,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "sword_draw",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_sigh",
+            "weight": 1.75
+          },
+          {
+            "to": "look_away_aloof",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_rest_shoulder",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_sheathe",
+            "weight": 1.75
+          },
+          {
+            "to": "arms_crossed",
+            "weight": 1.75
+          },
+          {
+            "to": "slow_nod",
+            "weight": 1.75
+          },
+          {
+            "to": "climb_boulder_left",
+            "weight": 0.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "climb_boulder_right",
+            "weight": 0.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "stare_into_distance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_stance_ready",
+            "weight": 1.75
+          },
+          {
+            "to": "cold_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_inspect",
+            "weight": 1.75
+          },
+          {
+            "to": "stretch",
+            "weight": 1.75
+          },
+          {
+            "to": "single_nod_acknowledge",
+            "weight": 1.75
+          },
+          {
+            "to": "crow_companion_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_exhale",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_raise_guard",
+            "weight": 1.75
+          },
+          {
+            "to": "kneels_examine_trail",
+            "weight": 1.75
+          },
+          {
+            "to": "water_breathing_stance",
+            "weight": 0.5
+          },
+          {
+            "to": "bows_head_respect",
+            "weight": 1.75
+          },
+          {
+            "to": "turns_away_pause",
+            "weight": 1.75
+          },
+          {
+            "to": "water_takeoff",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "key": "bows_head_respect",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 7,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 219,
+          "durationTicks": 12
+        },
+        {
+          "sprite": 220,
+          "durationTicks": 9
+        },
+        {
+          "sprite": 221,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 222,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 223,
+          "durationTicks": 40
+        },
+        {
+          "sprite": 224,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 225,
+          "durationTicks": 3
+        },
+        {
+          "sprite": 226,
+          "durationTicks": 3
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 1
+          },
+          {
+            "to": "walk_left",
+            "weight": 2.15,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 2.15,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "sword_draw",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_sigh",
+            "weight": 1.75
+          },
+          {
+            "to": "look_away_aloof",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_rest_shoulder",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_sheathe",
+            "weight": 1.75
+          },
+          {
+            "to": "arms_crossed",
+            "weight": 1.75
+          },
+          {
+            "to": "slow_nod",
+            "weight": 1.75
+          },
+          {
+            "to": "climb_boulder_left",
+            "weight": 0.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "climb_boulder_right",
+            "weight": 0.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "stare_into_distance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_stance_ready",
+            "weight": 1.75
+          },
+          {
+            "to": "cold_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_inspect",
+            "weight": 1.75
+          },
+          {
+            "to": "stretch",
+            "weight": 1.75
+          },
+          {
+            "to": "single_nod_acknowledge",
+            "weight": 1.75
+          },
+          {
+            "to": "crow_companion_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_exhale",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_raise_guard",
+            "weight": 1.75
+          },
+          {
+            "to": "kneels_examine_trail",
+            "weight": 1.75
+          },
+          {
+            "to": "water_breathing_stance",
+            "weight": 0.5
+          },
+          {
+            "to": "water_breathing_eleventh_form",
+            "weight": 0.3
+          },
+          {
+            "to": "turns_away_pause",
+            "weight": 1.75
+          },
+          {
+            "to": "water_takeoff",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "key": "turns_away_pause",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 7,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 227,
+          "durationTicks": 14
+        },
+        {
+          "sprite": 228,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 229,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 230,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 231,
+          "durationTicks": 35
+        },
+        {
+          "sprite": 232,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 233,
+          "durationTicks": 5
+        },
+        {
+          "sprite": 234,
+          "durationTicks": 5
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "stand",
+            "weight": 1
+          },
+          {
+            "to": "walk_left",
+            "weight": 2.15,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "walk_right",
+            "weight": 2.15,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "sword_draw",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_sigh",
+            "weight": 1.75
+          },
+          {
+            "to": "look_away_aloof",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_rest_shoulder",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_sheathe",
+            "weight": 1.75
+          },
+          {
+            "to": "arms_crossed",
+            "weight": 1.75
+          },
+          {
+            "to": "slow_nod",
+            "weight": 1.75
+          },
+          {
+            "to": "climb_boulder_left",
+            "weight": 0.2,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "climb_boulder_right",
+            "weight": 0.2,
+            "setFacing": "RIGHT"
+          },
+          {
+            "to": "stare_into_distance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_stance_ready",
+            "weight": 1.75
+          },
+          {
+            "to": "cold_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_inspect",
+            "weight": 1.75
+          },
+          {
+            "to": "stretch",
+            "weight": 1.75
+          },
+          {
+            "to": "single_nod_acknowledge",
+            "weight": 1.75
+          },
+          {
+            "to": "crow_companion_glance",
+            "weight": 1.75
+          },
+          {
+            "to": "quiet_exhale",
+            "weight": 1.75
+          },
+          {
+            "to": "sword_raise_guard",
+            "weight": 1.75
+          },
+          {
+            "to": "kneels_examine_trail",
+            "weight": 1.75
+          },
+          {
+            "to": "water_breathing_stance",
+            "weight": 0.5
+          },
+          {
+            "to": "water_breathing_eleventh_form",
+            "weight": 0.3
+          },
+          {
+            "to": "bows_head_respect",
+            "weight": 1.75
+          },
+          {
+            "to": "water_takeoff",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "key": "water_takeoff",
+      "type": "GROUND",
+      "subtype": "CUSTOM",
+      "level": 5,
+      "loop": "ONESHOT",
+      "direction": "ANY",
+      "frames": [
+        {
+          "sprite": 235,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 236,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 237,
+          "dy": -6,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 238,
+          "dy": -6,
+          "durationTicks": 6
+        },
+        {
+          "sprite": 239,
+          "dy": -9,
+          "durationTicks": 6
+        }
+      ],
+      "auto": {
+        "onFinish": [
+          {
+            "to": "water_ripple_hover",
+            "weight": 2
+          },
+          {
+            "to": "water_drift_left",
+            "weight": 1,
+            "setFacing": "LEFT"
+          },
+          {
+            "to": "water_drift_right",
+            "weight": 1,
+            "setFacing": "RIGHT"
+          }
+        ]
+      }
+    }
+  ],
+  "events": [
+    {
+      "event": "DRAG_START",
+      "from": "*",
+      "choices": [
+        {
+          "to": "drag",
+          "weight": 1,
+          "setFacing": "RANDOM"
+        }
+      ]
+    },
+    {
+      "event": "FLING_START",
+      "from": "*",
+      "choices": [
+        {
+          "to": "fling",
+          "weight": 1,
+          "setFacing": "EVENT_VELOCITY"
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "stand",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "walk_left",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "walk_right",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "sword_draw",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "quiet_sigh",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "look_away_aloof",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "sword_rest_shoulder",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "sword_sheathe",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "arms_crossed",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "slow_nod",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "climb_boulder_left",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "climb_boulder_right",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "stare_into_distance",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "sword_stance_ready",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "cold_glance",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "sword_inspect",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "stretch",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "single_nod_acknowledge",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "crow_companion_glance",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "quiet_exhale",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "sword_raise_guard",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "kneels_examine_trail",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "water_breathing_stance",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "water_breathing_eleventh_form",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "bows_head_respect",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "turns_away_pause",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "idle",
+      "choices": [
+        {
+          "to": "walk_left",
+          "weight": 1,
+          "setFacing": "LEFT"
+        },
+        {
+          "to": "walk_right",
+          "weight": 1,
+          "setFacing": "RIGHT"
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "water_takeoff",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "sit_down",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "stand_up",
+      "choices": [
+        {
+          "to": "idle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "sit_seiza",
+      "choices": [
+        {
+          "to": "stand_up",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "seated_rest",
+      "choices": [
+        {
+          "to": "stand_up",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "from": "sitting",
+      "choices": [
+        {
+          "to": "stand_up",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "minLevel": 1,
+      "allowedTypes": [
+        "WALL"
+      ],
+      "choices": [
+        {
+          "to": "fall",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "event": "TAP",
+      "minLevel": 1,
+      "allowedTypes": [
+        "CEILING"
+      ],
+      "choices": [
+        {
+          "to": "fall",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}
